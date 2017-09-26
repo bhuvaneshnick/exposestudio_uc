@@ -1,0 +1,69 @@
+/* this is to center*/
+*{color:#c2c2c2;}
+
+#faqheaddown{ display: flex; width: 100%; height: 580px; background-image: url(images/faqdown.jpg); background-repeat: no-repeat; background-size: cover; background-position: 0px 50%; background-attachment: fixed; }
+#faqheadup{ width: 80%;margin: auto; height: 480px; background-image: url(images/faqup.jpg); background-repeat: no-repeat; background-size: cover; background-position: 0% 30%;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.49); border-radius: 10px; display: flex; justify-content: center; align-items: center; }
+
+
+#faqheaddown h1{ margin-bottom: 50px; color: #8D99AE; margin-bottom: 100px; font-size: 350%; }
+#faqbox{width: 70%; margin: auto;  height: auto; display: flex; justify-content:space-between; margin-top: 30px; padding-top: 10px; justify-content: center;flex-wrap: wrap; }
+/* section title*/
+#faqbox h1{border: 1px olid black;  background-color:#967adc; color: white; width: 30%;  height: 68px;  margin-top: -0px; display: flex; justify-content: center; align-items: center;   } 
+/* START:contains queston of sec 1*/
+#qabox{border: 1px olid black;width: 70%; height: auto; margin: auto; }
+.down{width: 32px; height: 32px; position: absolute; right: 1%; top:50%; margin-top: -16px;background-image: url(images/down2b.png); background-repeat: no-repeat; transition: transform 0.5s, right 0.5s; }
+.quest1{  width: 95%; margin: 0px 5px 10px 15px; margin: 0px auto 10px auto ;  height: auto;  padding: 10px; border-left:5px #967adc solid;  border-radius: 7px; background-color: white; position: relative; z-index: 2;box-shadow: 0 2px 2px 0px rgba(0, 0, 0, 0.2),0 -1px 1px 0px rgba(0, 0, 0, 0.1);  transform: scale(1.00); transition: box-shadow 0.5s, width 0.5s,border-left 0.5s;box-sizing: border-box; }
+
+.quest1 p{margin: 0px 40px 0px 7px; font-size: 130%; color: dimgray;;}
+.ans1box{width: 95%;margin: 0px 0px 7px 15px;  position: relative; top:-20px; display: block; height: 0px; overflow: hidden; transition: height 0.5s; box-sizing: border-box;
+
+}
+
+#ans1{display: block; width: 98%; margin: auto;  background-color: white; box-sizing: border-box; position: relative; top: -90px; transition: top 0.5s;padding: 5px 10px; border-radius: 0px 0px 20px 20px;box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);}
+
+#ans1 p{  color: dimgray; font-size: 120%;}
+
+/* START:java classes*/
+.jans1box{display: block;}
+.jans1box{height:100px;}
+.jans1box #ans1{top:0px;}
+
+/*.jquest1{width: 95.5%;}*/
+.jquest1{box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
+.jquest1{border-color: hsla(50, 83%, 59%, 0.0);}
+/* End:contains queston of sec 1*/
+
+.jdown{transform: rotate(180deg);  }
+/* END: java classes*/
+/*START:responsive*/
+@media screen and (max-width:480px){
+    
+    #faqbox{flex-direction: column; width:90% }
+    #faqbox h1{margin: auto; margin-bottom: 10px;}
+    #qabox{width: 100%;}
+    .quest1{ width: 100%;}
+    .quest1 p{ font-size: 110%; color: dimgray;}
+    
+    #faqimg h1{font-size: 180%;}
+    .ans1box{width: 100%; margin: 0px 0px 7px 0px;}
+    #faqbox h1{ width: 50%;}
+    #faqimg h1{font-size: 150%;}
+    #faqheaddown h1{font-size: 250%; text-align: center; margin-bottom: 50px; }
+    #faqheaddown{height: 480px; background-position: 0px -50px;}
+    
+   
+    #faqheadup{background-position: 50% 70px; height: 380px;  }
+}
+@media screen and (min-width:480px) and (max-width:800px){
+    
+    #faqbox{width: 95%;}
+}
+
+
+/*END:responsive*/
+
+
+
+
+
+
