@@ -25,10 +25,10 @@ body{margin: 0px; min-height: 100%; position: relative; padding-bottom: 120px;}
 
 /* END:left menu style*/
 /* START:right menu style*/ 
-#nav_right,#nav_left{border: 1px olid black;display:flex;  width: auto; height: 60px; margin-top: 0px;  list-style: none; padding: 0px;   box-sizing: border-box; justify-content: space-around; position: relative; display: flex; align-items: center; position: relative; right: 20px;}
+#nav_right,#nav_left{border: 1px olid black;display:flex;  width: auto; height: 60px; margin-top: 0px;  list-style: none; padding: 0px;   box-sizing: border-box; justify-content: space-around; position: relative; display: flex; align-items: center; position: relative; right: 27px;}
 
 #nav_right{}
-#nav_left{right: 15px;}
+#nav_left{right: 22px;}
 .rm{display: block;  box-sizing: border-box; width: auto; height: 60px;font-size: 20px;text-align: center; padding: 20px 15px;  transition: background-color 0.5s, color 0.5s ;}
 
 /* END:right menu style*/
