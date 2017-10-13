@@ -2,7 +2,7 @@
 body{background-color: #f9f9f9;}
 
 
-#faq_cont{ width: 85%; height: auto; border: 1px olid black; margin: auto; border-radius: 20px;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.49); margin-bottom: 50px;padding-bottom: 50px; padding-top: 50px; }
+#faq_cont{ width: 85%; height: auto; border: 1px olid black; margin: auto; border-radius: 20px;box-shadow: 0 4px 8px 0 rgba(164, 164, 164, 0.3), 0 3px 20px 0 rgba(164, 164, 164, 0.49); margin-bottom: 50px;padding-bottom: 50px; padding-top: 50px; }
 #faqheaddown{ display: flex; width: 100%; height: 500px; background-image: url(images/faqhead.svg); background-repeat: no-repeat; background-size: 100%;}
 #faqheadup{ width: 80%;margin: auto; height: 480px; background-image: url(images/faqup.jpg); background-repeat: no-repeat; background-size: cover; background-position: 0% 30%;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.49); border-radius: 10px; display: flex; justify-content: center; align-items: center; }
 
@@ -10,9 +10,11 @@ body{background-color: #f9f9f9;}
 #faqheaddown h1{color: #547A96; position: relative; top: -200px; font-size: 50px;text-align: center;margin: auto; }
 #faqbox{width: 70%; margin: auto;  height: auto; display: flex; justify-content:space-between; margin-top: 30px; padding-top: 10px; justify-content: center;flex-wrap: wrap; }
 /* section title*/
-.lefthead{width: 25%;  height: 130px;  border-right: 5px olid #547A96;display: flex; flex-direction: column; justify-content: center;align-items: center;}
-.lefthead img{width: 100px;}
-.lefthead h1{font-size: 22px;}
+.lefthead *{border: 1px olid black;}
+.lefthead {border: 1px olid black;box-sizing: border-box;}
+.lefthead{width: 25%;  height: 130px;  display: flex; flex-direction: column; justify-content: center;align-items: center;}
+.lefthead img{height: 100px;box-sizing: border-box;}
+.lefthead h1{font-size: 22px;box-sizing: border-box;}
 #faqbox h1{border: 1px olid black;  color: #547A96;  margin-top: -0px; height: 30px;  } 
 /* START:contains queston of sec 1*/
 #qabox{border: 1px olid black;width: 70%; height: auto; margin: auto; }
@@ -20,23 +22,20 @@ body{background-color: #f9f9f9;}
 .quest1{  width: 95%; margin: 0px 5px 10px 15px; margin: 0px auto 10px auto ;  height: auto;  padding: 10px; border-left:5px #547A96 solid;  border-radius: 0px; background-color: white; position: relative; z-index: 2;box-shadow: 0 2px 2px 0px rgba(0, 0, 0, 0.2),0 -1px 1px 0px rgba(0, 0, 0, 0.1);  transform: scale(1.00); transition: box-shadow 0.5s, width 0.5s,border-left 0.5s;box-sizing: border-box; }
 
 .quest1 p{margin: 0px 40px 0px 7px; font-size: 18px; color: #676c6f;;}
-.ans1box{width: 95%;margin: 0px 0px 7px 15px;  position: relative; top:-20px; display: block; height: 0px; overflow: hidden; transition: height 0.5s; box-sizing: border-box;
-
+.ans1box{width: 95%;margin: 0px 0px 7px 15px;  position: relative; top:-20px; display: block; height: 0px; overflow: hidden;  border: 1px olid black;opacity: 0.0;
+transition: opacity 1s; padding: 5px 0px;
 }
 
-#ans1{display: block; width: 98%; margin: auto;  background-color: white; box-sizing: border-box; position: relative; top: -90px; transition: top 0.5s;padding: 5px 10px; border-radius: 0px 0px 20px 20px;box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);}
+#ans1{display: block; width: 98%; margin: auto;  background-color: white; box-sizing: border-box; position: relative; top: -900px; padding: 5px 10px; border-radius: 0px 0px 20px 20px;box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);border: 1px olid black;height:auto;}
 
 #ans1 p{  color: #676C6F; font-size: 18px;}
 
 /* START:java classes*/
 
 .jans1box{display: block;}
-.jans1box{height:150px;}
-.jp0{height: 100px;}
-.jp2{height:170px;}
-.jp3{height:180px;}
-.jp4{height:270px;}
-.jans1box #ans1,.jp2 #ans1,.jp3 #ans1,.jp4 #ans1,.jp0 #ans1{top:0px;}
+.jans1box{height:auto;opacity: 1.0;}
+
+.jans1box #ans1{top:0px;}
 
 
 /*.jquest1{width: 95.5%;}*/
@@ -49,46 +48,34 @@ body{background-color: #f9f9f9;}
 /*START:responsive*/
 @media screen and (min-width:300px) and (max-width:480px){
     
-    #faqbox{flex-direction: column; width:90% }
-    #faqbox h1{margin: auto; margin-bottom: 10px;}
+    #faqbox{flex-direction: column; width:90%; margin-top: 0px;}
+  
     #qabox{width: 100%;}
     .quest1{ width: 100%;}
-    .quest1 p{ font-size: 110%; color: dimgray;}
+    .quest1 p{ font-size: 18px;; color: dimgray;}
     
     #faqimg h1{font-size: 180%;}
     .ans1box{width: 100%; margin: 0px 0px 7px 0px;}
-    #faqbox h1{ width: 50%;}
+    
     #faqimg h1{font-size: 150%;}
     #faqheaddown h1{font-size: 35px; text-align: center; margin-bottom: 70px; }
     #faqheaddown{height: 380px; background-position: 0px -50px;}
     
     
-    .lefthead{border: 1px olid black;width: 50%;margin: auto; height: 140px;padding-left: 70px; box-sizing: border-box; margin-bottom: 10px;}
+    .lefthead{border: 1px olid black;width: 50%;margin: auto; height: 140px; box-sizing: border-box; margin-bottom: 10px;}
     .lefthead *{border: 1px olid black;}
-    .lefthead  img{width: 80px;position: relative; left: -35px}
-   .lefthead h1{font-size: 22px;padding-bottom: 5px; margin: auto;position: relative; left: -47px;}
-    #head_pex{left: -70px}
-    #head_mex{left: -75px}
-    #faq_cont{padding-bottom:10px; padding-top: 10px; }
-    .jans1box{height:200px;}
-.jp0{height: 130px;}
-.jp2{height:240px;}
-.jp3{height:300px;}
-.jp4{height:430px;}
+    .lefthead  img{height: 100px;box-sizing: border-box;}
+   .lefthead h1{font-size: 22px;box-sizing: border-box;}
     
+    #faq_cont{padding-bottom:10px; padding-top: 10px; }
+    .jans1box{height:auto;}
+
     
     #faqheadup{background-position: 50% 70px; height: 380px;  }
  /*.lefthead{width: 25%;  height: 130px;  border-right: 5px olid #547A96;display: flex; flex-direction: column; justify-content: center;align-items: center;}
 .lefthead img{width: 100px;}*/
 }
-@media screen and (min-width:300px) and (max-width:400px){
-     .jans1box{height:270px;}
-.jp0{height: 130px;}
-.jp2{height:310px;}
-.jp3{height:370px;}
-.jp4{height:560px;}  
-    
-}
+
 @media screen and (min-width:480px) and (max-width:1024px){
     
     #faqbox{width: 95%;}
@@ -106,11 +93,11 @@ body{background-color: #f9f9f9;}
 }
 @media screen and (min-width:500px) and (max-width:600px){
     #faqheaddown{background-size: 195%; background-position: -220px 80px}
-    
+    #faq_cont{width: 90%;}
 }
 @media screen and (min-width:400px) and (max-width:500px){
     #faqheaddown{background-size: 215%; background-position: -220px 30px}
-    
+    #faq_cont{width: 90%;padding-left: 10px;}
 }
 
 @media screen and (min-width:300px) and (max-width:400px){

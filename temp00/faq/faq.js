@@ -93,7 +93,7 @@ function down2(){
 if(fswitch2==true){
 f1down.className='down jdown';
 f1quest1.className='quest1 jquest1';
-f1ans1box.className='ans1box jp2';
+f1ans1box.className='ans1box jans1box';
 }
 
 if(fswitch2==false){
@@ -110,7 +110,7 @@ function down3(){
 if(fswitch3==true){
 f2down.className='down jdown';
 f2quest1.className='quest1 jquest1';
-f2ans1box.className='ans1box jp3';
+f2ans1box.className='ans1box jans1box';
 }
 
 if(fswitch3==false){
@@ -159,7 +159,7 @@ function down6(){
 if(fswitch6==true){
 f5down.className='down jdown';
 f5quest1.className='quest1 jquest1';
-f5ans1box.className='ans1box jp2';
+f5ans1box.className='ans1box jans1box';
 }
 
 if(fswitch6==false){
@@ -175,7 +175,7 @@ function down7(){
 if(fswitch7==true){
 f6down.className='down jdown';
 f6quest1.className='quest1 jquest1';
-f6ans1box.className='ans1box jp3';
+f6ans1box.className='ans1box jans1box';
 }
 
 if(fswitch7==false){
@@ -190,7 +190,7 @@ function down8(){
 if(fswitch8==true){
 f7down.className='down jdown';
 f7quest1.className='quest1 jquest1';
-f7ans1box.className='ans1box jp4';
+f7ans1box.className='ans1box jans1box';
 }
 
 if(fswitch8==false){
@@ -219,7 +219,7 @@ function down10(){
 if(fswitch10==true){
 f9down.className='down jdown';
 f9quest1.className='quest1 jquest1';
-f9ans1box.className='ans1box jp3';
+f9ans1box.className='ans1box jans1box';
 }
 
 if(fswitch10==false){
@@ -234,7 +234,7 @@ function down11(){
 if(fswitch11==true){
 f10down.className='down jdown';
 f10quest1.className='quest1 jquest1';
-f10ans1box.className='ans1box jp0';
+f10ans1box.className='ans1box jans1box';
 }
 
 if(fswitch11==false){

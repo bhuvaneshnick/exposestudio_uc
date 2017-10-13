@@ -62,10 +62,10 @@ body{margin: 0px; min-height: 100%; position: relative; padding-bottom: 120px;}
 
 /*START: mobile navigation menu*/
 .mob_menu{ border-right: 1px solid #242e35; position: relative; width:100%; height: 355px; background-color: #d4d4d4; position: absolute;z-index: 5;  display: none; flex-direction: column; justify-content: center; box-sizing: border-box; left: -100%;  transition: left 0.6s  cubic-bezier(.88,.17,.48,.9), border-right 0.1s 0.6s ease; }
-.mm{color:#676C6F; font-weight: 600; height: 40px; width: 100%; margin: auto; display: flex; align-items: center; font-size: 140%; justify-content: center;box-sizing: border-box; background-color: white; margin-bottom: 2px;}
-.ms{ padding-bottom: 15px; display: flex; justify-content: center; align-items: space-around; height: 102px;flex-direction: column;}
+.mm{color:#676C6F; font-weight: 600; height: 40px; width: 100%; margin: auto; display: flex; align-items: center; font-size: 22px; justify-content: center;box-sizing: border-box; background-color: white; margin-bottom: 2px;}
+.ms{  display: flex; justify-content: center; align-items: space-around; height: 110px;flex-direction: column;padding-bottom: 10px;}
 #mobbook{ height: 70px;}
-#mobbook p{ color: #676C6F;  font-size: 130%;  background-color: white;  border-radius: 5px; width: 120px; display: flex; justify-content: center; align-items: center;border: 2px solid #676C6F; }
+#mobbook p{ color: #676C6F;  font-size: 22px;  background-color: white;  border-radius: 5px; width: 100px; display: flex; justify-content: center; align-items: center;border: 2px solid #676C6F; }
 .mobsoc{margin-top: 0px;}
 .mobsoc img{width: 32px}
 
