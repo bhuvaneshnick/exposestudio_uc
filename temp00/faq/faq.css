@@ -3,15 +3,16 @@ body{background-color: #f9f9f9;}
 
 
 #faq_cont{ width: 85%; height: auto; border: 1px olid black; margin: auto; border-radius: 20px;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.49); margin-bottom: 50px;padding-bottom: 50px; padding-top: 50px; }
-#faqheaddown{ display: flex; width: 100%; height: 500px; background-image: url(images/faqhead.svg); background-repeat: no-repeat; background-size: 100%}
+#faqheaddown{ display: flex; width: 100%; height: 500px; background-image: url(images/faqhead.svg); background-repeat: no-repeat; background-size: 100%;}
 #faqheadup{ width: 80%;margin: auto; height: 480px; background-image: url(images/faqup.jpg); background-repeat: no-repeat; background-size: cover; background-position: 0% 30%;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.49); border-radius: 10px; display: flex; justify-content: center; align-items: center; }
 
 
-#faqheaddown h1{color: #547A96; position: relative; top: -150px; font-size: 50px;text-align: center;margin: auto; }
+#faqheaddown h1{color: #547A96; position: relative; top: -200px; font-size: 50px;text-align: center;margin: auto; }
 #faqbox{width: 70%; margin: auto;  height: auto; display: flex; justify-content:space-between; margin-top: 30px; padding-top: 10px; justify-content: center;flex-wrap: wrap; }
 /* section title*/
 .lefthead{width: 25%;  height: 130px;  border-right: 5px olid #547A96;display: flex; flex-direction: column; justify-content: center;align-items: center;}
 .lefthead img{width: 100px;}
+.lefthead h1{font-size: 22px;}
 #faqbox h1{border: 1px olid black;  color: #547A96;  margin-top: -0px; height: 30px;  } 
 /* START:contains queston of sec 1*/
 #qabox{border: 1px olid black;width: 70%; height: auto; margin: auto; }
@@ -46,7 +47,7 @@ body{background-color: #f9f9f9;}
 .jdown{transform: rotate(180deg);  }
 /* END: java classes*/
 /*START:responsive*/
-@media screen and (max-width:480px){
+@media screen and (min-width:300px) and (max-width:480px){
     
     #faqbox{flex-direction: column; width:90% }
     #faqbox h1{margin: auto; margin-bottom: 10px;}
@@ -58,19 +59,68 @@ body{background-color: #f9f9f9;}
     .ans1box{width: 100%; margin: 0px 0px 7px 0px;}
     #faqbox h1{ width: 50%;}
     #faqimg h1{font-size: 150%;}
-    #faqheaddown h1{font-size: 250%; text-align: center; margin-bottom: 50px; }
-    #faqheaddown{height: 480px; background-position: 0px -50px;}
-  
+    #faqheaddown h1{font-size: 35px; text-align: center; margin-bottom: 70px; }
+    #faqheaddown{height: 380px; background-position: 0px -50px;}
     
-   
+    
+    .lefthead{border: 1px olid black;width: 50%;margin: auto; height: 140px;padding-left: 70px; box-sizing: border-box; margin-bottom: 10px;}
+    .lefthead *{border: 1px olid black;}
+    .lefthead  img{width: 80px;position: relative; left: -35px}
+   .lefthead h1{font-size: 22px;padding-bottom: 5px; margin: auto;position: relative; left: -47px;}
+    #head_pex{left: -70px}
+    #head_mex{left: -75px}
+    #faq_cont{padding-bottom:10px; padding-top: 10px; }
+    .jans1box{height:200px;}
+.jp0{height: 130px;}
+.jp2{height:240px;}
+.jp3{height:300px;}
+.jp4{height:430px;}
+    
+    
     #faqheadup{background-position: 50% 70px; height: 380px;  }
+ /*.lefthead{width: 25%;  height: 130px;  border-right: 5px olid #547A96;display: flex; flex-direction: column; justify-content: center;align-items: center;}
+.lefthead img{width: 100px;}*/
 }
-@media screen and (min-width:480px) and (max-width:800px){
+@media screen and (min-width:300px) and (max-width:400px){
+     .jans1box{height:270px;}
+.jp0{height: 130px;}
+.jp2{height:310px;}
+.jp3{height:370px;}
+.jp4{height:560px;}  
+    
+}
+@media screen and (min-width:480px) and (max-width:1024px){
     
     #faqbox{width: 95%;}
+    #faqheaddown h1{font-size: 40px;}
+    #faqheaddown{background-size: 130%; background-position: -100px 0px}
+   
+}
+@media screen and (min-width:700px) and (max-width:819px){
+    #faqheaddown{background-size: 175%; background-position: -250px 0px}
+    
+}
+@media screen and (min-width:600px) and (max-width:700px){
+    #faqheaddown{background-size: 185%; background-position: -250px 0px}
+    
+}
+@media screen and (min-width:500px) and (max-width:600px){
+    #faqheaddown{background-size: 195%; background-position: -220px 80px}
+    
+}
+@media screen and (min-width:400px) and (max-width:500px){
+    #faqheaddown{background-size: 215%; background-position: -220px 30px}
+    
 }
 
-
+@media screen and (min-width:300px) and (max-width:400px){
+    #faqheaddown{background-size: 245%; background-position: -240px 50px}
+    
+}
+@media screen and (min-width:300px) and (max-width:340px){
+    #faqheaddown{background-size: 255%; background-position: -210px 60px}
+    
+}
 /*END:responsive*/
 
 
