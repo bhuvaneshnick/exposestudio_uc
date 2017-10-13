@@ -1,4 +1,5 @@
-.mobsoc{ position: relative; top:27px}
+.cmobfloat{padding-top: 25px;}
+.mobsoc{ position: relative; top:5px}
 .pr_l22 p{ color: #8D99AE; font-size: 17px; margin-top: -20px; padding-right: 20px }
 p, h1,h2{margin: 0px;}
 .pr_l1{background-color:#967adc; width: 100%; height: 90px; display: flex; flex-direction: column;}

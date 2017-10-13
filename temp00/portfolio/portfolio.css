@@ -78,7 +78,7 @@
 
 
 
-#pl2pics img{ box-sizing: border-box;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); border-radius: 20px; width: auto; width: 18.6%; margin: 0px 0.7%;  position: relative;  }
+#pl2pics img{ box-sizing: border-box;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); border-radius: 20px; width: auto; width: 20%; margin: 0px 0.7%;  position: relative;  }
 #pl2pics .po_wide_p{width: 27%; position: fixed;z-index: 7; margin: auto; top:10%; left:35%; }
 
 /* second portrain layer*/
