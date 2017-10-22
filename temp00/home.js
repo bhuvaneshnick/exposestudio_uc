@@ -6,7 +6,7 @@
 		// Animate loader off screen
 		$(".se-pre-con").fadeOut("slow");;
 	});
-
+//end preloads screen//
 var hsindex=1;
 select(hsindex);
 var right=document.getElementById('next');

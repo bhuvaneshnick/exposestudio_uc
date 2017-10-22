@@ -1,10 +1,31 @@
+.no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+.se-pre-con {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url(images/preload.gif) center no-repeat #f9f9f9;background-size: 70px;
+    
+}
+.se-pre-con img{width: 250px;;margin: auto;display: block;margin-top: 165px}
+@media screen and (max-width:480px)
+    {
+      .se-pre-con img{width: 200px;;margin: auto;display: block;margin-top: 100px}
+        .se-pre-con {background-size: 60px;background-position: 50% 200px;}    
+        
+}
+/* end pre-load screen*//
+
 /* this is to center*/
 body{background-color: #f9f9f9;}
 
 
 #faq_cont{ width: 85%; height: auto; border: 1px olid black; margin: auto; border-radius: 20px;box-shadow: 0 4px 8px 0 rgba(164, 164, 164, 0.3), 0 3px 20px 0 rgba(164, 164, 164, 0.49); margin-bottom: 50px;padding-bottom: 50px; padding-top: 50px; }
 #faqheaddown{ display: flex; width: 100%; height: 500px; background-image: url(images/faqhead.svg); background-repeat: no-repeat; background-size: 100%;}
-#faqheadup{ width: 80%;margin: auto; height: 480px; background-image: url(images/faqup.jpg); background-repeat: no-repeat; background-size: cover; background-position: 0% 30%;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.49); border-radius: 10px; display: flex; justify-content: center; align-items: center; }
+#faqheadup{ width: 80%;margin: auto; height: 480px; background-image: url(images/faqu.jpg); background-repeat: no-repeat; background-size: cover; background-position: 0% 30%;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.49); border-radius: 10px; display: flex; justify-content: center; align-items: center; }
 
 
 #faqheaddown h1{color: #547A96; position: relative; top: -200px; font-size: 50px;text-align: center;margin: auto; }

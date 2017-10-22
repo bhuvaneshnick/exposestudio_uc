@@ -1,18 +1,82 @@
 
+.no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+.se-pre-con {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url(images/preload.gif) center no-repeat #f9f9f9;background-size: 70px;
+    
+}
+.se-pre-con img{width: 250px;;margin: auto;display: block;margin-top: 165px}
+@media screen and (max-width:480px)
+    {
+      .se-pre-con img{width: 200px;;margin: auto;display: block;margin-top: 100px}
+        .se-pre-con {background-size: 60px;background-position: 50% 200px;}    
+        
+}
+/* end pre-load screen*/
 
 
 
 #alay1{ border: 1px olid black; height:600px;; width: 100%; display: flex; justify-content:flex-end;  align-items: center; background-image: url(images/aboutimg.jpg); background-attachment: fixed;}
-#content{display: flex; justify-content: center; align-items: center; flex-direction: column; position: relative; left: -200px; bottom:50px;}
-#content img{width: 200px;}
-#alay1 h1{ color: #b3b3b3; font-size: 300%}
-#alay1 h2{ color: #b3b3b3; font-size: 200%; margin-top: -20px}
-.alay2{ background-color: white;width: 70%; heigt: 500px; display: flex; justify-content:center;  align-items: center; flex-direction: column; margin: 40px auto;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
-.alay2 span{ color: #967adc;}
-.alay2 h1{ font-size: 400%; margin: 0px; color: #8D99AE;}
-.alay2 p{color: #8D99AE; font-size: 250%; text-align: justify; width: 70%; padding: 40px; position: relative; background-image: url(images/arrowup.png), url(images/arrowdown.png); background-repeat: no-repeat; background-position: 0% 0%, 100% 100%; transition: background-position 1s;}
+#content{display: flex; justify-content: center; align-items: flex-start; flex-direction: column; position: relative; left: -200px;  width: 310px;}
 
-#abg{z-index: -1; position: absolute;  height: 2000px; top:200px; left: -320px;width: 100%}
+#high_ex{ color: #f9f9f9; font-size: 180px;margin: 0px; font-family: sans-serif; text-align: left;position: relative; left: -10px;}
+#values_ex{ font-size: 100px;color: #f9f9f9; font-size: 100px;margin: 0px; font-family: sans-serif; text-align: left;margin-top: 0px;}
+#alay1 h2{ color: #f9f9f9; font-size: 20px;; margin-top: 0px; }
+
+
+/* start:lwho */
+.lwho_con *, .lwho_con{border: 1px olid black; box-sizing: border-box;}
+.lwho_con{width: 100%; height: 700px;box-sizing: border-box;display: flex; flex-direction: column; background-color: #FFE66D;}
+
+.lwho1{display: flex; width: 100%; height: 200px;justify-content: center;align-items: center;}
+.lwho1 img{ width: 40px;}
+#qup_ex{position: relative; top:-10px;left: -10px}
+#qud_ex{position: relative; top:15px;left: 10px}
+.lwho1 p{ font-size: 40px; width: 600px; text-align: center; color: #717171;}
+.lwho1 span{font-family:;}
+.lwho2{ width: 100%; height: 500px; display: flex;justify-content: space-around}
+.lwho2 div{ width: 30%; height: 450px; background-color: #f9f9f9;box-shadow: 15px 20px 50px 0px rgba(60, 60, 60, 0.2);}
+#lwho21_m{ width: 100%; height: 200px;}
+#lwho21_m img{ height: 100%;;margin: auto; display: block;}
+#lwho21_p{ width: 100%; height: 250px;text-align: center; color: #717171;padding: 25px 30px;}
+#lwho21_p h1{font-size: 24px; margin: 0px;}
+#lwho21_p p{font-size: 20px; margin: 0px;padding-top: 10px;}
+
+
+
+/* end:lwho */
+
+/* start:lcap */
+.lcap_con{background-color: #f9f9f9; width: 100%; height: 350px;}
+
+.lcap_2{display: flex; justify-content: center; align-content: center; height: 400x; font-size: 20px; color: #f9f9f9;}
+
+
+.lcap_2 div{ width: 33%; }
+.lcap_2 div h2{margin: 50px;color: #717171; text-align: center;}
+.lcap_con h1{margin: 0px;padding-top: 10px; color: #454545; text-align: center; font-size: 40px; font-family: sans-serif;margin-top: 50px;}
+
+/* end:lcap */
+
+/* start:lend */
+.lend_con{ background-color: #454545;margin-top: 50px;}
+.lend_1{width: 30%; height: 250px; display: flex; flex-direction: column; justify-content: center; align-items: center}
+#the_ex{font-size: 50px; margin: 0px;position: relative;left: 60px;top: 15px;font-weight: 500;color: #7c7c7c;}
+#end_ex{color: #e7e7e7;position: relative;font-size: 60px;margin: 0px;left: -20px;top: -10px;font-weight: 500;}
+#part_ex{position: relative; color: white; font-size: 80px;margin: -0px;top: -40px; left: 10px;}
+
+.lend_2{width: 70%; height: 250px;display: flex;flex-direction: column;}
+.lend_2 p{margin: auto; width: 500px; font-size: 20px;color:#f9f9f9; }
+.lend_limit{width: 80%;margin: auto;display: flex;}
+#philo_ex{font-size: 22px;display: block;text-align: center;margin-top: 5px;color: white;}
+/* end:lend */
+
 
 @media screen and (max-width:480px){ 
     .alay2 {width: 90%; height: 400px;}

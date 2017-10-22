@@ -7,7 +7,7 @@
 	width: 100%;
 	height: 100%;
 	z-index: 9999;
-	background: url(images/Preload.gif) center no-repeat #f9f9f9;background-size: 70px;
+	background: url(images/preload.gif) center no-repeat #f9f9f9;background-size: 70px;
     
 }
 .se-pre-con img{width: 250px;;margin: auto;display: block;margin-top: 165px}
@@ -67,34 +67,38 @@ z-index: 1;
 
 
 
-.hl2{width: 100%; height: 550px; border: px solid black;  overflow: hidden; display: flex; justify-content: center; align-items: center; flex-direction: column; background-image: url('images/hbg.jpg'); background-attachment: fixed;box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.1), 0 3px 20px 0 rgba(0, 0, 0, 0.1);}
-.hl2 img{ width: 25%; }
-#hl2content{ width: 70%; display: flex; flex-direction: column; position: relative;  color: #8D99AE;}
-.hl2 h1{text-align: center; font-size: 350%; display: margin:0px; }
-.hl2 p{ text-align: center; font-size: 280%;  margin: -15px auto 0px auto; }
+.hl2{width: 100%; height: 550px; border: px solid black;  overflow: hidden; display: flex; justify-content: center; align-items: center; ; box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.1), 0 3px 20px 0 rgba(0, 0, 0, 0.1);position: relative;}
+.hl2 img{ width: 100%; position: absolute; top: 0px; }
+#hl2content{ width: 35%; display: flex; flex-direction: column; position: relative;  color: #8D99AE;left: 340px; top: -30px}
+.hl2 h1{text-align: center; font-size: 25px; display: margin:0px; }
+.hl2 p{ text-align: center; font-size: 22px;;  margin: -15px auto 0px auto; margin-top: 20px;}
 .hl2 span{color: #967adc;}
 
-.hl3{width: 100%; height: 550px; display: flex; justify-content: center; align-items: center; flex-wrap: wrap; background-image:url(images/img5.jpg); background-attachment: fixed;}
-.hl3 h1{width:100%; margin: 0px; font-size: 350%; text-align: center; color: white;}
-h1 span{color: #967adc;}
-.hl3w, .hl3e, .hl3b{ background-color: white;width: 20%; height: 65%; border: 1px olid black; margin: -20px 30px 0px 30px;  border-radius: 10px; overflow: hidden; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
-.hl3w{ display: flex; flex-direction: column; justify-content: center; align-items: center; }
-#hl3wm{width: 100%; height: 60%; display: flex; justify-content: center; align-items: center;}
-#hl3wm img{width: 150px; height: 150px; }
-#hl3wt{width: 100%; height: 40%; display: flex; align-items: center; justify-content: center; background-color: #967adc;  }
-#hl3wt h1{color: white; font-size: 280%; }
+.hl3{width: 100%; height: 550px; display: flex; justify-content: center; align-items: center; flex-wrap: wrap; background-image:url(images/img5.svg); background-size: cover;background-repeat: no-repeat;}
+.hl3 h1{width:100%; margin: 0px; font-size: 40px; text-align: center; color: #547a96;}
+h1 span{color: #547a96;}
+.hl3w, .hl3e, .hl3b{ background-color: white;width: 250px; height: 350px; border: 1px olid black; margin: -20px 30px 0px 30px;  border-radius: 10px; overflow: hidden; box-shadow: 15px 20px 50px 0px rgba(20, 20, 20, 0.2);}
+/*.hl3w{ display: flex; flex-direction: column; justify-content: center; align-items: center; }*/
+.hl3w{background-color: #7998ae;}
+.hl3e{background-color: #e0a49a;}
+.hl3b{background-color: #f5e7a3;}
+#hl3wm{width: 100%; height: 70%; display: flex; justify-content: center; align-items: center;overflow: hidden;}
+#hl3wm img{width: 300px; height: 300px; }
+#hl3wm #birth_ex{width: 200px;height: 200px;position: relative; top: 22px;}
+#hl3wt{width: 100%; height: 30%; display: flex; align-items: center; justify-content: center; background-color: #f9f9f9;  }
+#hl3wt h1{color: #717171; font-size: 35px; }
 .hl4{ width: 100%; height: 450px; background-color: white;box-shadow: 0 -2px 8px 0 rgba(0, 0, 0, 0.1), 0 -3px 20px 0 rgba(0, 0, 0, 0.1); position: relative; overflow: hidden;}
-#hl4head{ height: 20%; margin: 0px; padding-top: 20px; font-size: 300%; color:#8D99AE; text-align: center; box-sizing: border-box;}
-#hl4head span{color:#967adc;}
+#hl4head{ height: 20%; margin: 0px; padding-top: 20px; font-size: 35px; color:#547A96; text-align: center; box-sizing: border-box;}
+#hl4head span{color:#547A96;}
 #hl41 { width: 100%; height: 80%; box-sizing: border-box; display: flex; padding-right: 100px;}
-#hl41m{ width: 50%; height: 100%; border: 1px olid black; box-sizing: border-box;display: flex; justify-content: flex-end; align-items:center; padding-right: 50px;}
+#hl41m{ width: 50%; height: 100%; border: 1px olid black; box-sizing: border-box;display: flex; justify-content: flex-end; align-items:center; padding-right: 50px;padding-top: 0px;position: relative; top: -10px}
 
-.hl42t{ width: 50%; height: 100%; border: 1px olid black; box-sizing: border-box; display: flex; flex-direction: column; justify-content: center; align-items:flex-start; padding-left: 50px;}
+.hl42t{ width: 50%; height 100%; border: 1px olid black; box-sizing: border-box; display: flex; flex-direction: column; justify-content: center; align-items:flex-start; padding-left: 50px;padding-top: 0px;position: relative; top: -30px;}
 
-#hl41 img{ width: 50%;}
+#hl41 img{ width: 60%;}
 
-.hl42t h1{ color: #8D99AE; font-size: 250%;}
-.hl42t p{ color: #8D99AE; font-size: 180%; width: 80%; margin-top: -10px;}
+.hl42t h1{ color: #717171; font-size: 30px;}
+.hl42t p{ color: #717171; font-size: 20px;; width: 80%; margin-top: -10px;}
 .hl42tx p{ width: 90%;}
 .hl42tx span{ font-size: 60%; text-decoration-line: underline;}
 #hl4prev, #hl4next {
@@ -115,7 +119,7 @@ z-index: 1;
   right: 0; z-index: 1;
   border-radius: 3px 0 0 3px;
 }
-.hterms{ display: none; width: 50%; height: 300px; position: absolute; left: 50%; top:50%; margin-left: -25%; margin-top: -150px; background-color: rgba(255,255,255,1); box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.1), 0 3px 20px 0 rgba(0, 0, 0, 0.1); color:#8D99AE; font-size: 180%; border-radius: 10px; overflow: hidden; }
+.hterms{ display: none; width: 50%; height: 250px; position: absolute; left: 50%; top:50%; margin-left: -25%; margin-top: -150px; background-color: rgba(255,255,255,1); box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.1), 0 3px 20px 0 rgba(0, 0, 0, 0.1); color:#8D99AE; font-size: 22px; border-radius: 10px; overflow: hidden; }
 .hterms ol{padding-top: 10px;}
 .hclose{position: absolute; right: 10px; top:5px;}
 #hopen{cursor: pointer;}
@@ -136,7 +140,7 @@ z-index: 1;
 }
 .homep{ top:20%; left: 15%; font-size: 80%; }
     .hl2{ height: 320px;}
-    .hl2 img{ position: relative; top:10px; width:40%}
+    .hl2 img{ position: relative; top:10px; width:200px;}
     .hl2 h1{font-size: 195%}
     .hl2 p{font-size: 155%; width:95%; text-align: justify;
     }

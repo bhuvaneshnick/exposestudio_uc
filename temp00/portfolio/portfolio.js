@@ -107,23 +107,23 @@ pl1pics[0].className='pl1pics pl1left';
              setTimeout( function(){pl1rreset();},1200);
         }
     if(pvmov==1){
-    pl1pics[0].style.left='-133.3%';}
+    pl1pics[0].style.left='-33.0%';}
 
    if(pvmov==2){
-    pl1pics[0].style.left='-166.6%';}
+    pl1pics[0].style.left='-66.0%';}
      if(pvmov==3){
-    pl1pics[0].style.left='-199.9%';}
+    pl1pics[0].style.left='-99.0%';}
 
 
     if(pvmov==0){
-    pl1pics[0].style.left='-100%';}
+    pl1pics[0].style.left='0%';}
     if(pvmov==-1){
-    pl1pics[0].style.left='-66.6%';}
+    pl1pics[0].style.left='33.0%';}
 
    if(pvmov==-2){
-    pl1pics[0].style.left='-33.3%';}
+    pl1pics[0].style.left='66.0%';}
      if(pvmov==-3){
-    pl1pics[0].style.left='-00%';}
+    pl1pics[0].style.left='99%';}
 
 
 
@@ -217,23 +217,23 @@ pl1pics[1].className='pl1pics pl1left';
              setTimeout( function(){pl1rreset();},1200);
         }
     if(pvmov_l4==1){
-    pl1pics[1].style.left='-133.3%';}
+    pl1pics[1].style.left='-33.0%';}
 
    if(pvmov_l4==2){
-    pl1pics[1].style.left='-166.6%';}
+    pl1pics[1].style.left='-66.0%';}
      if(pvmov_l4==3){
-    pl1pics[1].style.left='-199.9%';}
+    pl1pics[1].style.left='-99.0%';}
 
 
     if(pvmov_l4==0){
-    pl1pics[1].style.left='-100%';}
+    pl1pics[1].style.left='-00%';}
     if(pvmov_l4==-1){
-    pl1pics[1].style.left='-66.6%';}
+    pl1pics[1].style.left='33.0%';}
 
    if(pvmov_l4==-2){
-    pl1pics[1].style.left='-33.3%';}
+    pl1pics[1].style.left='66.0%';}
      if(pvmov_l4==-3){
-    pl1pics[1].style.left='-00%';}
+    pl1pics[1].style.left='99%';}
 
 
 
@@ -331,23 +331,23 @@ pl1pics[2].className='pl1pics pl1left';
              setTimeout( function(){pl1rreset();},1200);
         }
     if(pvmov_l5==1){
-    pl1pics[2].style.left='-133.3%';}
+    pl1pics[2].style.left='-33.3%';}
 
    if(pvmov_l5==2){
-    pl1pics[2].style.left='-166.6%';}
+    pl1pics[2].style.left='-66.6%';}
      if(pvmov_l5==3){
-    pl1pics[2].style.left='-199.9%';}
+    pl1pics[2].style.left='-99.9%';}
 
 
     if(pvmov_l5==0){
-    pl1pics[2].style.left='-100%';}
+    pl1pics[2].style.left='00%';}
     if(pvmov_l5==-1){
-    pl1pics[2].style.left='-66.6%';}
+    pl1pics[2].style.left='33.3%';}
 
    if(pvmov_l5==-2){
-    pl1pics[2].style.left='-33.3%';}
+    pl1pics[2].style.left='66.6%';}
      if(pvmov_l5==-3){
-    pl1pics[2].style.left='-00%';}
+    pl1pics[2].style.left='99%';}
 
 
 
@@ -429,34 +429,38 @@ pright[3].addEventListener('click',function(){fplpress_l2(+1,1);}, false);
 function pmovr_l2(n)
 {
     pvmov_l2=pvmov_l2+n;
-    if(pvmov_l2>2)
-        {pvmov_l2=2;
+    if(pvmov_l2>3)
+        {pvmov_l2=3;
         pl1pics[3].className='pl1pics pl2right';
              setTimeout( function(){pl1rreset();},1200);
         }
 
     function pl1rreset(){ pl1pics[3].className='pl1pics';}
 
-    if(pvmov_l2<-2)
-        {pvmov_l2=-2;
+    if(pvmov_l2<-3)
+        {pvmov_l2=-3;
 
 pl1pics[3].className='pl1pics pl2left';
              setTimeout( function(){pl1rreset();},1200);
         }
     if(pvmov_l2==1){
-    pl1pics[3].style.left='-60%';}
+    pl1pics[3].style.left='-33%';}
 
    if(pvmov_l2==2){
-    pl1pics[3].style.left='-80%';}
+    pl1pics[3].style.left='-66%';}
+    if(pvmov_l2==3){
+    pl1pics[3].style.left='-99%';}
 
 
     if(pvmov_l2==0){
-    pl1pics[3].style.left='-40%';}
+    pl1pics[3].style.left='-0%';}
     if(pvmov_l2==-1){
-    pl1pics[3].style.left='-20%';}
+    pl1pics[3].style.left='33%';}
 
    if(pvmov_l2==-2){
-    pl1pics[3].style.left='-0%';}
+    pl1pics[3].style.left='66%';}
+ if(pvmov_l2==-3){
+    pl1pics[3].style.left='99%';}
 
 
 
@@ -537,34 +541,38 @@ pright[4].addEventListener('click',function(){fplpress_l12(+1,1);}, false);
 function pmovr_l12(n)
 {
     pvmov_l12=pvmov_l12+n;
-    if(pvmov_l12>2)
-        {pvmov_l12=2;
+    if(pvmov_l12>3)
+        {pvmov_l12=3;
         pl1pics[4].className='pl1pics pl2right';
              setTimeout( function(){pl1rreset();},1200);
         }
 
     function pl1rreset(){ pl1pics[4].className='pl1pics';}
 
-    if(pvmov_l12<-2)
-        {pvmov_l12=-2;
+    if(pvmov_l12<-3)
+        {pvmov_l12=-3;
 
 pl1pics[4].className='pl1pics pl2left';
              setTimeout( function(){pl1rreset();},1200);
         }
     if(pvmov_l12==1){
-    pl1pics[4].style.left='-60%';}
+    pl1pics[4].style.left='-33%';}
 
    if(pvmov_l12==2){
-    pl1pics[4].style.left='-80%';}
+    pl1pics[4].style.left='-66%';}
+   if(pvmov_l12==3){
+    pl1pics[4].style.left='-99%';}
 
 
     if(pvmov_l12==0){
-    pl1pics[4].style.left='-40%';}
+    pl1pics[4].style.left='0%';}
     if(pvmov_l12==-1){
-    pl1pics[4].style.left='-20%';}
+    pl1pics[4].style.left='33%';}
 
    if(pvmov_l12==-2){
-    pl1pics[4].style.left='-0%';}
+    pl1pics[4].style.left='66%';}
+      if(pvmov_l12==-3){
+    pl1pics[4].style.left='99%';}
 
 
 
