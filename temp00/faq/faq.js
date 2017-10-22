@@ -1,3 +1,11 @@
+
+//paste this code under the head tag or in a separate js file.
+	// Wait for window load
+	$(window).load(function() {
+		// Animate loader off screen
+		$(".se-pre-con").fadeOut("slow");;
+	});
+//end preloads screen//
 var fdown;
 for(y=0; y<3;y++){
 var fdown= [document.getElementsByClassName('down')[y]];

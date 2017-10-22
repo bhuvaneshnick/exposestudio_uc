@@ -1,3 +1,11 @@
+
+//paste this code under the head tag or in a separate js file.
+	// Wait for window load
+	$(window).load(function() {
+		// Animate loader off screen
+		$(".se-pre-con").fadeOut("slow");;
+	});
+//end preloads screen//
 var pr_menu= document.getElementsByClassName('pr_menu');
 
 var pr_menudrop=document.getElementsByClassName('pr_l1choose');
