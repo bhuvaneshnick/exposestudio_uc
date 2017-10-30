@@ -1,3 +1,4 @@
+/* start: pre loading screen */
 .no-js #loader { display: none;  }
 .js #loader { display: block; position: absolute; left: 100px; top: 0; }
 .se-pre-con {
@@ -17,11 +18,22 @@
         .se-pre-con {background-size: 60px;background-position: 50% 200px;}    
 
 }
+@media screen and (max-width:480px){
 
+.se-pre-con {
+	
+    background-position: 50% 40%;
+}
+#expose{ font-size: 300%; margin-top: 80px;}
+    #load{  font-size: 200%; margin-top: 140px;}
 
-.homel1{width: 100%; overflow: hidden; position: relative; height: 650px;}
+}
+/* end: pre loading screen */
+
+/* start: first layer*/
+.homel1{width: 100%; overflow: hidden; position: relative;}
     .homem{width: 100%;}
-.homem img{width: 100%; margin-bottom:-3px;}
+.homem img{ width: 100%; margin-bottom:-3px;}
 #prev, #next {
   cursor: pointer;
   position: absolute;
@@ -34,6 +46,7 @@
   border-radius: 0 3px 3px 0;
 z-index: 1;
 }
+
 
 /* Position the "next button" to the right */
 #next {
@@ -63,16 +76,106 @@ z-index: 1;
   to {opacity: 1}
 }
 
+@media screen and (max-width:480px){
+    .homem{width: 100%;}
+    .homem img{width: 100%;}
+    
+    #prev, #next{ width:32px;   top: 130px;}
+    #prev img, #next img{ width: 28px;}
+    #prev{left:-10px;}
+       #next{right:-10px;}
+    
+    .homel1{}    
+}
+@media screen and (max-width:400px){
+     #prev, #next{ width:32px;   top: 110px;}
+       #prev img, #next img{ width: 25px;}
+}
+@media screen and (max-width:340px){
+     #prev, #next{ width:32px;   top: 100px;}
+    #prev img, #next img{ width: 25px;}
+}
 
 
+@media screen and (min-width:480px) and (max-width:730px){
+    
+ #prev img,#next img{width: 40px;}
+    }
+    
+/* end: first layer*/
 
+/* start: second layer*/
+.hl2{width: 100%; height: 450px; border: px solid black;  overflow: hidden; display: flex; justify-content: center; align-items: center; ; box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.1), 0 3px 20px 0 rgba(0, 0, 0, 0.1);position: relative;}
 
-.hl2{width: 100%; height: 550px; border: px solid black;  overflow: hidden; display: flex; justify-content: center; align-items: center; ; box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.1), 0 3px 20px 0 rgba(0, 0, 0, 0.1);position: relative;}
-.hl2 img{ width: 100%; position: absolute; top: 0px; }
-#hl2content{ width: 35%; display: flex; flex-direction: column; position: relative;  color: #8D99AE;left: 340px; top: -30px}
-.hl2 h1{text-align: center; font-size: 25px; display: margin:0px; }
-.hl2 p{ text-align: center; font-size: 22px;;  margin: -15px auto 0px auto; margin-top: 20px;}
+.hl2 img{ width: 100%; position: absolute; top: -30px; }
+#hl2content{ width: 35%; display: flex; flex-direction: column; position: relative;  color: #717171;left: 350px; top: -10px}
+.hl2 h1{text-align: left; font-size: 23px; display: margin:0px;color: #547a96; }
+.hl2 p{width: 90%; text-align: justify; font-size: 20px;;  margin: -15px  0px ; margin-top: 20px;}
 .hl2 span{color: #967adc;}
+
+
+@media screen and (max-width:1100px){
+    
+    #hl2content{ left: 330px; top: -10px;width: 40%;}
+    .hl2 img{ width: 110%;left: -5px;}
+}
+
+@media screen and (max-width:1020px){
+      #hl2content{ left: 330px; top: -10px;} 
+    .hl2 h1{width: 85%;}
+    .hl2 p{width: 80%;}
+}
+@media screen and (max-width:920px){
+      #hl2content{ left: 330px; top: -10px;} 
+    .hl2 h1{width: 100%;}
+    .hl2 p{width: 80%;}
+.hl2 img{ width: 120%;left: -20px;}
+
+.hl2{flex-direction: column;height: 600px;}
+.hl2 img{top:-20px;left: 160px;}
+    #hl2content{ width: 70%;top: 150px; left: 60px}
+}
+    
+
+
+@media screen and (min-width:300px) and (max-width:800px){
+  
+    .hl2 h1{width: 80%;}
+    .hl2 p{width: 80%;}
+.hl2 img{ width: 140%;left: -80px;}
+
+.hl2{flex-direction: column;height: 600px;}
+.hl2 img{top:-20px;left: 110px;}
+    #hl2content{ width: 80%;top: 150px; left: 60px}
+}
+@media screen and (max-width:660px){
+#hl2content{ width: 90%;top: 150px; left: 20px}
+.hl2 img{top:-20px;left: 20px; width: 160%}
+.hl2 p{width: 95%;margin: 0px;}
+
+}
+@media screen and (max-width:660px){
+    .hl2 img{top:-20px;left: 20px; width: 170%}    
+}
+@media screen and (max-width:550px){
+     .hl2 img{top:0px;left: 20px; width: 170%}
+    
+}
+@media screen and (max-width:440px){
+     .hl2 img{top:10px;left: -100px; width: 250%}
+        .hl2 h1{width: 80%; font-size: 22px;}
+#hl2content{ width: 95%;top: 150px; left: 0px}
+.hl2 p{width: 95%;margin: 0px; font-size: 18px;}
+}
+@media screen and (max-width:350px){
+     .hl2 img{top:30px;left: -110px; width: 265%}
+     .hl2 h1{width: 80%; font-size: 20px;}
+    .hl2{}
+}
+
+/* end: second layer*/
+
+/* start: Third layer services*/
 
 .hl3{width: 100%; height: 550px; display: flex; justify-content: center; align-items: center; flex-wrap: wrap; background-image:url(images/img5.svg); background-size: cover;background-repeat: no-repeat;}
 .hl3 h1{width:100%; margin: 0px; font-size: 40px; text-align: center; color: #547a96;}
@@ -87,6 +190,47 @@ h1 span{color: #547a96;}
 #hl3wm #birth_ex{width: 200px;height: 200px;position: relative; top: 22px;}
 #hl3wt{width: 100%; height: 30%; display: flex; align-items: center; justify-content: center; background-color: #f9f9f9;  }
 #hl3wt h1{color: #717171; font-size: 35px; }
+@media screen and (min-width:300px) and (max-width:710px){
+     .hl3{flex-direction: column; height: 1100px; }
+    .hl3{background-position:-300px 0px; background-repeat: no-repeat; background-size: cover; }
+.hl3 h1{width:100%; margin: 0px; font-size: 250%;}
+
+.hl3w, .hl3e, .hl3b{ width: 50%; height: 25%;  margin: 20px 30px 10px 30px;}
+
+#hl3wm img{width: 100%;height: auto;  }
+#hl3wt{width: 100%; height: 40%; }
+#hl3wt h1{ font-size: 30px;padding-bottom: 33px; }
+    
+}
+
+@media screen and (min-width:300px) and (max-width:450px){
+    .hl3w, .hl3e, .hl3b{ width: 70%;}
+    
+}
+
+@media screen and (min-width:830px) and (max-width:960px){
+.hl3w, .hl3e, .hl3b{ width: 250px;margin: -20px 10px 0px 10px;}
+}
+@media screen and (min-width:770px) and (max-width:830px){
+.hl3w, .hl3e, .hl3b{ width: 230px;margin: -20px 10px 0px 10px;}
+}
+@media screen and (min-width:710px) and (max-width:770px){
+.hl3w, .hl3e, .hl3b{ width: 200px;margin: -20px 10px 0px 10px;}
+}
+
+
+/*@media screen and (min-width:480px) and (max-width:800px){
+    
+       
+    .hl3w, .hl3e, .hl3b{ background-color: white;width: 25%; height: 65%; border: 1px olid black; margin: -20px 30px 0px 30px;  border-radius: 10px; overflow: hidden; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
+   #hl3wt h1{ font-size: 220%; }
+
+    
+}*/
+/* start: third layer services*/
+
+/* start:fourth layer reasons*/
+
 .hl4{ width: 100%; height: 450px; background-color: white;box-shadow: 0 -2px 8px 0 rgba(0, 0, 0, 0.1), 0 -3px 20px 0 rgba(0, 0, 0, 0.1); position: relative; overflow: hidden;}
 #hl4head{ height: 20%; margin: 0px; padding-top: 20px; font-size: 35px; color:#547A96; text-align: center; box-sizing: border-box;}
 #hl4head span{color:#547A96;}
@@ -119,59 +263,45 @@ z-index: 1;
   right: 0; z-index: 1;
   border-radius: 3px 0 0 3px;
 }
-.hterms{ display: none; width: 50%; height: 250px; position: absolute; left: 50%; top:50%; margin-left: -25%; margin-top: -150px; background-color: rgba(255,255,255,1); box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.1), 0 3px 20px 0 rgba(0, 0, 0, 0.1); color:#8D99AE; font-size: 22px; border-radius: 10px; overflow: hidden; }
+/* start:hterms */
+.hterms{ display: none; width: 50%; height: 250px; position: absolute; left: 50%; top:50%; margin-left: -25%; margin-top: -150px; background-color: rgba(255,255,255,1); box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.1), 0 3px 20px 0 rgba(0, 0, 0, 0.1); color:#717171; font-size: 22px; border-radius: 10px; overflow: hidden; }
 .hterms ol{padding-top: 10px;}
 .hclose{position: absolute; right: 10px; top:5px;}
 #hopen{cursor: pointer;}
 .hclose{cursor: pointer;}
 
+@media screen and (max-width:900px){
+    
+    .hterms{font-size:20px;width: 70%; 
+        left: 40%; top:50%;}
 
-@media screen and (max-width:480px){
-    .homem{width: 100%;}
-    .homem img{width: 100%;}
-    
-    #prev, #next{ width:32px;   top: 70px;}
-    #prev img, #next img{ width: 28px;}
-    #prev{left:-10px;}
-       #next{right:-10px;}
-    
-    .homel1{}    
-.homet{ top:10%; left: 15%; font-size: 90%; 
 }
-.homep{ top:20%; left: 15%; font-size: 80%; }
-    .hl2{ height: 320px;}
-    .hl2 img{ position: relative; top:10px; width:200px;}
-    .hl2 h1{font-size: 195%}
-    .hl2 p{font-size: 155%; width:95%; text-align: justify;
-    }
-    #hl2content{width: 100%;}
-    .hl3{flex-direction: column; height: 900px; }
-    .hl3{background-position:-300px 0px; background-repeat: no-repeat; background-size: cover; }
-.hl3 h1{width:100%; margin: 0px; font-size: 250%;}
 
-.hl3w, .hl3e, .hl3b{ width: 60%; height: 25%;  margin: 20px 30px 10px 30px;}
-
-#hl3wm img{width: 100px; height: 100px; }
-#hl3wt{width: 100%; height: 40%; }
-#hl3wt h1{ font-size: 200%; }
+@media screen and (max-width:700px){
     
-    /* 4th layer*/
+      .hterms{font-size:20px;width: 70%;height: 150px; 
+        left: 40%; top:50%;}
+    
+}
+/* end:hterms */
+@media screen and (max-width:710px){
+
    
-    .hl4{ width: 100%; height: 520px;  position: relative; overflow: hidden;}
+    .hl4{ width: 100%; height: 580px;  position: relative; overflow: hidden;}
 #hl4head{ height: 10%; margin: 0px; padding-top:8px; font-size: 180%; text-align: center; box-sizing: border-box;}
     
- .hl4slide{width: 100%; height: 90%;}
+ .hl4slide{width: 100%; height: 90%;padding-top: 40px}
 #hl41{ width: 100%; height: 100%; box-sizing: border-box; display: flex; justify-content: center; text-align: center; padding-right: 0px; flex-direction: column;}
 #hl41m{ width: 100%; height: 40%; border: 1px olid black; box-sizing: border-box;display: flex; justify-content: center; align-items:center; padding-right: 0px;}
 
-.hl42t{ width: 100%; height: 60%; border: 1px olid black; box-sizing: border-box; display: flex; flex-direction: column; justify-content:flex-start; align-items:center; padding-left: 0px;}
+.hl42t{ width: 60%; height: 60%; border: 1px olid black; box-sizing: border-box; display: flex; flex-direction: column; justify-content:flex-start; align-items:center;margin: auto; padding-left: 0px;padding-top: 30px}
 
-#hl41 img{ width: 50%; }
+#hl41 img{ width: 35%; }
 
-.hl42t h1{ color: #8D99AE; font-size: 150%;}
-.hl42t p{ color: #8D99AE; font-size: 120%; width: 80%; margin-top: -10px; text-align: justify;}
+.hl42t h1{ color: #717171; font-size: 23px;}
+.hl42t p{ color: #717171; font-size: 20px; width: 80%; margin-top: -10px; text-align: justify;}
 .hl42tx p{ width: 90%;}
-.hl42tx span{ font-size: 60%; text-decoration-line: underline;}
+.hl42tx span{ font-size: 60%; text-decoration-line: underline;margin-top: 10px}
 #hl4prev, #hl4next {
   cursor: pointer;
   position: absolute;
@@ -193,60 +323,81 @@ z-index: 1;
   border-radius: 3px 0 0 3px;
 }
     #hl4prev {
-        left: -10%;}
+        left: -3%;}
 .hterms{ display: none; width: 90%; height: 340px; position: absolute; left: 50%; top:50%; margin-left: -45%; margin-top: -150px; font-size: 120%; border-radius: 10px; overflow: hidden; z-index: 1; }
 .hterms ol{padding-top: 10px; padding-right: 10px}
 .hclose{position: absolute; right: 10px; top:5px;}
 #hopen{cursor: pointer; display: block; text-align: center; font-size: 70%;}
 .hclose{cursor: pointer;}
    
-
 }
-
-@media screen and (max-width:480px){
-
-.se-pre-con {
-	
-    background-position: 50% 40%;
-}
-#expose{ font-size: 300%; margin-top: 80px;}
-    #load{  font-size: 200%; margin-top: 140px;}
-
-}
-
-
-@media screen and (min-width:480px) and (max-width:800px){
-    .homet{ top:10%; left: 15%; font-size: 200%; 
-}
-.homep{ top:20%; left: 15%; font-size: 150%; }
-    .hl2{height: 450px;}
-     .hl2 img{ position: relative; top:10px; width:30%; margin-top: -10px}
-    .hl2 h1{font-size: 250%}
-    .hl2 p{font-size: 180%; width:80%; text-align: center;
-    }
-    #hl2content{width: 100%;}
-  
+@media screen and (max-width:700px){
     
-    .hl3w, .hl3e, .hl3b{ background-color: white;width: 25%; height: 65%; border: 1px olid black; margin: -20px 30px 0px 30px;  border-radius: 10px; overflow: hidden; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
-   #hl3wt h1{ font-size: 220%; }
+      .hterms{font-size:18px;width: 70%;height: 200px; 
+        left: 58%; top:50%;}
+    
+}
+@media screen and (max-width:520px){
+    .hterms{font-size:18px;width: 95%;height: 220px; 
+        left:48%; top:35%;}
+    
+}
+@media screen and (max-width:340px){
+    
+     .hterms{font-size:18px;width: 95%;height: 270px; 
+        left:48%; top:65%;}
+    
+    
+}
+
+@media screen and (max-width:540px){
+    .hl42t{ width: 75%;}
+        #hl41 img{ width: 45%; }
+    .hl4{height: 620px;}
+}
+@media screen and (max-width:420px){
+    
+       #hl41 img{ width: 55%; }
+.hl42t{ width: 90%;}
+ .hl4{height: 630px;};
+    .hl42t h1{font-size: 25px; }
+    .hl42t p{font-size: 18px}
+
+}
+@media screen and (max-width:370px){
+    
+       #hl41 img{ width: 50%; }
+}
 
 
+@media screen and (min-width:710px) and (max-width:800px){
+ 
+   
 #hl41m{ width: 50%; height: 100%; border: 1px olid black; box-sizing: border-box;display: flex; justify-content: flex-end; align-items:center; padding-right: 50px;}
 
-.hl42t{ width: 50%; height: 100%; border: 1px olid black; box-sizing: border-box; display: flex; flex-direction: column; justify-content: center; align-items:flex-start; padding-left: 50px;}
+.hl42t{ width: 50%; height: 100%; border: 1px olid black; box-sizing: border-box; display: flex; flex-direction: column; justify-content: center; align-items:flex-start; padding-left: 50px;position: relative; top: 20px}
 
 #hl41 img{ width: 80%; position: relative;left:40px; top: 30px; }
 
-.hl42t h1{ color: #8D99AE; font-size: 200%;}
-.hl42t p{ color: #8D99AE; font-size: 150%; width: 80%; margin-top: -10px; text-align: justify; padding-left: 10px;}
+.hl42t h1{ color: #717171; font-size: 22px;padding-left: 10px}
+.hl42t p{ color: #717171; font-size: 20px; width: 80%; margin-top: -10px; text-align: justify; padding-left: 10px;padding-top: }
 .hl42tx p{ width: 90%;}
 .hl42tx span{ font-size: 60%; text-decoration-line: underline;}
 
-    .hl4{ width: 100%; height: 560px;  position: relative; overflow: hidden; padding-top: 30px}
+    .hl4{ width: 100%; height: 500px;  position: relative; overflow: hidden; padding-top: 30px}
 
 
+}
+@media screen and (min-width:800px) and (max-width:1040px){
+    #hl41 img{ width: 70%; position: relative;left:40px; top: 30px; }
+    .hl42t{position: relative; top: 20px;}
+    
+}
 
+/* end:fourth layer reasons*/
 
 
 
 }
+
+
