@@ -7,6 +7,11 @@
 	});
 
 
+
+
+
+
+
 var pl1pics= document.getElementsByClassName('pl1pics');
 var pright=document.getElementsByClassName('right');
 var pleft=document.getElementsByClassName('left');
@@ -21,6 +26,9 @@ var pvmov_l4=0;
 var pvmov_l5=0;
 var pvmov_l2=0;
 var pvmov_l12=0;
+
+
+
 
 //////////////////desktop section////////////////////////
 
@@ -75,6 +83,8 @@ function fplpress(p,pch){
 
 
 }}
+
+
 function vplpress_reset(){
 
     pleft[0].className='left';
@@ -472,10 +482,12 @@ pleft[3].addEventListener('click',function(){pmovr_l2(-1);}, false);
 
 
 
+//////////////*********////////////////
 
 // layer 1//
 //arrow and delay section//
 //pleft arrow
+/*
 function fplpress_l12(p,pch){
     pvmovlr=p+pvmovlr;
     //right
@@ -579,10 +591,10 @@ pl1pics[4].className='pl1pics pl2left';
 
 }
 pright[4].addEventListener('click',function(){pmovr_l12(+1);}, false);
-pleft[4].addEventListener('click',function(){pmovr_l12(-1);}, false);
+pleft[4].addEventListener('click',function(){pmovr_l12(-1);}, false);*/
 // layer 1//
 
-
+////////////////**********////////////////////
 
 
 
@@ -1066,9 +1078,11 @@ pleft_m[3].addEventListener('click',function(){pmovr_m_l2(-1);}, false);
 
 
 
+/////////**************/////////////
+
 // layer 1 // 
 //arrow and delay section//
-
+/*
 function fplpress_m_l12(p,pch){
     pvmovlr_l12=p+pvmovlr_l12;
     //right
@@ -1178,9 +1192,10 @@ if(pvmov_l12==0){
 }
 pright_m[4].addEventListener('click',function(){pmovr_m_l12(+1);}, false);
 pleft_m[4].addEventListener('click',function(){pmovr_m_l12(-1);}, false);
+*/
 // layer 1 //
 
-
+////////////********************//////////////////////
 
 
 
@@ -1652,10 +1667,11 @@ pleft_t[3].addEventListener('click',function(){pmovr_t_l2(-1);}, false);
 //layer 2//
 
 
-
+/////////********////////////
 //layer 1//
 //arrow and delay section//
 //pleft arrow
+/*
 function fplpress_t_l12(p,pch){
     pvmovlr_l12=p+pvmovlr_l12;
     //right
@@ -1760,8 +1776,9 @@ if(pvmov_l12==0){
 }
 pright_t[4].addEventListener('click',function(){pmovr_t_l12(+1);}, false);
 pleft_t[4].addEventListener('click',function(){pmovr_t_l12(-1);}, false);
-
+*/
 //layer 1//
+/////////**********/////////////
 
 
 
@@ -1832,6 +1849,8 @@ function po_close_p(){
 
 
 ///portait//
+
+
 
 vpo_close_p[0].addEventListener('click',function(){po_close_p();},false);
 
@@ -1905,6 +1924,8 @@ vpo_land[26].addEventListener('click',function(){po_show(26);},false);
 
 
 ///////////////END: imag modal/////////////////////////////
+
+
 
 
 

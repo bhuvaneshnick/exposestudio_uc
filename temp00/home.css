@@ -32,7 +32,7 @@
 
 /* start: first layer*/
 .homel1{width: 100%; overflow: hidden; position: relative;}
-    .homem{width: 100%;}
+    .homem{height: 100%;}
 .homem img{ width: 100%; margin-bottom:-3px;}
 #prev, #next {
   cursor: pointer;
