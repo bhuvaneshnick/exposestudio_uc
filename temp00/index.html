@@ -85,10 +85,15 @@
         
     <div class="homem fade s1">
         
-        <img class="image test" src="images/img1.webp" 
-             onerror="this.onerror=null; this.src='images/img1jpg'"
-             >
-        </div>
+        
+        <picture class="image test">
+  <source srcset="images/img1.webp" type="image/webp">
+  <source srcset="images/img1.jpg" type="image/jpeg"> 
+  <img src="images/img1.webp" alt="Alt Text!">
+</picture>
+        
+        
+                </div>
     <div class="homem fade">
         
         <img class="image test" src="images/img2.jpg">
