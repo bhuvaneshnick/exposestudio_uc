@@ -19,7 +19,7 @@
         
 }
 /* end pre-load screen*//
-a[href^=tel] { color: inherit; text-decoration: none; }
+
 #cont_cont{width: 100%; height: 500px;}
 #con_sidel1{width: 50%; height: 650px;overflow: hidden;position: absolute;overflow: hidden;top: 10px;}
 #con_sidel2{width: 500px; height: 900px; background-color: #547A96; position: relative;left: -170px; bottom: -200px; transform: rotate(-50deg); z-index: -1; }
