@@ -101,8 +101,43 @@
     width: 298%; height: 400px;border: 1px olid black; display: flex;align-items: center; box-sizing: border-box;
 align-items: center; margin-bottom: 0px; position: relative;  transition: margin-left 1s, left 1s;  left:0% ;}
 .limage{margin: 10px; width: 32%;; height: 350px; border: 1px olid black;position: relative; background-color: cadetblue;overflow: hidden;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);  border-radius: 10px; }
-.limage img{width: 100%;;box-sizing: border-box; border-radius: 10px;  }
-
+.limage img{height: 100%;;box-sizing: border-box; border-radius: 10px;  }
+.po_land img{position: relative;}
+.la1 img{right:
+50px}
+.la2 img{right:
+70px}
+.la3 img{right:
+100px}
+.la4 img{right:
+100px}
+.la5 img{right:
+100px}
+.la6 img{right:
+100px}
+.la7 img{right:
+20px}
+.la8 img{right:
+0px}
+.la9 img{right:
+70px}
+.la10 img{right:
+95px}
+.la11 img{right:
+15px}
+.la12 img{right:
+0px}
+.la13 img{right:
+5px}
+.la14 img{right:
+0px}
+.la15 img{right:45px}
+.la16 img{right:
+45px}
+.la17 img{right:
+55px}
+.la18 img{right:
+55px}
 
 
 
@@ -116,8 +151,6 @@ align-items: center; margin-bottom: 0px; position: relative;  transition: margin
     width: 298%; height: 550px;border: 1px olid black; display: flex;align-items: center; box-sizing: border-box; position: relative;  transition: margin-left 1s, left 1s; left: 00%;  }
 
 
-.la1 img{width: 125%;position: relative;right:
-100px}
 .pimage{margin: 10px; width: 32%;; height: 500px; border: 1px olid black;position: relative; background-color: cadetblue; overflow: hidden;box-sizing: border-box;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); border-radius: 10px;    position: relative;}
 
 .pimage img{width: 100%;height: auto;}
