@@ -24,12 +24,12 @@
 
 
 
-.bi_close{ display: none; position: absolute; right: 40px; margin-top: 40px;}
-.bi_close_p{  position: absolute; right: 20px; margin-top: 90px;}
+.bi_close{ cursor: pointer;display: none; position: absolute; right: 40px; margin-top: 40px;}
+.bi_close_p{cursor: pointer;  position: absolute; right: 20px; margin-top: 90px;}
 
 /* image modal */
 
-.bi_over{  position: fixed; width: 100%; background-color: rgba(0,0,0,0.9);  height: 100%; display: none; top: 00px;z-index: 6;  }
+.bi_over{ position: fixed; width: 100%; background-color: rgba(0,0,0,0.9);  height: 100%; display: none; top: 00px;z-index: 6;  }
 
 
 
@@ -116,7 +116,8 @@ align-items: center; margin-bottom: 0px; position: relative;  transition: margin
     width: 298%; height: 550px;border: 1px olid black; display: flex;align-items: center; box-sizing: border-box; position: relative;  transition: margin-left 1s, left 1s; left: 00%;  }
 
 
-
+.la1 img{width: 125%;position: relative;right:
+100px}
 .pimage{margin: 10px; width: 32%;; height: 500px; border: 1px olid black;position: relative; background-color: cadetblue; overflow: hidden;box-sizing: border-box;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); border-radius: 10px;    position: relative;}
 
 .pimage img{width: 100%;height: auto;}
@@ -340,7 +341,7 @@ align-items: center; margin-bottom: 0px; position: relative;  transition: margin
     
     
     .pl1pics .po_wide{width: 90%; position: fixed;z-index: 7; margin: auto; top:200px; left:5%;  }
-    .bi_close{ display: none; position: absolute; right: 20px; margin-top: 140px;}
+    .bi_close{ cursor: pointer;display: none; position: absolute; right: 20px; margin-top: 140px;}
     
     
 }

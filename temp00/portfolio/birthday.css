@@ -22,7 +22,7 @@
 
 
 
-.bi_close{ position: absolute; right: 20px; margin-top: 90px;}
+.bi_close{cursor: pointer;  position: absolute; right: 20px; margin-top: 90px;}
 
 /* image modal */
 
