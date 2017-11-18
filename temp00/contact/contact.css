@@ -35,7 +35,7 @@ textarea:focus { outline-style: none;}
 /*general outer layout*/
 #croot1{ width: 70%; height: 400px; margin:  0px auto 100px auto; border-radius: 10px; display: flex; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); position: relative;}
 #creach{width: 40%; height: inherit;box-sizing: border-box; border-radius: 10px 0px 0px 10px; display: flex; flex-direction: column; justify-content: center;align-items: center;background-color: white; }
-#clet{width: 60%; height: inherit; box-sizing: border-box; border-radius: 0px 10px 10px 0px;background-image: url(images/test.jpg); display: flex; flex-direction: column; justify-content: center; align-items:center;  background-size: cover;}
+#clet{width: 60%; height: inherit; box-sizing: border-box; border-radius: 0px 10px 10px 0px;background-image: url(images/try.svg); display: flex; flex-direction: column; justify-content: center; align-items:center;  background-size: cover;}
 
 /*general outer layout*/
 
