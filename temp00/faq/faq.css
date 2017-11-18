@@ -39,7 +39,7 @@ body{background-color: #f9f9f9;}
 #faqbox h1{border: 1px olid black;  color: #547A96;  margin-top: -0px; height: 30px;  } 
 /* START:contains queston of sec 1*/
 #qabox{border: 1px olid black;width: 70%; height: auto; margin: auto; }
-.down{width: 32px; height: 32px; position: absolute; right: 1%; top:50%; margin-top: -16px;background-image: url(images/down2b.png); background-repeat: no-repeat; transition: transform 0.5s, right 0.5s; }
+.down{width: 32px; height: 32px; position: absolute; right: 1%; top:50%; margin-top: -16px;background-image: url(images/down2b.png); background-repeat: no-repeat; transition: transform 0.5s, right 0.5s;cursor: pointer; }
 .quest1{  width: 95%; margin: 0px 5px 10px 15px; margin: 0px auto 10px auto ;  height: auto;  padding: 10px; border-left:5px #547A96 solid;  border-radius: 0px; background-color: white; position: relative; z-index: 2;box-shadow: 0 2px 2px 0px rgba(0, 0, 0, 0.2),0 -1px 1px 0px rgba(0, 0, 0, 0.1);  transform: scale(1.00); transition: box-shadow 0.5s, width 0.5s,border-left 0.5s;box-sizing: border-box; }
 
 .quest1 p{margin: 0px 40px 0px 7px; font-size: 18px; color: #676c6f;;}
