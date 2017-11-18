@@ -106,7 +106,7 @@ textarea::placeholder{color: #547A96; font-size: 16px; }
     
     #ch1{ font-size: 250%}
      #clet0, #creach h2{font-size: 200%;}
-    #creach p{ font-size: 150%;}
+    #creach p{ font-size: 20px;}
     #clet1,#clet2, #clet3{ font-size: 100%}
     #letleft{flex-direction: column;}
     #letleft1{width: 80%; height: 60%; }
@@ -127,11 +127,15 @@ textarea::placeholder{color: #547A96; font-size: 16px; }
     con_sidel2{width: 500px; height: 900px; background-color: #547A96; position: relative;left: -170px; bottom: -200px; transform: rotate(-50deg); z-index: -1; }*/
 }
 @media screen and (min-width:300px) and (max-width:615px){
-   #con_sidel1{top:700px;left: 00px;width: 80%; height: 550px;}
+   #con_sidel1{top:600px;left: 00px;width: 80%; height: 550px;}
     #con_sidel2{bottom:-200px; z-index: -1; transform: rotate(-405deg)} 
 #cont_plane2{left: -50px;top: 830px;}
  #cont_plane{right: -10px;top: -60px} 
 }
+
+@media screen and (min-width:300px) and (max-width:405px){
+   #con_sidel1{top:670px;
+    }
 @media screen and (min-width:300px) and (max-width:615px){
     #croot1{width: 80%;} 
 }
