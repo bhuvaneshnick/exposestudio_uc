@@ -48,9 +48,9 @@
 
 /*heading*/
 
-.ptp{overflow: hidden; border: 0px solid black;width: 32.5%; height: 610px; margin: 5px; display: inline-block;float:left; box-sizing: border-box;  display: flex; justify-content: center;align-items: center;}
+.ptp{cursor: pointer;overflow: hidden; border: 0px solid black;width: 32.5%; height: 610px; margin: 5px; display: inline-block;float:left; box-sizing: border-box;  display: flex; justify-content: center;align-items: center;}
 .bi_d{width: 95%;position: absolute;}
-.ptl{overflow: hidden;border: 0px solid black;width: 32.5%; height: 300px;margin: 5px;display: inline-block;float:left;box-sizing: border-box; display: flex; justify-content: center;align-items: center;}
+.ptl{cursor: pointer;overflow: hidden;border: 0px solid black;width: 32.5%; height: 300px;margin: 5px;display: inline-block;float:left;box-sizing: border-box; display: flex; justify-content: center;align-items: center;}
 .ptp img{height: 660px;transition: height 0.5s; }
 .birth_ex{ margin-top: -2px;}
 

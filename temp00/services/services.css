@@ -39,7 +39,7 @@ body{background-image: url(images/bg1.svg),url(images/bg1.svg);background-repeat
 #clet6{  width: 0%; height: 20%;}
 
 #clet6{ display: flex; justify-content: center; align-items: center;}
-#fsubmit{ border-style: none; border-radius: 0px;  color:white;background-image: url(images/mailsend.png); font-size: 110%; font-weight: 600; height: 40px;;  background-repeat: no-repeat; background-position: 92px; width: 130px; padding-right: 30px; transition: padding-right 0.5s, background-position,0.5s;}
+#fsubmit{cursor: pointer; border-style: none; border-radius: 0px;  color:white;background-image: url(images/mailsend.png); font-size: 110%; font-weight: 600; height: 40px;;  background-repeat: no-repeat; background-position: 92px; width: 130px; padding-right: 30px; transition: padding-right 0.5s, background-position,0.5s;}
 /* inter */
 #fsubmit:hover{ padding-right: 43px; background-position: 98px;}
 

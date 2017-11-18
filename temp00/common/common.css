@@ -43,10 +43,10 @@ body{margin: 0px; min-height: 100%; position: relative; padding-bottom: 85px;}
 }
 
 
-#cfloat{  width: 115px; height: 28px; display: flex; justify-content: center; align-items: center; background-color: #f9f9f9; margin-top: 20px; border-radius: 5px; border: 1px solid #e27a69; position: relative; left: -25px;top: -3px; transition: background-color 0.5s;}
-#cfloat p{ color: #676C6F; font-size: 17px;transition: color 0.5s;  }
-#cfloat:hover{border: 1px solid #f9f9f9;background-color: #e27a69; }
-#cfloat:hover #floatex{color: white;}
+#cfloat{  width: 115px; height: 28px; display: flex; justify-content: center; align-items: center; background-color: #e27a69; margin-top: 20px; border-radius: 5px; border: 1px solid #e27a69; position: relative; left: -25px;top: -3px; transition: background-color 0.5s;}
+#cfloat p{ color: #f9f9f9; font-size: 17px;transition: color 0.5s;  }
+#cfloat:hover{border: 1px solid #e27a69;background-color: #f9f9f9; }
+#cfloat:hover #floatex{color: #676C6F;}
 
 /*bar style*/
 
