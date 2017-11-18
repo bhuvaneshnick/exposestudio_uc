@@ -21,7 +21,7 @@ body{margin: 0px; min-height: 100%; position: relative; padding-bottom: 85px;}
 
 /* START:left menu style*/
 
-
+#hover_box{border: 2px solid #1A535C;padding: 5px;}
 .lm{ text-align: center;  font-size: 20px; display: block;  box-sizing: border-box; width: auto; height: 60px; padding: 20px 15px; background-color: transparent;transition: background-color 0.5s, color 0.5s;  }
 
 /* END:left menu style*/
@@ -30,7 +30,7 @@ body{margin: 0px; min-height: 100%; position: relative; padding-bottom: 85px;}
 
 #nav_right{}
 #nav_left{right: 22px;}
-.rm{display: block;  box-sizing: border-box; width: auto; height: 60px;font-size: 20px;text-align: center; padding: 20px 15px;  transition: background-color 0.5s, color 0.5s ;}
+.rm{border: 2px solid black display: block;  box-sizing: border-box; width: auto; height: 60px;font-size: 20px;text-align: center; padding: 20px 15px;  transition: background-color 0.5s, color 0.5s ;}
 
 /* END:right menu style*/
 #cfloat{  width: 100px; height: 40px; display: flex; justify-content: center; align-items: center; background-color: white; margin-top: 20px; border-radius: 5px; border: 2px solid #676C6F; position: relative; left: -12px;top: -12px; transition: background-color 0.5s;}
