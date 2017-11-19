@@ -694,28 +694,28 @@ pl1pics[0].className='pl1pics pl1left_m';
              setTimeout( function(){pl1rreset();},1200);
         }
     if(pvmov==1){
-    pl1pics[0].style.left='-495%';}
+    pl1pics[0].style.left='-100%';}
 
    if(pvmov==2){
-    pl1pics[0].style.left='-594%';}
+    pl1pics[0].style.left='-200%';}
      if(pvmov==3){
-    pl1pics[0].style.left='-693%';}
+    pl1pics[0].style.left='-300%';}
      if(pvmov==4){
-    pl1pics[0].style.left='-792%';}
+    pl1pics[0].style.left='-400%';}
 
 if(pvmov==0){
-    pl1pics[0].style.left='-396%';}
+    pl1pics[0].style.left='0%';}
 
     
     if(pvmov==-1){
-    pl1pics[0].style.left='-297%';}
+    pl1pics[0].style.left='100%';}
 
    if(pvmov==-2){
-    pl1pics[0].style.left='-198%';}
+    pl1pics[0].style.left='200%';}
      if(pvmov==-3){
-    pl1pics[0].style.left='-99%';}
+    pl1pics[0].style.left='300%';}
      if(pvmov==-4){
-    pl1pics[0].style.left='-00%';}
+    pl1pics[0].style.left='400%';}
 
 
 
@@ -809,28 +809,28 @@ pl1pics[1].className='pl1pics pl1left_m';
              setTimeout( function(){pl1rreset_l4();},1200);
         }
     if(pvmov_l4==1){
-    pl1pics[1].style.left='-495%';}
+    pl1pics[1].style.left='-100%';}
 
    if(pvmov_l4==2){
-    pl1pics[1].style.left='-594%';}
+    pl1pics[1].style.left='-200%';}
      if(pvmov_l4==3){
-    pl1pics[1].style.left='-693%';}
+    pl1pics[1].style.left='-300%';}
      if(pvmov_l4==4){
-    pl1pics[1].style.left='-792%';}
+    pl1pics[1].style.left='-400%';}
 
 if(pvmov_l4==0){
-    pl1pics[1].style.left='-396%';}
+    pl1pics[1].style.left='-0%';}
 
     
     if(pvmov_l4==-1){
-    pl1pics[1].style.left='-297%';}
+    pl1pics[1].style.left='100%';}
 
    if(pvmov_l4==-2){
-    pl1pics[1].style.left='-198%';}
+    pl1pics[1].style.left='200%';}
      if(pvmov_l4==-3){
-    pl1pics[1].style.left='-99%';}
+    pl1pics[1].style.left='300%';}
      if(pvmov_l4==-4){
-    pl1pics[1].style.left='-00%';}
+    pl1pics[1].style.left='400%';}
 
 
 
@@ -926,28 +926,28 @@ pl1pics[2].className='pl1pics pl1left_m';
              setTimeout( function(){pl1rreset_l5();},1200);
         }
     if(pvmov_l5==1){
-    pl1pics[2].style.left='-495%';}
+    pl1pics[2].style.left='-100%';}
 
    if(pvmov_l5==2){
-    pl1pics[2].style.left='-594%';}
+    pl1pics[2].style.left='-200%';}
      if(pvmov_l5==3){
-    pl1pics[2].style.left='-693%';}
+    pl1pics[2].style.left='-300%';}
      if(pvmov_l5==4){
-    pl1pics[2].style.left='-792%';}
+    pl1pics[2].style.left='-400%';}
 
 if(pvmov_l5==0){
-    pl1pics[2].style.left='-396%';}
+    pl1pics[2].style.left='-0%';}
 
     
     if(pvmov_l5==-1){
-    pl1pics[2].style.left='-297%';}
+    pl1pics[2].style.left='100%';}
 
    if(pvmov_l5==-2){
-    pl1pics[2].style.left='-198%';}
+    pl1pics[2].style.left='200%';}
      if(pvmov_l5==-3){
-    pl1pics[2].style.left='-99%';}
+    pl1pics[2].style.left='300%';}
      if(pvmov_l5==-4){
-    pl1pics[2].style.left='-00%';}
+    pl1pics[2].style.left='400%';}
 
 
 
@@ -1044,28 +1044,28 @@ pl1pics[3].className='pl1pics pl1left_m_p';
              setTimeout( function(){pl1rreset_l2();},1200);
         }
     if(pvmov_l2==1){
-    pl1pics[3].style.left='-472.6%';}
+    pl1pics[3].style.left='-100%';}
 
    if(pvmov_l2==2){
-    pl1pics[3].style.left='-567.7%';}
+    pl1pics[3].style.left='-200%';}
      if(pvmov_l2==3){
-    pl1pics[3].style.left='-662.8%';}
+    pl1pics[3].style.left='-300%';}
      if(pvmov_l2==4){
-    pl1pics[3].style.left='-756.9%';}
+    pl1pics[3].style.left='-400%';}
 
 if(pvmov_l2==0){
-    pl1pics[3].style.left='-376.5%';}
+    pl1pics[3].style.left='-0%';}
 
     
     if(pvmov_l2==-1){
-    pl1pics[3].style.left='-282.4%';}
+    pl1pics[3].style.left='100%';}
 
    if(pvmov_l2==-2){
-    pl1pics[3].style.left='-188.3%';}
+    pl1pics[3].style.left='200%';}
      if(pvmov_l2==-3){
-    pl1pics[3].style.left='-92.2%';}
+    pl1pics[3].style.left='300%';}
      if(pvmov_l2==-4){
-    pl1pics[3].style.left='-2%';}
+    pl1pics[3].style.left='400%';}
 
 
 
