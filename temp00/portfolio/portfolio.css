@@ -148,11 +148,11 @@ align-items: center; margin-bottom: 0px; position: relative;  transition: margin
 .pl1pics .po_wide img{width: auto;height: 80%;; position: fixed;z-index: 7; margin: auto; top:50px; left:15%;  }
 /*end: land layer*/
 /*start: port layer*/
-#player2{  box-sizing: border-box; overflow: hidden; width: 100%; height: 670px; margin: 5px auto; border: 1px olid black; display: flex; flex-direction: column; align-items: center; justify-content: flex-start;; box-sizing: border-box; position: relative;overflow: hidden;}
+#player2{  box-sizing: border-box; overflow: hidden; width: 100%; height: 670px; margin: 5px auto; border: 1px olid green; display: flex; flex-direction: column; align-items: ; justify-content: flex-start;; box-sizing: border-box; position: relative;overflow: hidden;}
 
 #pl2pics{
     
-    width: 298%; height: 550px;border: 1px olid black; display: flex;align-items: center; box-sizing: border-box; position: relative;  transition: margin-left 1s, left 1s; left: 00%;  }
+    width: 298%; height: 550px;border: 1px olid red; display: flex;align-items: center; box-sizing: border-box; position: relative;  transition: margin-left 1s, left 1s; left: 00%;  }
 
 
 .pimage{margin: 10px; width: 32%;; height: 500px; border: 1px olid black;position: relative; background-color: cadetblue; overflow: hidden;box-sizing: border-box;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); border-radius: 10px;    position: relative;}
@@ -309,17 +309,17 @@ align-items: center; margin-bottom: 0px; position: relative;  transition: margin
 
 @keyframes rend_t{
     
-    0% {left: -350%;}
-     20%{left: -355%;}
+    0% {left: -175%;}
+     20%{left: -180%;}
     
-    100%{left: -350%;}
+    100%{left: -175%;}
 }  
 @keyframes lend_t{
     
-    0% {left: 00%;}
-     20%{left: 5%;}
+    0% {left: 175%;}
+     20%{left: 180%;}
     
-    100%{left: 00%;}
+    100%{left: 175%;}
 }
 /* tablet design
 
@@ -333,35 +333,44 @@ align-items: center; margin-bottom: 0px; position: relative;  transition: margin
 
 @keyframes rend_t_p{
     
-    0% {left: -198%;}
-     20%{left: -205%;}
+    0% {left: -175%;}
+     20%{left: -180%;}
     
-    100%{left: -198%;}
+    100%{left: -175%;}
 }  
 @keyframes lend_t_p{
     
-    0% {left: 00%;}
-     20%{left: 5%;}
+    0% {left: 175%;}
+     20%{left: 180%;}
     
-    100%{left: 00%;}
+    100%{left: 175%;}
 }
 /* tablet portrait design*/
 
 
 
-@media screen and (min-width:480px) and (max-width:800px){
+@media screen and (min-width:550px) and (max-width:800px){
     
-    /*hide*/
+   
     .left,.left_m{display: none;}
     .right,.right_m{display: none;}
     .arrow,.parrrow_m{display: none;}
-    /*hide*/
- 
+     .left_t{display: inline-block; width: 50px; height: 50px; background-size: 100%; margin-right: 10px;}
+    .right_t{display: inline-block;width: 50px; height: 50px; background-size: 100%;}
+     .parrow_t{display: block;z-index: 0; width: 120px; height: 60px; bottom: 25px; left: 50%; margin-left: -50px;z-index: 0;}
+    #parrow_m_ex{ bottom:-10px;}
+    
+    #pl2pics .po_wide_p{width: 45%; position: fixed;z-index: 7; margin: auto; top:5%; left:25%; }
+  .pl1pics .po_wide img{width: 90%;height: auto; position: fixed;z-index: 7; margin: auto; top:120px; left:1%;  }
+    
+      
+.bi_close_p{  position: absolute; right: 95px; margin-top: 90px; top:-40px; }
+    
+  /*hide
     .pl1pics img{margin: 0px 1%;width: 48.0%; }
     .pl1pics{left: -150%;}
-    .left_t{display: inline-block; width: 50px; height: 50px; background-size: 100%; margin-right: 10px;}
-    .right_t{display: inline-block;width: 50px; height: 50px; background-size: 100%;}
-    .parrow_t{display: block;z-index: 0; width: 120px; height: 60px; bottom: 25px; left: 50%; margin-left: -50px;z-index: 0;}
+   
+   
     .player4{ margin-top: -60px;}
     
     
@@ -369,7 +378,7 @@ align-items: center; margin-bottom: 0px; position: relative;  transition: margin
     #pl2pics img{ width: 30.5%; margin: 1.3%;}
     #player2 p{ top:px;}
     #player2{height: 530px; }
-    #parrow_m_ex{ bottom:-10px;}
+
     
        .player5{ margin-top: -80px;}
     
@@ -377,12 +386,56 @@ align-items: center; margin-bottom: 0px; position: relative;  transition: margin
     .player4{ top:20px;}
     .po_two{top:-20px;}
     
+   
+    
     #pl2pics .po_wide_p{width: 47%; position: fixed;z-index: 7; margin: auto; top:80px; left:35%; }
     
     
     .pl1pics .po_wide{width: 90%; position: fixed;z-index: 7; margin: auto; top:200px; left:5%;  }
     .bi_close{ cursor: pointer;display: none; position: absolute; right: 20px; margin-top: 140px;}
     
+   
+    
+    /**** working for tablet***/
+         
+      .pl1 *{border: 1px olid }
+    
+    
+ 
+    /* end: view all*/
+/* start: port*/
+    #player2{border: 5px olid red;}
+
+     #pl2pics{width: 450%;height: 480px;}
+.pimage{width:50%; height: 450px; }
+.pimage img{width: 100%;height: auto;}
+    
+     #pl2pics{ left:-25%; }
+      .pl1pics{ left:-25%; }
+       #player2{height: 650px; }
+       .po_one p, .po_two p, .po_three p, .po_four p{padding-bottom:   20px}
+    #parrow_m_ex{ bottom:10px;}
+    /* end: port*/
+    
+    /* start: land*/
+    
+    
+    
+ .pl1pics{width: 450%;height: 320px;}    
+.limage{width:50%; height: 300px;}
+.limage img{width: auto;height: 100%;}
+
+   
+   
+    
+#view{font-size: 25px;color: #547A96; text-decoration: underline;font-weight: 600;position: absolute;bottom: 20px; right: 30px; width: auto;}
+#view span{background-image: url(images/right.png);display: inline-block;width: 32px;height: 32px;position: left;background-size: cover;background-position: 0px 5px; background-repeat: no-repeat;transition: background-position 0.5s;position: relative; top: 5px}
+#view:hover #specs{background-position: 8px 5px;}
+    
+    
+    
+    
+    /* end: land*/
     
 }
 
@@ -392,9 +445,10 @@ align-items: center; margin-bottom: 0px; position: relative;  transition: margin
 /* tablet design*/
 
 
-@media screen and (max-width:480px){
+@media screen and (max-width:550px){
       #po_cont{margin-top: 40px;}
       .pl1 *{border: 1px olid }
+    
     /* start: view all*/
     #view{font-size: 20px;left: 5px;bottom: 25px}
 #view span{width: 22px; height: 22px;position: relative; top: 3px;}

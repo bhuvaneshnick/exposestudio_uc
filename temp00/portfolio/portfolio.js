@@ -1280,42 +1280,45 @@ pright_t[0].addEventListener('click',function(){fplpress_t(+1,1);}, false);
 function pmovr_t(n)
 {
     pvmov=pvmov+n;
-    if(pvmov>4)
-        {pvmov=4;
+    if(pvmov>3)
+        {pvmov=3;
         pl1pics[0].className='pl1pics pl1right_t';
              setTimeout( function(){pl1rreset();},1200);
         }
 
     function pl1rreset(){ pl1pics[0].className='pl1pics';}
 
-    if(pvmov<-3)
-        {pvmov=-3;
+    if(pvmov<-4)
+        {pvmov=-4;
 
 pl1pics[0].className='pl1pics pl1left_t';
              setTimeout( function(){pl1rreset();},1200);
         }
     if(pvmov==1){
-    pl1pics[0].style.left='-200%';}
+    pl1pics[0].style.left='-75%';}
 
    if(pvmov==2){
-    pl1pics[0].style.left='-250%';}
+    pl1pics[0].style.left='-125%';}
      if(pvmov==3){
-    pl1pics[0].style.left='-300%';}
-     if(pvmov==4){
-    pl1pics[0].style.left='-350%';}
+    pl1pics[0].style.left='-175%';}
+    
 
 if(pvmov==0){
-    pl1pics[0].style.left='-150%';}
+    pl1pics[0].style.left='-25%';}
 
     
     if(pvmov==-1){
-    pl1pics[0].style.left='-100%';}
+    pl1pics[0].style.left='25%';}
 
    if(pvmov==-2){
-    pl1pics[0].style.left='-50%';}
+    pl1pics[0].style.left='75%';}
      if(pvmov==-3){
-    pl1pics[0].style.left='-0%';}
+    pl1pics[0].style.left='125%';}
+     if(pvmov==-4){
+    pl1pics[0].style.left='175%';}
    
+   
+    
 
 
 }
@@ -1394,41 +1397,42 @@ pright_t[1].addEventListener('click',function(){fplpress_t_l4(+1,1);}, false);
 function pmovr_t_l4(n)
 {
     pvmov_l4=pvmov_l4+n;
-    if(pvmov_l4>4)
-        {pvmov_l4=4;
+    if(pvmov_l4>3)
+        {pvmov_l4=3;
         pl1pics[1].className='pl1pics pl1right_t';
              setTimeout( function(){pl1rreset_l4();},1200);
         }
 
     function pl1rreset_l4(){ pl1pics[1].className='pl1pics';}
 
-    if(pvmov_l4<-3)
-        {pvmov_l4=-3;
+    if(pvmov_l4<-4)
+        {pvmov_l4=-4;
 
 pl1pics[1].className='pl1pics pl1left_t';
              setTimeout( function(){pl1rreset_l4();},1200);
         }
     if(pvmov_l4==1){
-    pl1pics[1].style.left='-200%';}
+    pl1pics[1].style.left='-75%';}
 
    if(pvmov_l4==2){
-    pl1pics[1].style.left='-250%';}
+    pl1pics[1].style.left='-125%';}
      if(pvmov_l4==3){
-    pl1pics[1].style.left='-300%';}
-     if(pvmov_l4==4){
-    pl1pics[1].style.left='-350%';}
+    pl1pics[1].style.left='-175%';}
+     
 
 if(pvmov_l4==0){
-    pl1pics[1].style.left='-150%';}
+    pl1pics[1].style.left='-25%';}
 
     
     if(pvmov_l4==-1){
-    pl1pics[1].style.left='-100%';}
+    pl1pics[1].style.left='25%';}
 
    if(pvmov_l4==-2){
-    pl1pics[1].style.left='-50%';}
+    pl1pics[1].style.left='75%';}
      if(pvmov_l4==-3){
-    pl1pics[1].style.left='-0%';}
+    pl1pics[1].style.left='125%';}
+      if(pvmov_l4==-4){
+    pl1pics[1].style.left='175%';}
    
 
 
@@ -1510,41 +1514,41 @@ pright_t[2].addEventListener('click',function(){fplpress_t_l5(+1,1);}, false);
 function pmovr_t_l5(n)
 {
     pvmov_l5=pvmov_l5+n;
-    if(pvmov_l5>4)
-        {pvmov_l5=4;
+    if(pvmov_l5>3)
+        {pvmov_l5=3;
         pl1pics[2].className='pl1pics pl1right_t';
              setTimeout( function(){pl1rreset_l5();},1200);
         }
 
     function pl1rreset_l5(){ pl1pics[2].className='pl1pics';}
 
-    if(pvmov_l5<-3)
-        {pvmov_l5=-3;
+    if(pvmov_l5<-4)
+        {pvmov_l5=-4;
 
 pl1pics[2].className='pl1pics pl1left_t';
              setTimeout( function(){pl1rreset_l5();},1200);
         }
     if(pvmov_l5==1){
-    pl1pics[2].style.left='-200%';}
+    pl1pics[2].style.left='-75%';}
 
    if(pvmov_l5==2){
-    pl1pics[2].style.left='-250%';}
+    pl1pics[2].style.left='-125%';}
      if(pvmov_l5==3){
-    pl1pics[2].style.left='-300%';}
-     if(pvmov_l5==4){
-    pl1pics[2].style.left='-350%';}
-
+    pl1pics[2].style.left='-175%';}
+    
 if(pvmov_l5==0){
-    pl1pics[2].style.left='-150%';}
+    pl1pics[2].style.left='-25%';}
 
     
     if(pvmov_l5==-1){
-    pl1pics[2].style.left='-100%';}
+    pl1pics[2].style.left='25%';}
 
    if(pvmov_l5==-2){
-    pl1pics[2].style.left='-50%';}
+    pl1pics[2].style.left='75%';}
      if(pvmov_l5==-3){
-    pl1pics[2].style.left='-0%';}
+    pl1pics[2].style.left='125%';}
+   if(pvmov_l5==-4){
+    pl1pics[2].style.left='175%';}
    
 
 
@@ -1631,32 +1635,34 @@ function pmovr_t_l2(n)
 
     function pl1rreset_l2(){ pl1pics[3].className='pl1pics';}
 
-    if(pvmov_l2<-3)
-        {pvmov_l2=-3;
+    if(pvmov_l2<-4)
+        {pvmov_l2=-4;
 
 pl1pics[3].className='pl1pics pl1left_t_p';
              setTimeout( function(){pl1rreset_l2();},1200);
         }
     if(pvmov_l2==1){
-    pl1pics[3].style.left='-132%';}
+    pl1pics[3].style.left='-75%';}
 
    if(pvmov_l2==2){
-    pl1pics[3].style.left='-165%';}
+    pl1pics[3].style.left='-125%';}
      if(pvmov_l2==3){
-    pl1pics[3].style.left='-198%';}
+    pl1pics[3].style.left='-175%';}
     
 
 if(pvmov_l2==0){
-    pl1pics[3].style.left='-99%';}
+    pl1pics[3].style.left='-25%';}
 
     
     if(pvmov_l2==-1){
-    pl1pics[3].style.left='-66%';}
+    pl1pics[3].style.left='25%';}
 
    if(pvmov_l2==-2){
-    pl1pics[3].style.left='-33%';}
+    pl1pics[3].style.left='75%';}
      if(pvmov_l2==-3){
-    pl1pics[3].style.left='-0%';}
+    pl1pics[3].style.left='125%';}
+      if(pvmov_l2==-4){
+    pl1pics[3].style.left='175%';}
    
 
 
