@@ -28,7 +28,7 @@
 
 
 
-.bi_close{ cursor: pointer;display: none; position: absolute; right: 40px; margin-top: 40px;}
+.bi_close{ cursor: pointer;display: none; position: absolute; right: 40px; margin-top: 10px;}
 .bi_close_p{cursor: pointer;  position: absolute; right: 20px; margin-top: 90px;}
 
 /* image modal */
@@ -357,12 +357,40 @@ align-items: center; margin-bottom: 0px; position: relative;  transition: margin
 
 #la17 img{right:
 05px}
+
+@media screen and (min-width:900px) and (max-width:1220px){ 
+#la17 img{right: 140px;}
+}
+@media screen and (min-width:550px) and (max-width:720px){ 
+#la17 img{right: 120px;}
+}
+
+@media screen and (min-width:300px) and (max-width:470px){ 
+#la17 img{right: 100px;}
+}
+
+
+
 #la18 img{right:
-15px}
+45px}
+@media screen and (min-width:900px) and (max-width:1100px){ 
+#la18 img{right: 100px;}
+}
+
+@media screen and (min-width:550px) and (max-width:630px){ 
+#la18 img{right: 90px;}
+}
+@media screen and (min-width:420px) and (max-width:549px){ 
+#la18 img{height: 130%;}
+}
+@media screen and (min-width:300px) and (max-width:419px){ 
+#la18 img{height: 130%;right: 120px}
+}
 
 
 
-.pl1pics .po_wide img{width: auto;height: 80%;; position: fixed;z-index: 7; margin: auto; top:50px; left:15%;  }
+
+.pl1pics .po_wide img{width: auto;height: 80%;; position: fixed;z-index: 7; margin: auto; top:70px; left:15%;  }
 /*end: land layer*/
 /*start: port layer*/
 #player2{  box-sizing: border-box; overflow: hidden; width: 100%; height: 670px; margin: 5px auto; border: 1px olid green; display: flex; flex-direction: column; align-items: ; justify-content: flex-start;; box-sizing: border-box; position: relative;overflow: hidden;}
@@ -566,7 +594,9 @@ align-items: center; margin-bottom: 0px; position: relative;  transition: margin
 
 
 
-@media screen and (min-width:550px) and (max-width:900px){
+
+
+@media screen and (min-width:450px) and (max-width:900px){
     
    
     .left,.left_m{display: none;}
@@ -575,13 +605,14 @@ align-items: center; margin-bottom: 0px; position: relative;  transition: margin
      .left_t{display: inline-block; width: 50px; height: 50px; background-size: 100%; margin-right: 10px;}
     .right_t{display: inline-block;width: 50px; height: 50px; background-size: 100%;}
      .parrow_t{display: block;z-index: 0; width: 120px; height: 60px; bottom: 25px; left: 50%; margin-left: -50px;z-index: 0;}
+    .parrow_t{bottom: 0px;}
     #parrow_m_ex{ bottom:-10px;}
     
     #pl2pics .po_wide_p{width: 45%; position: fixed;z-index: 7; margin: auto; top:5%; left:25%; }
-  .pl1pics .po_wide img{width: 90%;height: auto; position: fixed;z-index: 7; margin: auto; top:120px; left:1%;  }
+  .pl1pics .po_wide img{width: 80%;height: auto; position: fixed;z-index: 7; margin: auto; top:70px; left:1%;  }
     
       
-.bi_close_p{  position: absolute; right: 95px; margin-top: 90px; top:-40px; }
+.bi_close_p{  position: absolute; right: 25px; margin-top: 90px; top:-40px; }
     
   /*hide
     .pl1pics img{margin: 0px 1%;width: 48.0%; }
@@ -662,7 +693,7 @@ align-items: center; margin-bottom: 0px; position: relative;  transition: margin
 /* tablet design*/
 
 
-@media screen and (max-width:549px){
+@media screen and (max-width:450px){
       #po_cont{margin-top: 40px;}
       .pl1 *{border: 1px olid }
     
@@ -732,26 +763,47 @@ align-items: center; margin-bottom: 0px; position: relative;  transition: margin
 
     
   
-     #pl2pics .po_wide_p{width: 85%; position: fixed;z-index: 7; margin: auto; top:20%; left:5%; }
+     #pl2pics .po_wide_p{width: 85%; position: fixed;z-index: 7; margin: auto; top:10%; left:5%; }
    
    
   
-.bi_close_p{  position: absolute; right: 25px; margin-top: 90px; top:-40px; }
+.bi_close_p{  position: absolute; right: 25px; margin-top: 50px; top:-40px; }
     .bi_close_p img{  width: 40px; height: 40px; }
     
    
-    .pl1pics .po_wide img{width: 90%;height: auto; position: fixed;z-index: 7; margin: auto; top:170px; left:1%;  }
+    .pl1pics .po_wide img{width: 90%;height: auto; position: fixed;z-index: 7; margin: auto; top:70px; left:1%;  }
     
-    .bi_close{ display: none; position: absolute; right: 20px; margin-top: 100px;}
+    .bi_close{ display: none; position: absolute; right: 20px; margin-top: 10px;}
     .bi_close img{ width: 40px; height: 40px;}
        
-     #jul_ex{ padding-right: 10px;padding-left: 50px;}
-   
-    
-    
-   
+     #jul_ex{ padding-right: 10px;padding-left: 50px;}  
 } 
 
+
+@media screen and (min-width:900px) and (max-width:1100px){
+
+
+.pimage img{width: 130%;height: auto;}
+    
+}
+ 
+
+@media screen and (min-width:550px) and (max-width:680px){
+    .pimage img{width: 125%;height: auto;}
+    
+}  
+@media screen and (min-width:450px) and (max-width:550px){
+    .pimage img{width: 155%;height: auto;}
+    .parrow_t{bottom: 0px;}
+    #po2{position: relative; left: -100px;}
+    #po3{position: relative; left: -100px;}
+    #po5{position: relative; left: -50px;}
+    #po9{position: relative; left: -100px;}
+      #po12{position: relative; left: -100px;}
+    
+      #pl2pics .po_wide_p{ margin: auto; top:10%; left:10%; }
+   
+}  
 
 
 
