@@ -47,7 +47,7 @@
 #po_p1{ padding-top: 8px;height: 60px;border-bottom: 5px solid #b5b5b5;}
 
 /*heading*/
-.onep{height: 620px;align-content: flex-start;}
+.onep{height: 640px;align-content: flex-start}
 
 .ptp{cursor: pointer;overflow: hidden; border: 0px solid black;width: 32.5%; height: 610px; margin: 5px; display: inline-block;float:left; box-sizing: border-box;  display: flex; justify-content: center;align-items: center;}
 .bi_d{width: 95%;position: absolute;}
@@ -88,7 +88,7 @@
 .ex_p{ position: fixed;  width: 100%; top:360px; height: auto; display: flex; z-index: 6;}
 .ex_p img{  height: auto; width:45%;  left:30%; position: relative; bottom:280px;margin: auto; }
 
-      .onep{height: 620px;margin-left: 10px;ali}
+      .onep{height: 620px;margin-left: 10px }
     
 }
 
@@ -117,3 +117,5 @@
    
     
 }
+
+.twop{height: 620px;}
