@@ -114,17 +114,17 @@ align-items: center; margin-bottom: 0px; position: relative;  transition: margin
 
 #la1 img{right:
     100px}}
-@media screen and (min-width:550px) and (max-width:900px){
+@media screen and (min-width:450px) and (max-width:900px){
 
 #la1 img{ right:
     -0px}}
 
-@media screen and (min-width:550px) and (max-width:750px){
+@media screen and (min-width:450px) and (max-width:750px){
 
 #la1 img{ right:
     70px}}
 
-@media screen and (min-width:300px) and (max-width:550px){
+@media screen and (min-width:300px) and (max-width:450px){
 
 #la1 img{ right:
     20px}}
@@ -141,13 +141,13 @@ align-items: center; margin-bottom: 0px; position: relative;  transition: margin
 140px}    
 }
 
-@media screen and (min-width:550px) and (max-width:700px){
+@media screen and (min-width:450px) and (max-width:700px){
     
     #la3 img{right:
 130px}    
 }
 
-@media screen and (min-width:300px) and (max-width:550px){
+@media screen and (min-width:300px) and (max-width:450px){
 
 #la3 img{ right:
     10px}}
@@ -170,7 +170,7 @@ align-items: center; margin-bottom: 0px; position: relative;  transition: margin
 140px}   
 }
 
-@media screen and (min-width:550px) and (max-width:700px){
+@media screen and (min-width:450px) and (max-width:700px){
     
     #la4 img{right:
 130px}   
@@ -189,7 +189,7 @@ align-items: center; margin-bottom: 0px; position: relative;  transition: margin
 140px}   
 }
 
-@media screen and (min-width:550px) and (max-width:700px){
+@media screen and (min-width:450px) and (max-width:700px){
     
     #la5 img{right:
 100px}   
@@ -212,13 +212,13 @@ align-items: center; margin-bottom: 0px; position: relative;  transition: margin
 165px}   
 }
 
-@media screen and (min-width:550px) and (max-width:800px){
+@media screen and (min-width:450px) and (max-width:800px){
     
     #la6 img{right:
 80px}   
 }
 
-@media screen and (min-width:550px) and (max-width:620px){
+@media screen and (min-width:450px) and (max-width:620px){
     
     #la6 img{right:
 150px}   
@@ -253,7 +253,7 @@ align-items: center; margin-bottom: 0px; position: relative;  transition: margin
     120px}}
 
 
-@media screen and (min-width:550px) and (max-width:620px){
+@media screen and (min-width:450px) and (max-width:620px){
     
     #la9 img{right:
 150px}   
@@ -281,7 +281,7 @@ align-items: center; margin-bottom: 0px; position: relative;  transition: margin
 }
 
 
-@media screen and (min-width:550px) and (max-width:700px){ 
+@media screen and (min-width:450px) and (max-width:700px){ 
 #la10 img{right:
 95px}
 }
@@ -299,7 +299,7 @@ align-items: center; margin-bottom: 0px; position: relative;  transition: margin
 65px}
 }
 
-@media screen and (min-width:550px) and (max-width:670px){ 
+@media screen and (min-width:450px) and (max-width:670px){ 
 #la11 img{right:
 65px}
 }
@@ -318,15 +318,15 @@ align-items: center; margin-bottom: 0px; position: relative;  transition: margin
 @media screen and (min-width:900px) and (max-width:1280px){ 
 #la13 img{right:90px;}
 }
-@media screen and (min-width:550px) and (max-width:720px){ 
+@media screen and (min-width:450px) and (max-width:720px){ 
 #la13 img{right:95px;}
 }
 
-@media screen and (min-width:300px) and (max-width:549px){ 
-#la13 img{height: 125%}
+@media screen and (min-width:450px) and (max-width:450px){ 
+#la13 img{right: 105px;}
 }
 @media screen and (min-width:300px) and (max-width:450px){ 
-#la13 img{right: 115px;}
+#la13 img{right: 85px;}
 }
 
 
@@ -346,7 +346,7 @@ align-items: center; margin-bottom: 0px; position: relative;  transition: margin
 #la16 img{right: 120px}
 }
 
-@media screen and (min-width:550px) and (max-width:740px){ 
+@media screen and (min-width:450px) and (max-width:740px){ 
 #la16 img{right: 100px;}
 }
 
@@ -361,7 +361,7 @@ align-items: center; margin-bottom: 0px; position: relative;  transition: margin
 @media screen and (min-width:900px) and (max-width:1220px){ 
 #la17 img{right: 140px;}
 }
-@media screen and (min-width:550px) and (max-width:720px){ 
+@media screen and (min-width:450px) and (max-width:720px){ 
 #la17 img{right: 120px;}
 }
 
@@ -377,14 +377,14 @@ align-items: center; margin-bottom: 0px; position: relative;  transition: margin
 #la18 img{right: 100px;}
 }
 
-@media screen and (min-width:550px) and (max-width:630px){ 
+@media screen and (min-width:450px) and (max-width:630px){ 
 #la18 img{right: 90px;}
 }
 @media screen and (min-width:420px) and (max-width:549px){ 
-#la18 img{height: 130%;}
+#la18 img{right: 110px}
 }
 @media screen and (min-width:300px) and (max-width:419px){ 
-#la18 img{height: 130%;right: 120px}
+#la18 img{right: 120px}
 }
 
 

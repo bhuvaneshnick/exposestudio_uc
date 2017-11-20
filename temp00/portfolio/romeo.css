@@ -31,7 +31,7 @@
 .ex img{  height: auto; width:60%;  left:20%; position: relative; bottom:50px;margin: auto; }
 
 .ex_p{ position: fixed;  width: 100%; top:120px; height: auto; display: flex; z-index: 6;}
-.ex_p img{  height: auto; width:50%;  left:70%; position: relative; bottom:50px;margin: auto; }
+.ex_p img{  height: auto; width:45%;  left:70%; position: relative; bottom:20px;margin: auto; }
 
 
 
@@ -61,6 +61,17 @@
 .ptp img:hover{height: 680px; }
 
 .ptl img:hover{height: 310px; }
+
+@media screen and (min-width:8010px) and (max-width:1050px){
+
+    
+.bi_close{cursor: pointer;  position: absolute; right: 20px; margin-top: 90px;}
+.bi_close img{position: absolute;right: 10%;top: 5%;}
+.ex_p{ position: fixed;  width: 100%; top:120px; height: auto; display: flex; z-index: 6;}
+.ex_p img{  height: auto; width:45%;  left:70%; position: relative; bottom:20px;margin: auto; }
+    
+}
+
 
 @media screen and (min-width:580px) and (max-width:800px){
     .ptp{width: 47%;overflow: hidden;}
@@ -95,14 +106,14 @@
 .ptl img:hover{height: auto; }
     .birth_main_cont{height: auto;}
    
-       .bi_close{ position: absolute; right: 20px; top: 50px;}
+       .bi_close{ position: absolute; right: 20px; top: 20px;}
      .birth_ex{ margin-top: 0px;}
     
         .ex{ position: fixed;  width: 100%; top:280px; height: auto; display: flex; z-index: 6;}
 .ex img{  height: auto; width:80%;  left:10%; position: relative; bottom:150px;margin: auto; }
 
 .ex_p{ position: fixed;  width: 100%; top:360px; height: auto; display: flex; z-index: 6;}
-.ex_p img{  height: auto; width:55%;  left:25%; position: relative; top:-220px;margin: auto; }
+.ex_p img{  height: auto; width:60%;  left:20%; position: relative; top:-250px;margin: auto; }
    
     
 }
