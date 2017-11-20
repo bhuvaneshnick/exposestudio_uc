@@ -266,7 +266,8 @@ z-index: 1;
 /* start:hterms */
 .hterms{ display: none; width: 50%; height: 250px; position: absolute; left: 50%; top:50%; margin-left: -25%; margin-top: -150px; background-color: rgba(255,255,255,1); box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.1), 0 3px 20px 0 rgba(0, 0, 0, 0.1); color:#717171; font-size: 22px; border-radius: 10px; overflow: hidden; }
 .hterms ol{padding-top: 10px;}
-.hclose{position: absolute; right: 10px; top:5px;}
+.hclose{position: absolute; right: 10px; top:5px; display: block;}
+.hclose img{24px; height: 24px;display: inline-block;}
 #hopen{cursor: pointer;}
 .hclose{cursor: pointer;}
 
