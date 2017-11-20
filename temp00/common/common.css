@@ -17,10 +17,10 @@ body{margin: 0px; min-height: 100%; position: relative; padding-bottom: 85px;}
 
 
 #nav_line{ visibility: hidden;width: 45px; height: 45x; margin: 0px; padding: 0px; position: absolute; left: 10px; top: 10px;  }
-.line{list-style: none; border: 2px solid #c2c2c2; margin: 7px; position: relative; transition: top 0.3s, transform 0.5s, opacity 0.4s;top: 0px; transform: translate(0px 0px); }
+.line{list-style: none; border: 2px solid #c2c2c2; margin: 7px; position: relative; transition: top 0.3s, transform 0.5s, opacity 0.4s;top: 0px; transform: translate(0px 0px);backface-visibility: hidden;-webkit-backface-visibility: hidden; }
 
 /* START:left menu style*/
-#nav_bar *{border: px solid black;}
+#nav_bar *{border: px solid black;backface-visibility: hidden;-webkit-backface-visibility: hidden; }
 
 .lm{ text-align: center;  font-size: 17px; display: block;  box-sizing: border-box; width: auto; height: 60px; border: px solid red; padding: 20px 10px; background-color: transparent;transition: background-color 0.5s, color 0.5s; font-weight: 500 }
 
