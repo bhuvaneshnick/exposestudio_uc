@@ -80,7 +80,7 @@ z-index: 1;cursor: pointer;
     .homem{width: 100%;}
     .homem img{width: 100%;}
     
-    #prev, #next{ width:32px;   top: 130px;}
+    #prev, #next{ width:32px;   top: 50%;}
     #prev img, #next img{ width: 28px;}
     #prev{left:-10px;}
        #next{right:-10px;}
@@ -88,11 +88,11 @@ z-index: 1;cursor: pointer;
     .homel1{}    
 }
 @media screen and (max-width:400px){
-     #prev, #next{ width:32px;   top: 110px;}
+     #prev, #next{ width:32px;   top: 50%;}
        #prev img, #next img{ width: 25px;}
 }
 @media screen and (max-width:340px){
-     #prev, #next{ width:32px;   top: 100px;}
+     #prev, #next{ width:32px;   top: 50%;}
     #prev img, #next img{ width: 25px;}
 }
 
