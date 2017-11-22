@@ -238,12 +238,22 @@ body{background-image: url(images/bg1.svg),url(images/bg1.svg);background-repeat
 /*end:second layer*/
 
 @media screen and (min-width:200px) and (max-width:640px){
+    #lavbg,#lavbg2,#lavbgr{height: auto;}
     
-    #serob2,#serob1r,serob22{height: auto;}
+/*image*/    #serob2r,#serob12,#serob1{height: auto; }
+   #serob12 img,#serob2r img,#serob1 img{height: auto; }
+    
+/*text*/ #serob2,#serob1r,serob22{height: auto;}
      #serob2 p,#serob1r p,serob22 p{height: auto;}
      #serob2 h1,#serob1r h1,serob22 h1{height: auto;}
-    #serob1r{padding:70px 0px;}
-    #serob22{p}
+   
+    
+    #serob1r{padding:20px 0px;}
+ 
+   
+ 
+
+   
     
 }
 
