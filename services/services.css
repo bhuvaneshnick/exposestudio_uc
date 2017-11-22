@@ -23,7 +23,7 @@ body{background-image: url(images/bg1.svg),url(images/bg1.svg);background-repeat
 
 /* left img*/
 
-#serob1, #serob2,#serob1r,#serob2r,#serob12,#serob22 {border: 1px olid black; position: relative;}
+#serob1, #serob2,#serob1r,#serob2r,#serob12,#serob22 {border: 1px solid black; position: relative;}
 #serob1 *, #serob2 *, #serob1r *, #serob2r *, #serob12 *, #serob22 *{border: 1px olid black; position: relative;}
 #lavbg{ width: 90%; height: 450px;  margin:120px auto; display: flex; border-radius: 0px;}
 #serob1 { width: 650px; height: 400px; box-sizing: border-box;   border-radius: 0px 0px 0px 0px; border: 1px olid black; overflow: hidden;box-shadow: 20px 35px 35px 0px rgba(20, 20, 20, 0.2);position: relative;}
@@ -236,3 +236,16 @@ body{background-image: url(images/bg1.svg),url(images/bg1.svg);background-repeat
 }
 
 /*end:second layer*/
+
+@media screen and (min-width:200px) and (max-width:640px){
+    
+    #serob2,#serob1r,serob22{height: auto;}
+     #serob2 p,#serob1r p,serob22 p{height: auto;}
+     #serob2 h1,#serob1r h1,serob22 h1{height: auto;}
+    #serob1r{padding:70px 0px;}
+    #serob22{p}
+    
+}
+
+
+
