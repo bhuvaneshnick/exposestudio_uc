@@ -238,7 +238,7 @@ textarea::placeholder{color: #547A96; font-size: 16px; }
     
   
     
-.pr_l34 #budget_q{display: flex;justify-content: center;}
+.pr_l34 #budget_q{}
 
     .pr_l3{ height: 1100px;margin-bottom: 20px} 
 .pr_l32,.pr_l33,.pr_l34{ margin-top: 10px; height: 300px; display: flex;align-items:center; flex-direction: column; justify-content: space-around;}
@@ -296,7 +296,7 @@ textarea::placeholder{color: #547A96; font-size: 14px; }
 .close span{font-family: sans-serif;color: #f9f9f9;font-weight: 600; padding: 0px 0px;padding-bottom: 2px;}
 .quest{width: 25px; height: 25px;border-radius: 50%;display: flex; background-color: #fcfcfc;margin-left: 5px;position: relative;top: 7px;cursor: pointer}
 .quest p{font-family: sans-serif;margin: auto;color: #717171;position: relative; font-weight: 600; font-size: 20px;}
-.pr_l34 #budget_q{display: flex;position: relative;}
+.pr_l34 #budget_q{;}
 
 @media screen and (min-width:810px){
     
@@ -317,11 +317,11 @@ textarea::placeholder{color: #547A96; font-size: 14px; }
     /* start:l32 */
     
     .pr_l34 *{border: 1px solid red;}
-    .pr_l3{ height: 1100px;overflow: visible} 
-.pr_l32,.pr_l33,.pr_l34{ margin-top: 10px; height: 300px; display: flex;align-items:center; flex-direction: column; justify-content: space-around;}
+    .pr_l3{ height: auto;} 
+.pr_l32,.pr_l33,.pr_l34{ margin-top: 10px; height: auto; display: flex;align-items:center; flex-direction: column; justify-content: space-around;}
     .pr_l32 h1,.pr_l33 h1,.pr_l34 h1{color: #f9f9f9; margin: 0px 10px;   border-left: 5px solid #f9f9f9;  text-align: center; border: 0px;} 
 .pr_l32_box, .pr_l33_box,.pr_l34_box{display: flex; width: 100%; justify-content: space-around; flex-direction: column; align-content: center;}
-    #textarea1{ margin-left:55px; margin-bottom: 30px;width:70%;  margin-top: 5px; }
+    #textarea1{ margin-left:55px; margin-bottom: 30px;width:70%;  margin-top: 4px; }
     .pr_l34 input[type="text"]{ margin-top: -40px; }
       #clet1,#clet21,#clet2,#clet22, #clet3,#clet23,#clet24{ font-size: 100%; width: 70%; margin: 10px 0px; margin-left: 55px;}
     /*#clet1 input, #clet2 input, #clet3 input, #clet5 textarea{#clet1}
@@ -330,7 +330,7 @@ textarea::placeholder{color: #547A96; font-size: 14px; }
     /* start:l32 */
 #clet6{border-bottom-right-radius: 10px; width: 100%; height: 80px; padding-top: 0px; position: relative; top:-30px;}
     #l3_ex_p{ color: #f9f9f9; font-size: 18px; text-align: center; position: relative; top: -70px; padding: 5px}
-    .pr_l33{ margin-bottom: 0px;}
+    .pr_l33{ margin-bottom: px;}
     #clet21{}
     /*end: third layer*/
 
