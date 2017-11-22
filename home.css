@@ -106,7 +106,7 @@ z-index: 1;cursor: pointer;
 
 /* start: second layer*/
 
-.hl2 a{color:#547A96; font-weight: 600; }
+.hl2 a{color:#547A96; font-weight: 600;border-bottom: 1px solid #547A96; }
 .hl2{width: 100%; height: 450px; border: px solid black;  overflow: hidden; display: flex; justify-content: center; align-items: center; ; box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.1), 0 3px 20px 0 rgba(0, 0, 0, 0.1);position: relative;}
 
 .hl2 img{ width: 100%; position: absolute; top: -30px; }
