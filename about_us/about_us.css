@@ -192,10 +192,12 @@
 @media screen and (min-width:200px) and (max-width:840px)
 {
     .lwho2{height: auto;padding: 50px 0px}
-    .lwho21{height: auto;margin: 20px 0px;}
-      .lwho21_m{height: auto;}
-  .lwho21_p{height: auto;padding: 20px 0px;}    
-    .lwho21_p p{height: auto;} 
+    .lwho21{height: auto;margin: 20px 0px; }
+      #lwho21_m{}
+    .lwho21_m img{height: auto;}
+  #lwho21_p{height: auto;padding: 20px 5px;}    
+    #lwho21_p p{height: auto;} 
+    
 }
 
 
