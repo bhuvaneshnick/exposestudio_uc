@@ -40,6 +40,7 @@ p, h1,h2{margin: 0px;}
 
 
 @media screen and (max-width:480px){
+    pr_l1{width: auto}
     .pr_l1choose{position: relative; left: -5px; width: 180px;width: auto;height: auto; }
     .pr_l1choose h1{ font-size: 30px; padding:8px 20px 0px 5px;margin-bottom:2px;width: 120px;margin-right: 10px}
            .pr_l1{ height: 80px; }
