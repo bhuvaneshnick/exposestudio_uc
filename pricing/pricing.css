@@ -132,12 +132,6 @@ p, h1,h2{margin: 0px;}
 
 }
 
-@media screen and (max-width:480px){
-    .pr_l2{height: auto}
-    .pr_l21{height: auto}
-    .pr_l22{height: auto}
-    
-}
 
 /* end: layer 2 price and package*/
 
