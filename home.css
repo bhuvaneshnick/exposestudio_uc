@@ -175,7 +175,7 @@ z-index: 1;cursor: pointer;
     
 }
 @media screen and (min-width:300px) and (max-width:800px){
-    .hl2{height: 630px;padding-bottom: 30px}
+    .hl2{height: 630px;padding-bottom: 50px}
     #hl2content{height: auto}
      #hl2content p{height: auto}
     
