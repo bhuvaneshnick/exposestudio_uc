@@ -14,7 +14,7 @@
 .se-pre-con img{width: 250px;;margin: auto;display: block;margin-top: 165px}
 @media screen and (max-width:480px)
     {
-      .se-pre-con img{width: 200px;;margin: auto;display: block;margin-top: 100px}
+      .se-pre-con img{width: 200px;;margin: auto;display: block;margin-top: 70px;}
         .se-pre-con {background-size: 60px;background-position: 50% 200px;}    
 
 }
