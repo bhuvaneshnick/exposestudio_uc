@@ -237,14 +237,14 @@ textarea::placeholder{color: #547A96; font-size: 16px; }
 }
 
 @media screen and (max-width:810px){
-    
+    .pr_l31 h1{font-size: 35px}
   
     
 .pr_l34 #budget_q{display: flex;justify-content: center;}
 
     .pr_l3{ height: 1100px;margin-bottom: 20px} 
 .pr_l32,.pr_l33,.pr_l34{ margin-top: 10px; height: 300px; display: flex;align-items:center; flex-direction: column; justify-content: space-around;}
-    .pr_l32 h1,.pr_l33 h1,.pr_l34 h1{color: #f9f9f9; margin: 0px 10px;   border-left: 5px solid #f9f9f9;  text-align: center; border: 0px; width: 300px;} 
+    .pr_l32 h1,.pr_l33 h1,.pr_l34 h1{color: #f9f9f9; margin: 0px 10px;   border-left: 5px solid #f9f9f9;  text-align: center; border: 0px; width: 300px;font-size: 30px} 
 .pr_l32_box, .pr_l33_box,.pr_l34_box{display: flex; width: 60%; justify-content: space-around; flex-direction: column; align-content: center;padding-left: 30px}
     #textarea1{ margin-left:55px; margin-bottom: 30px;width:69%;  margin-top: 5px; }
     .pr_l34 input[type="text"]{ margin-top: -40px; }
@@ -318,7 +318,7 @@ textarea::placeholder{color: #547A96; font-size: 14px; }
 
     /* start:l32 */
     
-    .pr_l34 *{border: 1px solid red;}
+    .pr_l34 *{border: 1px olid red;}
     .pr_l3{ height: auto;} 
 .pr_l32,.pr_l33,.pr_l34{ margin-top: 10px; height: auto; display: flex;align-items:center; flex-direction: column; justify-content: space-around;}
     .pr_l32 h1,.pr_l33 h1,.pr_l34 h1{color: #f9f9f9; margin: 0px 10px;   border-left: 5px solid #f9f9f9;  text-align: center; border: 0px;} 
