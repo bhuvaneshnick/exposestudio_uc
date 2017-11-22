@@ -179,7 +179,7 @@ z-index: 1;cursor: pointer;
     #hl2content{height: auto}
      #hl2content p{height: auto}
     
-     #hl2content h1{height: auto; width: 100%;margin-top: 40px;}
+     #hl2content h1{height: auto; width: 100%;margin-top: 40px;font-size: 18px;}
 }
 /* end: second layer*/
 
