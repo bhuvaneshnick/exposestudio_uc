@@ -52,13 +52,13 @@ var z=document.getElementsByClassName('close')
 var o=document.getElementById('budgetopen');
 function open(n){
 if(n==0){ 
-    y[0].style.opacity="1";
-    o.style.visibility="visible"
+    y[0].style.display="block";
+   
 
 }
         if(n==1){    
-      y[0].style.opacity="0";
-    o.style.visibility="hidden"
+      y[0].style.display="none";
+
             
 }
 }
