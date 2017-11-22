@@ -175,11 +175,12 @@ z-index: 1;cursor: pointer;
     
 }
 @media screen and (min-width:300px) and (max-width:800px){
-    .hl2{height: 630px;}
+    .hl2{height: 630px;padding-bottom: 30px}
     #hl2content{height: auto}
      #hl2content p{height: auto}
     
      #hl2content h1{height: auto; width: 100%;margin-top: 40px;font-size: 18px;}
+    
 }
 /* end: second layer*/
 
