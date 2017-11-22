@@ -95,7 +95,7 @@ p, h1,h2{margin: 0px;}
 .pr_l21_boxin{ position: absolute; width: 180px; height: 180px;margin-top:10px; margin-left: -90px;   left: 50%; border-radius: 180px; font-size: 13px; }
   
     .pr_l21_boxin img{width:16%; height: auto; margin-left: 18px;}
-    .pr_l22{ display: flex; justify-content: center; flex-direction: column; align-content: center; padding-left: 150px; }
+    .pr_l22{ display: flex; justify-content: center; flex-direction: column; align-content: center; padding-left: 150px;overflow: hidden; }
 .pr_l22 h1{ color:#f9f9f9; position: relative;right: -38px}
 .pr_l22 li{color:#f9f9f9; font-size: 20; margin: 25px auto; }
     #pr_l2_exst{ top: 70px; left:100px; }

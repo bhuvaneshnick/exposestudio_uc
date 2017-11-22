@@ -41,7 +41,7 @@ p, h1,h2{margin: 0px;}
 .pr_menu h1:hover{ background-color: #b5b5b5; color: #f9f9f9; transition: background-color 0.5s, color 0.5s;}
    .pr_l1choose{position: relative; left: -5px; width: 220px;padding-top:  }
     
-    .pr_l1choose h1{ font-size: 25px; padding:18px 20px 0px 15px;margin-bottom:2px;width: 220px;margin-right: 10px}
+    .pr_l1choose h1{ font-size: 25px; padding:18px 0px 0px 5px;margin-bottom:2px;width: 220px;margin-right: 0px}
            .pr_l1{ height: 80px; }
     #pr_drop_ex{position: relative;}
 .pr_menu h1{font-size: 22px;width: auto;padding: 0px 5px;}
@@ -95,7 +95,7 @@ p, h1,h2{margin: 0px;}
 .pr_l21_boxin{ position: absolute; width: 180px; height: 180px;margin-top:10px; margin-left: -90px;   left: 50%; border-radius: 180px; font-size: 13px; }
   
     .pr_l21_boxin img{width:16%; height: auto; margin-left: 18px;}
-    .pr_l22{ display: flex; justify-content: center; flex-direction: column; align-content: center; padding-left: 150px; }
+    .pr_l22{ display: flex; justify-content: center; flex-direction: column; align-content: center; padding-left: 150px;overflow: hidden; }
 .pr_l22 h1{ color:#f9f9f9; position: relative;right: -38px}
 .pr_l22 li{color:#f9f9f9; font-size: 20; margin: 25px auto; }
     #pr_l2_exst{ top: 70px; left:100px; }
@@ -110,8 +110,8 @@ p, h1,h2{margin: 0px;}
 @media screen and (max-width:430px){
     .pr_l22{ padding-left: 0px;padding-right: 15px;} 
     .pr_l22 h1{font-size: 25px;left: 60px;}
-      .pr_l2{height: 670px; }
-.pr_l22{height: 340px}
+      .pr_l2{height: 640px; }
+.pr_l22{height: 310px;padding-top: 50px}
     .pr_l22 li{font-size: 18px; }
 }
 @media screen and (max-width:480px){
