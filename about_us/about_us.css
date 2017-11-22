@@ -23,7 +23,10 @@
 /* start:our values */
 
 #alay1{ border: 1px olid black; height:600px;; width: 100%; display: flex; justify-content:flex-end;  align-items: center; background-image: url(images/aboutimg.jpg); background-attachment: fixed;}
+
 #content{display: flex; justify-content: center; align-items: flex-start; flex-direction: column; position: relative; left: -100px;  width: 310px;}
+
+
 
 #high_ex{ color: #f9f9f9; font-size: 180px;margin: 0px; font-family: sans-serif; text-align: left;position: relative; left: -10px;}
 #values_ex{ font-size: 100px;color: #f9f9f9; font-size: 100px;margin: 0px; font-family: sans-serif; text-align: left;margin-top: 0px;}
@@ -35,7 +38,11 @@
     #values_ex{font-size: 30px}
     #alay1 h2{font-size: 20px; text-align: left;margin: 0px; margin-top: 10px;}
      #alay1 img{width: 200px;}
-    #content{position: absolute; left: 10px;top:330px;  }     
+    #content{position: absolute; left: 10px;top:330px;  }   
+    
+#alay1{position: relative;}
+#content{position: absolute; bottom: 100px;}
+
 }
 @media screen and (min-width:200px) and (max-width:440px){
     #high_ex{font-size: 40px;}
