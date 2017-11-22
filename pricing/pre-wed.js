@@ -44,3 +44,30 @@ hopen.addEventListener('click',hfopen,false);
 hclose[0].addEventListener('click',hfclose,false);
 
 /* END: hterm and condition*/
+
+
+
+var x=document.getElementsByClassName('quest');
+var y=document.getElementsByClassName('qopen');
+var z=document.getElementsByClassName('close')
+var o=document.getElementById('budgetopen');
+function open(n){
+if(n==0){ 
+    y[0].style.display="block";
+   
+
+}
+        if(n==1){    
+      y[0].style.display="none";
+
+            
+}
+}
+
+
+
+
+
+x[0].addEventListener("click",function(){open(0);}, false);
+
+z[0].addEventListener("click",function(){open(1);}, false);
