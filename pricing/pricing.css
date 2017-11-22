@@ -304,7 +304,7 @@ textarea::placeholder{color: #547A96; font-size: 14px; }
 .pr_l34 *{border: 2px olid red;}
 .shortp{font-size: 20px;color: #717171;font-size: 18px;width: 180px;padding-left: 5px;}
 
- .pr_l34 .qopen{position: absolute; width:300px; height: auto; background-color: #f9f9f9;font-size: 17px;font-weight: 500; bottom: 20px;left: 00px; box-shadow: 2px 2px 3px 2px hsla(0, 0%, 30%, 0.5); display: block;padding: 10px 10px;padding-top: 30px;color: #fcfcfc;border-radius: 5px;z-index: 1;color: #717171;opacity: 0;transition: opacity 0.5s;}
+ .pr_l34 .qopen{position: absolute; width:300px; height: auto; background-color: #f9f9f9;font-size: 17px;font-weight: 500; bottom: 20px;left: 00px; box-shadow: 2px 2px 3px 2px hsla(0, 0%, 30%, 0.5); display: block;padding: 10px 10px;padding-top: 30px;color: #fcfcfc;border-radius: 5px;z-index: 1;color: #717171;display: none;}
 
 @media screen and (max-width:810px){
     
@@ -319,8 +319,8 @@ textarea::placeholder{color: #547A96; font-size: 14px; }
 
 @media screen and (min-width:810px){
     
-    .quest:hover~#budgetopen{visibility: visible;}
-.quest:hover~#budgetopen .qopen{opacity: 1;  }
+
+.quest:hover~#budgetopen .qopen{display: block  }
      .close{display: none;}
     .pr_l34 .qopen{bottom: 50px;}
     
