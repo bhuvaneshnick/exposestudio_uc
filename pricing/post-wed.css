@@ -38,9 +38,9 @@ p, h1,h2{margin: 0px;}
 
 @media screen and (max-width:480px){
 .pr_menu h1:hover{ background-color: #b5b5b5; color: #f9f9f9; transition: background-color 0.5s, color 0.5s;}
-    .pr_l1choose{position: relative; left: -5px; width: 220px;padding-top:  }
+    .pr_l1choose{position: relative; left: -5px; width: 240px;padding-top:  }
     
-    .pr_l1choose h1{ font-size: 25px; padding:18px 20px 0px 15px;margin-bottom:2px;width: 220px;margin-right: 10px}
+    .pr_l1choose h1{ font-size: 25px; padding:18px 20px 0px 15px;margin-bottom:2px;width: 240px;margin-right: 10px}
            .pr_l1{ height: 80px; }
     #pr_drop_ex{position: relative;}
 .pr_menu h1{font-size: 22px;width: auto;padding: 0px 5px;}
