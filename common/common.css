@@ -1,4 +1,8 @@
 
+* {
+        -webkit-tap-highlight-color: rgba(0,0,0,0);
+     -webkit-tap-highlight-color: transparent; /* For some Androids */
+}
 /*  -----------------under construction------------------*/
 body.about_us .h1,body.portfolio .h2,body.services .h3,body.pricing .h4,body.contact .h5,body.faq .h6{border: 1px solid #E27A69;}
 
