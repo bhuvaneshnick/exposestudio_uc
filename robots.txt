@@ -1,7 +1,3 @@
 User-Agent: *
 
-<<<<<<< HEAD
-Sitemap: http://www.exposestudio.in//sitemap.xmltesst
-=======
 Sitemap: http://www.exposestudio.in//sitemap.xml
->>>>>>> 326fa867f31ea824be1a37ecd63d770d349f3c66
