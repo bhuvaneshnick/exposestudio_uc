@@ -22,7 +22,7 @@
 
 /* start:our values */
 
-#alay1{ border: 1px olid black; height:600px;; width: 100%; display: flex; justify-content:flex-end;  align-items: center; background-image: url(images/aboutimg.jpg); background-attachment: fixed;}
+#alay1{ border: 1px olid black; height:600px;; width: 100%; display: flex; justify-content:flex-end;  align-items: center; background-image: url(../images/aboutimg.jpg); background-attachment: fixed;}
 
 #content{display: flex; justify-content: center; align-items: flex-start; flex-direction: column; position: relative; left: -100px;  width: 310px;}
 
