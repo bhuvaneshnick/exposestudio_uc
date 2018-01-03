@@ -35,21 +35,21 @@ body{background-color: #f9f9f9;}
 .lefthead {border: 1px olid black;box-sizing: border-box;}
 .lefthead{width: 25%;  height: 130px;  display: flex; flex-direction: column; justify-content: center;align-items: center;}
 .lefthead img{height: 100px;box-sizing: border-box;}
-.lefthead h1{font-size: 22px;box-sizing: border-box;}
+.lefthead h1{font-size: 22px;box-sizing: border-box;font-family: 'Roboto', sans-serif;}
 #faqbox h1{border: 1px olid black;  color: #547A96;  margin-top: -0px; height: 30px;  } 
 /* START:contains queston of sec 1*/
 #qabox{border: 1px olid black;width: 70%; height: auto; margin: auto; }
 .down{width: 32px; height: 32px; position: absolute; right: 1%; top:50%; margin-top: -16px;background-image: url(images/down2b.png); background-repeat: no-repeat; transition: transform 0.5s, right 0.5s;cursor: pointer; }
 .quest1{  width: 95%; margin: 0px 5px 10px 15px; margin: 0px auto 10px auto ;  height: auto;  padding: 10px; border-left:5px #547A96 solid;  border-radius: 0px; background-color: white; position: relative; z-index: 2;box-shadow: 0 2px 2px 0px rgba(0, 0, 0, 0.2),0 -1px 1px 0px rgba(0, 0, 0, 0.1);  transform: scale(1.00); transition: box-shadow 0.5s, width 0.5s,border-left 0.5s;box-sizing: border-box; }
 
-.quest1 p{margin: 0px 40px 0px 7px; font-size: 18px; color: #676c6f;;}
+.quest1 p{margin: 0px 40px 0px 7px; font-size: 18px; color: #676c6f;;font-family: 'Slabo 27px';}
 .ans1box{width: 95%;margin: 0px 0px 7px 15px;  position: relative; top:-20px; display: block; height: 0px; overflow: hidden;  border: 1px olid black;opacity: 0.0;
 transition: opacity 1s; padding: 5px 0px;
 }
 
 #ans1{display: block; width: 98%; margin: auto;  background-color: white; box-sizing: border-box; position: relative; top: -900px; padding: 5px 10px; border-radius: 0px 0px 20px 20px;box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);border: 1px olid black;height:auto;}
 
-#ans1 p{  color: #676C6F; font-size: 18px;}
+#ans1 p{  color: #676C6F; font-size: 19px;font-family: 'Slabo 27px'}
 
 /* START:java classes*/
 
