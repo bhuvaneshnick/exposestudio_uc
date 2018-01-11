@@ -56,7 +56,7 @@ body{margin: 0px; min-height: 100%; position: relative; padding-bottom: 85px;}
 
 /*bar style*/
 /* arranging in single row*/
-#test{border: 1px olid black; width: 190px; margin: auto; display: block; padding-top: 5px; box-sizing: content-box;  }
+#test{border: 1px olid black; width: 180px; margin: auto; display: block; padding-top: 2px; box-sizing: content-box;  }
 .menulogo a{color: #676C6F; }
 .menulogo *{border: 1px olid black;}
 .menulogo{display: flex; width: 800px; height: 80px; margin: auto; color: #c2c2c2;justify-content: flex-end; font-size: 16px; font-weight: 500; position: absolute; right: 0px;top: -1px; font-family: sans-serif; }
