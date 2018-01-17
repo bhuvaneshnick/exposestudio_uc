@@ -10,7 +10,7 @@
 	background: url(../images/preload.gif) center no-repeat #f9f9f9;background-size: 70px;background-color: white;
     
 }
-body p,body li{font-family: 'Slabo 27px', serif;}
+body p{font-family: 'labo 27px', serif;}
 body h1,body h2,body h3{font-family: 'Open Sans', sans-serif;}
 .se-pre-con img{width: 250px;;margin: auto;display: block;margin-top: 165px}
 @media screen and (max-width:480px)
@@ -99,7 +99,7 @@ p, h1,h2{margin: 0px;}
     .pr_l21_boxin img{width:16%; height: auto; margin-left: 18px;}
     .pr_l22{ display: flex; justify-content: center; flex-direction: column; align-content: center; padding-left: 150px;overflow: hidden; }
 .pr_l22 h1{ color:#f9f9f9; position: relative;right: -38px}
-.pr_l22 li{color:#f9f9f9; font-size: 20; margin: 25px auto; }
+.pr_l22 li{color:#f9f9f9; font-size: 20; margin: 25px auto;font-family: 'Slabo 27px', serif; }
     #pr_l2_exst{ top: 70px; left:100px; }
 }
 

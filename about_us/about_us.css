@@ -93,7 +93,7 @@
 #lwho21_m img{ height: 100%;;margin: auto; display: block;}
 #lwho21_p{ width: 100%; height: auto;text-align: center; color: #717171;padding: 25px 30px;}
 #lwho21_p h1{font-size: 24px; margin: 0px;}
-#lwho21_p p{font-size: 20px; margin: 0px;padding-top: 0px;padding: 0px 5px; text-align: justify}
+#lwho21_p p{font-size: 20px; margin: 0px;padding-top: 0px;padding: 0px 5px; text-align: justify;}
 
 @media screen and (max-width:480px){ 
 
