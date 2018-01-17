@@ -108,12 +108,12 @@ z-index: 1;cursor: pointer;
 
 /* start: second layer*/
 
-.hl2 a{color:#547A96; font-weight: 600;border-bottom: 1px solid #547A96; }
+.hl2 a{color:#547A96; font-weight: 500;border-bottom: 1px solid #547A96; }
 .hl2{width: 100%; height: 450px; border: px solid black;  overflow: hidden; display: flex; justify-content: center; align-items: center; ; box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.1), 0 3px 20px 0 rgba(0, 0, 0, 0.1);position: relative;}
 
 .hl2 img{ width: 100%; position: absolute; top: -30px; }
 #hl2content{ width: 35%; display: flex; flex-direction: column; position: relative;  color: #717171;left: 350px; top: -10px}
-.hl2 h1{text-align: center; font-size: 27px; display: margin:0px;color: #547a96; }
+.hl2 h1{text-align: center; font-size: 23px; display: margin:0px;color: #547a96; }
 .hl2 p{width: 90%; text-align: justify; font-size: 21px;;  margin: -15px  0px ; margin-top: 20px;font-weight: 50}
 .hl2 span{color: #967adc;}
 
