@@ -10,7 +10,7 @@
 	background: url(../images/preload.gif) center no-repeat #f9f9f9;background-size: 70px;background-color: white;
     
 }
-body p,body li{font-family: 'Roboto', sans-serif;}
+body p,body li{font-family: 'Slabo 27px', serif;}
 body h1,body h2,body h3{font-family: 'Open Sans', sans-serif;}
 
 #mobbook{ position: relative;top:15px}

@@ -17,7 +17,7 @@
         .se-pre-con {background-size: 60px;background-position: 50% 200px;}    
         
 }
-body p,body li{font-family: 'Roboto', sans-serif;}
+body p,body li{font-family: 'Slabo 27px', serif;}
 body h1,body h2,body h3{font-family: 'Open Sans', sans-serif;}
 /* end pre-load screen*//
 #mobbook{ position: relative;top:15px}
