@@ -79,7 +79,7 @@
 
 /* start:who,what and how */
 .lwho_con *, .lwho_con{border: 1px olid black; box-sizing: border-box;}
-.lwho_con{width: 100%; height: 700px;box-sizing: border-box;display: flex; flex-direction: column; background-color: #FFE66D;}
+.lwho_con{width: 100%; height: auto;box-sizing: border-box;display: flex; flex-direction: column; background-color: #FFE66D;}
 
 .lwho1{display: flex; width: 100%; height: 200px;justify-content: center;align-items: center;}
 .lwho1 img{ width: 40px;}
@@ -87,13 +87,13 @@
 #qud_ex{position: relative; top:15px;left: 10px}
 .lwho1 p{ font-size: 40px; width: 600px; text-align: center; color: #717171;}
 .lwho1 span{font-family:;}
-.lwho2{ width: 100%; height: 500px; display: flex;justify-content: space-around}
-.lwho2 div{ width: 30%; height: 450px; background-color: #f9f9f9;box-shadow: 15px 20px 50px 0px rgba(60, 60, 60, 0.2);}
+.lwho2{ width: 100%; height: auto; display: flex;justify-content: space-around;padding-bottom: 50px;}
+.lwho21{ width: 30%; height: auto; background-color: #f9f9f9;box-shadow: 15px 20px 50px 0px rgba(60, 60, 60, 0.2);}
 #lwho21_m{ width: 100%; height: 200px;}
 #lwho21_m img{ height: 100%;;margin: auto; display: block;}
-#lwho21_p{ width: 100%; height: 250px;text-align: center; color: #717171;padding: 25px 30px;}
+#lwho21_p{ width: 100%; height: auto;text-align: center; color: #717171;padding: 25px 30px;}
 #lwho21_p h1{font-size: 24px; margin: 0px;}
-#lwho21_p p{font-size: 20px; margin: 0px;padding-top: 10px;text-align: justify}
+#lwho21_p p{font-size: 20px; margin: 0px;padding-top: 0px;text-align: justify}
 
 @media screen and (max-width:480px){ 
 
@@ -117,20 +117,22 @@
 {
     
     
-  .lwho_con{height: 750px;}
-.lwho2{height: 550px;}
-.lwho2 div{height: 450px;}
-#lwho21_p{height: 300px;}   
+  .lwho_con{height: auto;}
+.lwho2{height: auto;}
+.lwho21{height: auto;}
+#lwho21_p{height: auto;}   
 }
 
 @media screen and (min-width:840px) and (max-width:1000px)
 {
+    
+    /*
   .lwho_con{height: 750px;}
 .lwho2{height: 550px;}
 .lwho2 div{height: 150px;}
 #lwho21_p{ height: 300px;} 
     #lwho21_p p{font-size: 19px;}
-    #lwho21_p{padding: 25px 10px;}
+    #lwho21_p{padding: 25px 10px;}*/
 }
 
 
@@ -181,7 +183,7 @@
     
 }
 @media screen and (min-width:300px) and (max-width:410px)
-{     #lwho21_p{padding: 25px 20px;height: 290px;}
+{     #lwho21_p{padding: 25px 20px;height: 2px;}
     #lwho21_p p{font-size: 19px;}
     .lwho2 div{width: 90%;height:490px; }
     .lwho2{ height: 1600px;}
