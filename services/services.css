@@ -10,6 +10,8 @@
 	background: url(../images/preload.gif) center no-repeat #f9f9f9;background-size: 70px;background-color: white;
     
 }
+body p{font-family: 'Roboto', sans-serif;}
+body h1,body h2,body h3{font-family: 'Open Sans', sans-serif;}
 body{background-image: url(images/bg1.svg),url(images/bg1.svg);background-repeat: no-repeat;background-position: 10px 10px, 430px 1200px}
 .se-pre-con img{width: 250px;;margin: auto;display: block;margin-top: 165px}
 @media screen and (max-width:480px)
@@ -33,7 +35,7 @@ body{background-image: url(images/bg1.svg),url(images/bg1.svg);background-repeat
 
 #serob2 { width: 550px; height: 450px; box-sizing: border-box; border-radius: 0px ; display: flex; justify-content: center; align-items: center; flex-direction: column; margin-top: 20px; position: relative;left: 85px; top: 25px; z-index: 1;color: #454545;}
 #serob2 h1{ font-size:30px;width: 68%; margin: 0px;text-align: center;color:#547A96; }
-#serob2 p{ font-size:23px; width: 68%; text-align: justify;font-family: sa}
+#serob2 p{ font-size:23px; width: 68%; text-align: justify;font-family: 'Roboto', sans-serif;}
 
 
 #clet6{  width: 0%; height: 20%;}

@@ -1,5 +1,5 @@
 
-#view{font-size: 30px;color: #547A96; text-decoration: underline;font-weight: 600;position: absolute;bottom: 20px; right: 30px; width: auto;}
+#view{font-size: 30px;color: #547A96; text-decoration: underline;font-weight: 600;position: absolute;bottom: 20px; right: 30px; width: auto;font-family: 'Open Sans', sans-serif;}
 #view span{background-image: url(images/right.png);display: inline-block;width: 32px;height: 32px;position: left;background-size: cover;background-position: 0px 5px; background-repeat: no-repeat;transition: background-position 0.5s;}
 #view:hover #specs{background-position: 8px 5px;}
 
