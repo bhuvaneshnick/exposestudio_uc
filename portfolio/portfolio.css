@@ -313,7 +313,7 @@ align-items: center; margin-bottom: 0px; position: relative;  transition: margin
 #la12 img{right:
 000px}
 #la13 img{right:
-05px}
+100px}
 
 @media screen and (min-width:900px) and (max-width:1280px){ 
 #la13 img{right:90px;}
@@ -326,7 +326,7 @@ align-items: center; margin-bottom: 0px; position: relative;  transition: margin
 #la13 img{right: 105px;}
 }
 @media screen and (min-width:300px) and (max-width:450px){ 
-#la13 img{right: 85px;}
+#la13 img{right: 185px;}
 }
 
 
