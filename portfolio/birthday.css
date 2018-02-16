@@ -118,3 +118,6 @@
     
     
 }
+
+.container{display: flex;flex-direction: column;justify-content: center;align-items: center;}
+#pos_rose{order: -1}

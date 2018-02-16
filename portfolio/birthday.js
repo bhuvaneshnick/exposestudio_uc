@@ -47,7 +47,15 @@ function bi_hide(){
       vbi_d[19].className='ptl con';
     vbi_d[20].className='ptl con';
     vbi_d[21].className='ptl con';
-    vbi_d[22].className='ptl con';  vbi_d[23].className='ptl con';
+    vbi_d[22].className='ptl con';  
+    vbi_d[23].className='ptl con';
+
+    vbi_d[24].className='ptl con';
+    vbi_d[25].className='ptl con';
+    vbi_d[26].className='ptl con';  
+    vbi_d[27].className='ptl con';
+vbi_d[28].className='ptp con';  
+
 
     
     
@@ -78,5 +86,11 @@ vbi_m[20].addEventListener('click',function(){bi_fun(20,0);}, false);
 vbi_m[21].addEventListener('click',function(){bi_fun(21,0);}, false);
 vbi_m[22].addEventListener('click',function(){bi_fun(22,0);}, false);
 vbi_m[23].addEventListener('click',function(){bi_fun(23,0);}, false);
+
+vbi_m[24].addEventListener('click',function(){bi_fun(24,0);}, false);
+vbi_m[25].addEventListener('click',function(){bi_fun(25,0);}, false);
+vbi_m[26].addEventListener('click',function(){bi_fun(26,0);}, false);
+vbi_m[27].addEventListener('click',function(){bi_fun(27,0);}, false);
+vbi_m[28].addEventListener('click',function(){bi_fun(28,1);}, false);
 
 
