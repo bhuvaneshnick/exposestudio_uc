@@ -54,10 +54,10 @@ p, h1,h2{margin: 0px;}
 /* end: layer 1 choose event*/
 
 /* end: layer 2 price and package*/
-.pr_l2{ box-sizing: border-box; border: 1px olid black; width: 100%; height: 350px; display: flex; justify-content: center;background-color: white;box-shadow: 0 -1px 18px 0 rgba(20, 20, 20, 0.1),0 4px 18px 0 rgba(20, 20, 20, 0.2); }
-.pr_l21{box-sizing: border-box; border: 1px olid black;width: 50%; height: 350px; display: flex; justify-content: center; position: relative; background-image: url(images/pricebg.svg);background-size:700px; background-repeat: no-repeat;background-position: 0px 10px;}
+.pr_l2{ box-sizing: border-box; border: 1px olid black; width: 100%; height: 400px; display: flex; justify-content: center;background-color: white;box-shadow: 0 -1px 18px 0 rgba(20, 20, 20, 0.1),0 4px 18px 0 rgba(20, 20, 20, 0.2); }
+.pr_l21{box-sizing: border-box; border: 1px olid black;width: 50%; height: auto; display: flex; justify-content: center; position: relative; background-image: url(images/pricebg.svg);background-size:700px; background-repeat: no-repeat;background-position: 0px 10px;}
 
-.pr_l22{box-sizing: border-box; border: 1px olid black;width: 49%; height: 350px; }
+.pr_l22{box-sizing: border-box; border: 1px olid black;width: 49%; height: auto; }
 .pr_l22 p{ color: #f9f9f9;}
 .pr_l21_box{ width: 250px; height: 250px; background-color: rgba(84,122,150,0.7);  margin-top:50px; margin-left: -125px; border-radius: 250px; position: absolute;left: 50%;;}
 .pr_l21_boxin{ position: absolute; width: 200px; height: 200px; background-color:#f9f9f9;margin-top:25px; margin-left: -100px;   left: 50%; border-radius: 200px;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.49);display: flex; flex-direction: column;}
@@ -88,9 +88,9 @@ p, h1,h2{margin: 0px;}
 }
 @media screen and (max-width:760px){
  
-    .pr_l2{flex-direction: column; height: 680px; justify-content: flex-end;  }
+    .pr_l2{flex-direction: column; height: 750px; justify-content: flex-end;  }
     .pr_l21{ width: 100%; height: 330px; background-position: 0px -25px}
-    .pr_l22{ width: 100%; height: 350px}
+    .pr_l22{ width: 100%; height: 420px}
     .pr_l2mid{width: 80%; height: 20px; margin-left: -40%; position: relative; bottom: 12px; left:50%; background-color: #967adc;  }
     
     .pr_l21_box{ width: 200px; height: 200px;  margin-top:40px; margin-left: -100px; border-radius: 200px; position: absolute;left: 50%; margin-top: 60px;}
@@ -98,7 +98,7 @@ p, h1,h2{margin: 0px;}
   
     .pr_l21_boxin img{width:16%; height: auto; margin-left: 18px;}
     .pr_l22{ display: flex; justify-content: center; flex-direction: column; align-content: center; padding-left: 150px;overflow: hidden }
-.pr_l22 h1{ color:#f9f9f9; position: relative;right: -38px;display: }
+.pr_l22 h1{ color:#f9f9f9; position: relative;right: -8px;display: }
 .pr_l22 li{color:#f9f9f9; font-size: 20; margin: 25px auto; }
     #pr_l2_exst{ top: 70px; left:100px; }
 }
@@ -112,9 +112,10 @@ p, h1,h2{margin: 0px;}
 @media screen and (max-width:430px){
     .pr_l22{ padding-left: 0px;padding-right: 15px;width: } 
     .pr_l22 h1{font-size: 25px;left: 20px;}
-      .pr_l2{height: 760px; }
-.pr_l22{height: 430px}
+      .pr_l2{height: 800px; }
+.pr_l22{height: 450px}
     .pr_l22 li{font-size: 18px; }
+
 }
 
 

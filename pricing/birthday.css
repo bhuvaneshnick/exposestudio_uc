@@ -106,7 +106,7 @@ p, h1,h2{margin: 0px;}
     .pr_l22{ padding-left: 90px;}      
 }
 @media screen and (max-width:530px){
-    .pr_l22{ padding-left: 60px;}      
+    .pr_l22{ padding-left: 30px;}      
 }
 @media screen and (max-width:430px){
     .pr_l22{ padding-left: 0px;padding-right: 15px;width: } 
