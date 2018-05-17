@@ -36,6 +36,7 @@ for(i=0; i<slide.length;i++)
     incri(-10);}
     if(hsindex<1){
     incri(10);}
+    
 }
 
 /* END: hl1 slide*/
