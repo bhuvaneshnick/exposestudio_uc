@@ -7,7 +7,7 @@
 		$(".se-pre-con").fadeOut("slow");;
 	});
 //end preloads screen//
-var hsindex=1;
+/*var hsindex=1;
 select(hsindex);
 var right=document.getElementById('next');
 var left=document.getElementById('prev');
@@ -38,10 +38,10 @@ for(i=0; i<slide.length;i++)
     incri(10);}
     
 }
-
+*/
 /* END: hl1 slide*/
 /* START: hl4 slide*/
-var hs4index=1;
+/*var hs4index=1;
 selectl4(hs4index);
 var l4right=document.getElementById('hl4next');
 var l4left=document.getElementById('hl4prev');
@@ -69,7 +69,7 @@ for(s=0; s<slidel4.length;s++)
     l4incri(-4);}
     if(hs4index<1){
     l4incri(4);}
-}
+}*/
 
 /* END: hl4 slide*/
 

@@ -25,7 +25,20 @@
     
       <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
 <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>  
+<!-- external plugin -->
+<script src="plugin/lib/jquery.js" type="text/javascript"></script>
 
+<script src="plugin/js/lc_lightbox.lite.js" type="text/javascript"></script>
+<link rel="stylesheet" href="plugin/css/lc_lightbox.css" />
+
+
+<!-- SKINS -->
+<link rel="stylesheet" href="plugin/skins/minimal.css" />
+
+
+<!-- ASSETS -->
+<script src="plugin/lib/AlloyFinger/alloy_finger.min.js" type="text/javascript"></script>
+<!-- external plugin -->
 
 </head>
 <body class="portfolio">
@@ -101,43 +114,119 @@
     -->
     
     <!--- first-->
-    
+    <!-- externalfile -->
+ <style>
+ .elem, .elem * {
+  box-sizing: border-box;
+  margin: 0 !important; 
+}
+.elem {
+  display: inline-block;
+  font-size: 0;
+  /*width: 33%;*/
+  /*border: 20px solid transparent;*/
+  border-bottom: none;
+ /* background: #fff;*/
+  /*padding: 10px;*/
+  height: auto;
+  background-clip: padding-box;
+  width: 100%;
+    height: 100%;
+}
+.elem > span {
+  display: block;
+  cursor: pointer;
+  height: 0;
+  padding-bottom: 70%;
+  background-size: cover; 
+  background-position: center center;
+  height: 100%;
+}
+picture.mg {
+    width: 100%;
+    height: 100%;
+}
+</style>
+
+
+
+
+
+
+<!-- LIGHTBOX FADING SHOW/HIDE EFFECT (as explained in documentation) -->
+<style type="text/css">
+.lcl_fade_oc.lcl_pre_show #lcl_overlay,
+.lcl_fade_oc.lcl_pre_show #lcl_window,
+.lcl_fade_oc.lcl_is_closing #lcl_overlay,
+.lcl_fade_oc.lcl_is_closing #lcl_window {
+  opacity: 0 !important;
+}
+.lcl_fade_oc.lcl_is_closing #lcl_overlay {
+  -webkit-transition-delay: .15s !important; 
+  transition-delay: .15s !important;
+}
+</style>
+
     
     <div class="birth_main_cont">
         
         <div class="ptp con">
             
                 <picture class="mg"   >
-  <source srcset="images/juliet/best_marriage_photography.webp" type="image/webp" >
-            <img class="" src="images/juliet/best_marriage_photography.jpg" alt="" ></picture></div>
+ <!--  <source srcset="images/juliet/best_marriage_photography.webp" type="image/webp" >
+            <img class="" src="images/juliet/best_marriage_photography.jpg" alt="" > -->
+            <a class="elem" href="images/juliet/best_marriage_photography.jpg" title="" data-lcl-txt="" data-lcl-author="" data-lcl-thumb="images/juliet/best_marriage_photography.jpg">
+          <span style="background-image: url(images/juliet/best_marriage_photography.jpg);"></span>
+        </a>
+          </picture></div>
         
           <div class="ptp con">
             
                 <picture class="mg"   >
-  <source srcset="images/juliet/best_portrait_photography.webp" type="image/webp" >
-            <img class="" src="images/juliet/best_portrait_photography.jpg" alt="" ></picture></div>
+  <!-- <source srcset="images/juliet/best_portrait_photography.webp" type="image/webp" >
+            <img class="" src="images/juliet/best_portrait_photography.jpg" alt="" > -->
+            <a class="elem" href="images/juliet/best_portrait_photography.jpg" title="" data-lcl-txt="" data-lcl-author="" data-lcl-thumb="images/juliet/best_portrait_photography.jpg">
+          <span style="background-image: url(images/juliet/best_portrait_photography.jpg);"></span>
+        </a>
+          </picture></div>
         
           <div class="ptp con">
             
                 <picture class="mg"   >
-  <source srcset="images/juliet/best_pre_wedding_photography.webp" type="image/webp" >
-            <img class="" src="images/juliet/best_pre_wedding_photography.jpg" alt="" ></picture></div>
+  <!-- <source srcset="images/juliet/best_pre_wedding_photography.webp" type="image/webp" >
+            <img class="" src="images/juliet/best_pre_wedding_photography.jpg" alt="" > -->
+            <a class="elem" href="images/juliet/best_pre_wedding_photography.jpg" title="" data-lcl-txt="" data-lcl-author="" data-lcl-thumb="images/juliet/best_pre_wedding_photography.jpg">
+          <span style="background-image: url(images/juliet/best_pre_wedding_photography.jpg);"></span>
+        </a>
+          </picture></div>
           <div class="ptp con">
             
                 <picture class="mg"   >
-  <source srcset="images/juliet/bridal_portraits.webp" type="image/webp" >
-            <img class="" src="images/juliet/bridal_portraits.jpg" alt="" ></picture></div>
+ <!--  <source srcset="images/juliet/bridal_portraits.webp" type="image/webp" >
+            <img class="" src="images/juliet/bridal_portraits.jpg" alt="" > -->
+            <a class="elem" href="images/juliet/bridal_portraits.jpg" title="" data-lcl-txt="" data-lcl-author="" data-lcl-thumb="images/juliet/bridal_portraits.jpg">
+          <span style="background-image: url(images/juliet/bridal_portraits.jpg);"></span>
+        </a>
+          </picture></div>
         
 
  <div class="ptp con">
                 <picture class="mg"   >
-  <source srcset="images/juliet/bride_portraits.webp" type="image/webp" >
-            <img class="" src="images/juliet/bride_portraits.jpg" alt="" ></picture></div>
+  <!-- <source srcset="images/juliet/bride_portraits.webp" type="image/webp" >
+            <img class="" src="images/juliet/bride_portraits.jpg" alt="" > -->
+            <a class="elem" href="images/juliet/bride_portraits.jpg" title="" data-lcl-txt="" data-lcl-author="" data-lcl-thumb="images/juliet/bride_portraits.jpg">
+          <span style="background-image: url(images/juliet/bride_portraits.jpg);"></span>
+        </a>
+          </picture></div>
          
          <div class="ptp con">
                 <picture class="mg"   >
-  <source srcset="images/juliet/bride_staring_groom.webp" type="image/webp" >
-            <img class="" src="images/juliet/bride_staring_groom.jpg" alt="" ></picture></div>  
+  <!-- <source srcset="images/juliet/bride_staring_groom.webp" type="image/webp" >
+            <img class="" src="images/juliet/bride_staring_groom.jpg" alt="" > -->
+            <a class="elem" href="images/juliet/bride_staring_groom.jpg" title="" data-lcl-txt="" data-lcl-author="" data-lcl-thumb="images/juliet/bride_staring_groom.jpg">
+          <span style="background-image: url(images/juliet/bride_staring_groom.jpg);"></span>
+        </a>
+          </picture></div>  
               
         
         
@@ -153,50 +242,86 @@
          
         <div class="ptl con">
                 <picture class="mg"   >
-  <source srcset="images/juliet/best_Engagement_photography.webp" type="image/webp" >
-            <img class="" src="images/juliet/best_Engagement_photography.jpg" alt="" ></picture></div>
+  <!-- <source srcset="images/juliet/best_Engagement_photography.webp" type="image/webp" >
+            <img class="" src="images/juliet/best_Engagement_photography.jpg" alt="" > -->
+            <a class="elem" href="images/juliet/best_Engagement_photography.jpg" title="" data-lcl-txt="" data-lcl-author="" data-lcl-thumb="images/juliet/best_Engagement_photography.jpg">
+          <span style="background-image: url(images/juliet/best_Engagement_photography.jpg);"></span>
+        </a>
+          </picture></div>
          
          <div class="ptl con">
                 <picture class="mg"   >
-  <source srcset="images/juliet/bride_photography.webp" type="image/webp" >
-            <img class="" src="images/juliet/bride_photography.jpg" alt="" ></picture></div>
+  <!-- <source srcset="images/juliet/bride_photography.webp" type="image/webp" >
+            <img class="" src="images/juliet/bride_photography.jpg" alt="" > -->
+            <a class="elem" href="images/juliet/bride_photography.jpg" title="" data-lcl-txt="" data-lcl-author="" data-lcl-thumb="images/juliet/bride_photography.jpg">
+          <span style="background-image: url(images/juliet/bride_photography.jpg);"></span>
+        </a>
+          </picture></div>
   
         
          <div class="ptp con">
                 <picture class="mg"   >
-  <source srcset="images/juliet/girl_with_flowers.webp" type="image/webp" >
-            <img class="" src="images/juliet/girl_with_flowers.jpg" alt="" ></picture></div>
+ <!--  <source srcset="images/juliet/girl_with_flowers.webp" type="image/webp" >
+            <img class="" src="images/juliet/girl_with_flowers.jpg" alt="" > -->
+            <a class="elem" href="images/juliet/girl_with_flowers.jpg" title="" data-lcl-txt="" data-lcl-author="" data-lcl-thumb="images/juliet/girl_with_flowers.jpg">
+          <span style="background-image: url(images/juliet/girl_with_flowers.jpg);"></span>
+        </a>
+          </picture></div>
          
          <div class="ptp con">
                 <picture class="mg"   >
-  <source srcset="images/juliet/Outdoor_photography.webp" type="image/webp" >
-            <img class="" src="images/juliet/Outdoor_photography.jpg" alt="" ></picture></div>
+ <!--  <source srcset="images/juliet/Outdoor_photography.webp" type="image/webp" >
+            <img class="" src="images/juliet/Outdoor_photography.jpg" alt="" > -->
+            <a class="elem" href="images/juliet/Outdoor_photography.jpg" title="" data-lcl-txt="" data-lcl-author="" data-lcl-thumb="images/juliet/Outdoor_photography.jpg">
+          <span style="background-image: url(images/juliet/Outdoor_photography.jpg);"></span>
+        </a>
+          </picture></div>
          
          <div class="ptp con">
                 <picture class="mg"   >
-  <source srcset="images/juliet/Pre_wedding_photography.webp" type="image/webp" >
-            <img class="" src="images/juliet/Pre_wedding_photography.jpg" alt="" ></picture></div>
+  <!-- <source srcset="images/juliet/Pre_wedding_photography.webp" type="image/webp" >
+            <img class="" src="images/juliet/Pre_wedding_photography.jpg" alt="" > -->
+            <a class="elem" href="images/juliet/Pre_wedding_photography.jpg" title="" data-lcl-txt="" data-lcl-author="" data-lcl-thumb="images/juliet/Pre_wedding_photography.jpg">
+          <span style="background-image: url(images/juliet/Pre_wedding_photography.jpg);"></span>
+        </a>
+          </picture></div>
          
          <div class="ptl con">
                 <picture class="mg"   >
-  <source srcset="images/juliet/Marriage_photographers_in_chennai.webp" type="image/webp" >
-            <img class="" src="images/juliet/Marriage_photographers_in_chennai.jpg" alt="" ></picture></div>
+  <!-- <source srcset="images/juliet/Marriage_photographers_in_chennai.webp" type="image/webp" >
+            <img class="" src="images/juliet/Marriage_photographers_in_chennai.jpg" alt="" > -->
+            <a class="elem" href="images/juliet/Marriage_photographers_in_chennai.jpg" title="" data-lcl-txt="" data-lcl-author="" data-lcl-thumb="images/juliet/Marriage_photographers_in_chennai.jpg">
+          <span style="background-image: url(images/juliet/Marriage_photographers_in_chennai.jpg);"></span>
+        </a>
+          </picture></div>
          
          <div class="ptl con">
             
                 <picture class="mg"   >
-  <source srcset="images/juliet/outdoor_weddin_Photography.webp" type="image/webp" >
-            <img class="" src="images/juliet/outdoor_weddin_Photography.jpg" alt="" ></picture></div>
+  <!-- <source srcset="images/juliet/outdoor_weddin_Photography.webp" type="image/webp" >
+            <img class="" src="images/juliet/outdoor_weddin_Photography.jpg" alt="" > -->
+            <a class="elem" href="images/juliet/outdoor_weddin_Photography.jpg" title="" data-lcl-txt="" data-lcl-author="" data-lcl-thumb="images/juliet/outdoor_weddin_Photography.jpg">
+          <span style="background-image: url(images/juliet/outdoor_weddin_Photography.jpg);"></span>
+        </a>
+          </picture></div>
           <div class="ptl con">
             
                 <picture class="mg"   >
-  <source srcset="images/juliet/Pre_wedding_pic.webp" type="image/webp" >
-            <img class="" src="images/juliet/Pre_wedding_pic.jpg" alt="" ></picture></div>
+  <!-- <source srcset="images/juliet/Pre_wedding_pic.webp" type="image/webp" >
+            <img class="" src="images/juliet/Pre_wedding_pic.jpg" alt="" > -->
+            <a class="elem" href="images/juliet/Pre_wedding_pic.jpg" title="" data-lcl-txt="" data-lcl-author="" data-lcl-thumb="images/juliet/Pre_wedding_pic.jpg">
+          <span style="background-image: url(images/juliet/Pre_wedding_pic.jpg);"></span>
+        </a>
+          </picture></div>
          <div class="ptl con">
             
                 <picture class="mg"   >
-  <source srcset="images/juliet/top_photographers_in_chennai.webp" type="image/webp" >
-            <img class="" src="images/juliet/top_photographers_in_chennai.jpg" alt="" ></picture></div>
+  <!-- <source srcset="images/juliet/top_photographers_in_chennai.webp" type="image/webp" >
+            <img class="" src="images/juliet/top_photographers_in_chennai.jpg" alt="" > -->
+            <a class="elem" href="images/juliet/top_photographers_in_chennai.jpg" title="" data-lcl-txt="" data-lcl-author="" data-lcl-thumb="images/juliet/top_photographers_in_chennai.jpg">
+          <span style="background-image: url(images/juliet/top_photographers_in_chennai.jpg);"></span>
+        </a>
+          </picture></div>
          
        
          
@@ -308,7 +433,23 @@
     
     
     <!--Footer end-->
+    <script type="text/javascript">
+$(document).ready(function(e) {
+   
+  // live handler
+  lc_lightbox('.elem', {
+    wrap_class: 'lcl_fade_oc',
+    gallery : true, 
+    thumb_attr: 'data-lcl-thumb', 
     
+    skin: 'minimal',
+    radius: 0,
+    padding : 0,
+    border_w: 0,
+  }); 
+
+});
+</script>
      <script src="portfolio/juliet.js" ></script>
 	  <script src="common/common.js" ></script>
 

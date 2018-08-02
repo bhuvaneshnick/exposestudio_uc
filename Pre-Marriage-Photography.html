@@ -26,6 +26,21 @@
       <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
 <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>  
 
+<!-- external plugin -->
+<script src="plugin/lib/jquery.js" type="text/javascript"></script>
+
+<script src="plugin/js/lc_lightbox.lite.js" type="text/javascript"></script>
+<link rel="stylesheet" href="plugin/css/lc_lightbox.css" />
+
+
+<!-- SKINS -->
+<link rel="stylesheet" href="plugin/skins/minimal.css" />
+
+
+<!-- ASSETS -->
+<script src="plugin/lib/AlloyFinger/alloy_finger.min.js" type="text/javascript"></script>
+<!-- external plugin -->
+
 
 </head>
 <body class="portfolio">
@@ -101,75 +116,175 @@
     -->
     
     <!--- first-->
-    
+    <!-- externalfile -->
+ <style>
+ .elem, .elem * {
+  box-sizing: border-box;
+  margin: 0 !important; 
+}
+.elem {
+  display: inline-block;
+  font-size: 0;
+  /*width: 33%;*/
+  /*border: 20px solid transparent;*/
+  border-bottom: none;
+ /* background: #fff;*/
+  /*padding: 10px;*/
+  height: auto;
+  background-clip: padding-box;
+  width: 100%;
+    height: 100%;
+}
+.elem > span {
+  display: block;
+  cursor: pointer;
+  height: 0;
+  padding-bottom: 70%;
+  background-size: cover; 
+  background-position: center center;
+  height: 100%;
+}
+picture.mg {
+    width: 100%;
+    height: 100%;
+}
+</style>
+
+
+
+
+
+
+<!-- LIGHTBOX FADING SHOW/HIDE EFFECT (as explained in documentation) -->
+<style type="text/css">
+.lcl_fade_oc.lcl_pre_show #lcl_overlay,
+.lcl_fade_oc.lcl_pre_show #lcl_window,
+.lcl_fade_oc.lcl_is_closing #lcl_overlay,
+.lcl_fade_oc.lcl_is_closing #lcl_window {
+  opacity: 0 !important;
+}
+.lcl_fade_oc.lcl_is_closing #lcl_overlay {
+  -webkit-transition-delay: .15s !important; 
+  transition-delay: .15s !important;
+}
+</style>
+
     
     <div class="birth_main_cont">
         
         <div class="ptl con">
             
                 <picture class="mg"   >
-  <source srcset="images/origin_of_love/bride_and_groom.webp" type="image/webp" >
-            <img class="" src="images/origin_of_love/bride_and_groom.jpg" alt="" ></picture></div>
+  <!-- <source srcset="images/origin_of_love/bride_and_groom.webp" type="image/webp" >
+            <img class="" src="images/origin_of_love/bride_and_groom.jpg" alt="" > -->
+            <a class="elem" href="images/origin_of_love/bride_and_groom.jpg" title="" data-lcl-txt="" data-lcl-author="" data-lcl-thumb="images/origin_of_love/bride_and_groom.jpg">
+          <span style="background-image: url(images/origin_of_love/bride_and_groom.jpg);"></span>
+        </a>
+          </picture></div>
         
           <div class="ptl con">
             
                 <picture class="mg"   >
-  <source srcset="images/origin_of_love/bride_and_groom_candid.webp" type="image/webp" >
-            <img class="" src="images/origin_of_love/bride_and_groom_candid.jpg" alt="" ></picture></div>
+  <!-- <source srcset="images/origin_of_love/bride_and_groom_candid.webp" type="image/webp" >
+            <img class="" src="images/origin_of_love/bride_and_groom_candid.jpg" alt="" > -->
+            <a class="elem" href="images/origin_of_love/bride_and_groom_candid.jpg" title="" data-lcl-txt="" data-lcl-author="" data-lcl-thumb="images/origin_of_love/bride_and_groom_candid.jpg">
+          <span style="background-image: url(images/origin_of_love/bride_and_groom_candid.jpg);"></span>
+        </a>
+          </picture></div>
         
           <div class="ptl con">
             
                 <picture class="mg"   >
-  <source srcset="images/origin_of_love/Bride_and_groom_images.webp" type="image/webp" >
-            <img class="" src="images/origin_of_love/Bride_and_groom_images.jpg" alt="" ></picture></div>
+ <!--  <source srcset="images/origin_of_love/Bride_and_groom_images.webp" type="image/webp" >
+            <img class="" src="images/origin_of_love/Bride_and_groom_images.jpg" alt="" > -->
+            <a class="elem" href="images/origin_of_love/Bride_and_groom_images.jpg" title="" data-lcl-txt="" data-lcl-author="" data-lcl-thumb="images/origin_of_love/Bride_and_groom_images.jpg">
+          <span style="background-image: url(images/origin_of_love/Bride_and_groom_images.jpg);"></span>
+        </a>
+          </picture></div>
           <div class="ptl con">
             
                 <picture class="mg"   >
-  <source srcset="images/origin_of_love/bride_behind_groom.webp" type="image/webp" >
-            <img class="" src="images/origin_of_love/bride_behind_groom.jpg" alt="" ></picture></div>
+ <!--  <source srcset="images/origin_of_love/bride_behind_groom.webp" type="image/webp" >
+            <img class="" src="images/origin_of_love/bride_behind_groom.jpg" alt="" > -->
+            <a class="elem" href="images/origin_of_love/bride_behind_groom.jpg" title="" data-lcl-txt="" data-lcl-author="" data-lcl-thumb="images/origin_of_love/bride_behind_groom.jpg">
+          <span style="background-image: url(images/origin_of_love/bride_behind_groom.jpg);"></span>
+        </a>
+          </picture></div>
         
 
  <div class="ptl con">
                 <picture class="mg"   >
-  <source srcset="images/origin_of_love/bride_holding_groom.webp" type="image/webp" >
-            <img class="" src="images/origin_of_love/bride_holding_groom.jpg" alt="" ></picture></div>
+  <!-- <source srcset="images/origin_of_love/bride_holding_groom.webp" type="image/webp" >
+            <img class="" src="images/origin_of_love/bride_holding_groom.jpg" alt="" > -->
+            <a class="elem" href="images/origin_of_love/bride_holding_groom.jpg" title="" data-lcl-txt=" " data-lcl-author="" data-lcl-thumb="images/origin_of_love/bride_holding_groom.jpg">
+          <span style="background-image: url(images/origin_of_love/bride_holding_groom.jpg);"></span>
+        </a>
+          </picture></div>
          
          <div class="ptl con">
                 <picture class="mg"   >
-  <source srcset="images/origin_of_love/bride_inside_groom.webp" type="image/webp" >
-            <img class="" src="images/origin_of_love/bride_inside_groom.jpg" alt="" ></picture></div>  
+  <!-- <source srcset="images/origin_of_love/bride_inside_groom.webp" type="image/webp" >
+            <img class="" src="images/origin_of_love/bride_inside_groom.jpg" alt="" > -->
+            <a class="elem" href="images/origin_of_love/bride_inside_groom.jpg" title="" data-lcl-txt="" data-lcl-author="" data-lcl-thumb="images/origin_of_love/bride_inside_groom.jpg">
+          <span style="background-image: url(images/origin_of_love/bride_inside_groom.jpg);"></span>
+        </a>
+          </picture></div>  
               
         
            <div class="ptl con">
                 <picture class="mg"   >
-  <source srcset="images/origin_of_love/bride_lovely_play_with_groom.webp" type="image/webp" >
-            <img class="" src="images/origin_of_love/bride_lovely_play_with_groom.jpg" alt="" ></picture></div>
+  <!-- <source srcset="images/origin_of_love/bride_lovely_play_with_groom.webp" type="image/webp" >
+            <img class="" src="images/origin_of_love/bride_lovely_play_with_groom.jpg" alt="" > -->
+            <a class="elem" href="images/origin_of_love/bride_lovely_play_with_groom.jpg" title="" data-lcl-txt="" data-lcl-author="" data-lcl-thumb="images/origin_of_love/bride_lovely_play_with_groom.jpg">
+          <span style="background-image: url(images/origin_of_love/bride_lovely_play_with_groom.jpg);"></span>
+        </a>
+          </picture></div>
          
          <div class="ptl con">
                 <picture class="mg"   >
-  <source srcset="images/origin_of_love/budget_photography.webp" type="image/webp" >
-            <img class="" src="images/origin_of_love/budget_photography.jpg" alt="" ></picture></div>
+  <!-- <source srcset="images/origin_of_love/budget_photography.webp" type="image/webp" >
+            <img class="" src="images/origin_of_love/budget_photography.jpg" alt="" > -->
+            <a class="elem" href="images/origin_of_love/bride_lovely_play_with_groom.jpg" title="" data-lcl-txt="" data-lcl-author="" data-lcl-thumb="images/origin_of_love/bride_lovely_play_with_groom.jpg">
+          <span style="background-image: url(images/origin_of_love/bride_lovely_play_with_groom.jpg);"></span>
+        </a>
+          </picture></div>
   
         
          <div class="ptl con">
                 <picture class="mg"   >
-  <source srcset="images/origin_of_love/Candid_moments_in_wedding.webp" type="image/webp" >
-            <img class="" src="images/origin_of_love/Candid_moments_in_wedding.jpg" alt="" ></picture></div>
+  <!-- <source srcset="images/origin_of_love/Candid_moments_in_wedding.webp" type="image/webp" >
+            <img class="" src="images/origin_of_love/Candid_moments_in_wedding.jpg" alt="" > -->
+            <a class="elem" href="images/origin_of_love/bride_lovely_play_with_groom.jpg" title="" data-lcl-txt="" data-lcl-author="" data-lcl-thumb="images/origin_of_love/bride_lovely_play_with_groom.jpg">
+          <span style="background-image: url(images/origin_of_love/bride_lovely_play_with_groom.jpg);"></span>
+        </a>
+          </picture></div>
          
          <div class="ptl con">
                 <picture class="mg"   >
-  <source srcset="images/origin_of_love/Christian_couples.webp" type="image/webp" >
-            <img class="" src="images/origin_of_love/Christian_couples.jpg" alt="" ></picture></div>
+  <!-- <source srcset="images/origin_of_love/Christian_couples.webp" type="image/webp" >
+            <img class="" src="images/origin_of_love/Christian_couples.jpg" alt="" > -->
+            <a class="elem" href="images/origin_of_love/Christian_couples.jpg" title="" data-lcl-txt="" data-lcl-author="" data-lcl-thumb="images/origin_of_love/Christian_couples.jpg">
+          <span style="background-image: url(images/origin_of_love/Christian_couples.jpg);"></span>
+        </a>
+          </picture></div>
          
          <div class="ptl con">
                 <picture class="mg"   >
-  <source srcset="images/origin_of_love/couples.webp" type="image/webp" >
-            <img class="" src="images/origin_of_love/couples.jpg" alt="" ></picture></div>
+  <!-- <source srcset="images/origin_of_love/couples.webp" type="image/webp" >
+            <img class="" src="images/origin_of_love/couples.jpg" alt="" > -->
+            <a class="elem" href="images/origin_of_love/couples.jpg" title="" data-lcl-txt="" data-lcl-author="" data-lcl-thumb="images/origin_of_love/couples.jpg">
+          <span style="background-image: url(images/origin_of_love/couples.jpg);"></span>
+        </a>
+          </picture></div>
          
          <div class="ptl con">
                 <picture class="mg"   >
-  <source srcset="images/origin_of_love/couples_balcony.webp" type="image/webp" >
-            <img class="" src="images/origin_of_love/couples_balcony.jpg" alt="" ></picture></div>
+  <!-- <source srcset="images/origin_of_love/couples_balcony.webp" type="image/webp" >
+            <img class="" src="images/origin_of_love/couples_balcony.jpg" alt="" > -->
+            <a class="elem" href="images/origin_of_love/couples_balcony.jpg" title="" data-lcl-txt="" data-lcl-author="" data-lcl-thumb="images/origin_of_love/couples_balcony.jpg">
+          <span style="background-image: url(images/origin_of_love/couples_balcony.jpg);"></span>
+        </a>
+          </picture></div>
          
         
         
@@ -190,65 +305,105 @@
           <div class="ptl con">
             
                 <picture class="mg"   >
-  <source srcset="images/origin_of_love/couples_with_white_background.webp" type="image/webp" >
-            <img class="" src="images/origin_of_love/couples_with_white_background.jpg" alt="" ></picture></div>
+  <!-- <source srcset="images/origin_of_love/couples_with_white_background.webp" type="image/webp" >
+            <img class="" src="images/origin_of_love/couples_with_white_background.jpg" alt="" > -->
+            <a class="elem" href="images/origin_of_love/couples_with_white_background.jpg" title="" data-lcl-txt="" data-lcl-author="" data-lcl-thumb="images/origin_of_love/couples_with_white_background.jpg">
+          <span style="background-image: url(images/origin_of_love/couples_with_white_background.jpg);"></span>
+        </a>
+          </picture></div>
           <div class="ptl con">
             
                 <picture class="mg"   >
-  <source srcset="images/origin_of_love/Engagement_rings.webp" type="image/webp" >
-            <img class="" src="images/origin_of_love/Engagement_rings.jpg" alt="" ></picture></div>
+  <!-- <source srcset="images/origin_of_love/Engagement_rings.webp" type="image/webp" >
+            <img class="" src="images/origin_of_love/Engagement_rings.jpg" alt="" > -->
+            <a class="elem" href="images/origin_of_love/Engagement_rings.jpg" title=" " data-lcl-txt="" data-lcl-author="" data-lcl-thumb="images/origin_of_love/Engagement_rings.jpg">
+          <span style="background-image: url(images/origin_of_love/Engagement_rings.jpg);"></span>
+        </a>
+          </picture></div>
          <div class="ptl con">
             
                 <picture class="mg"   >
-  <source srcset="images/origin_of_love/groom_holding_bride.webp" type="image/webp" >
-            <img class="" src="images/origin_of_love/groom_holding_bride.jpg" alt="" ></picture></div>
+  <!-- <source srcset="images/origin_of_love/groom_holding_bride.webp" type="image/webp" >
+            <img class="" src="images/origin_of_love/groom_holding_bride.jpg" alt="" > -->
+            <a class="elem" href="images/origin_of_love/groom_holding_bride.jpg" title="" data-lcl-txt="" data-lcl-author="" data-lcl-thumb="images/origin_of_love/groom_holding_bride.jpg">
+          <span style="background-image: url(images/origin_of_love/groom_holding_bride.jpg);"></span>
+        </a>
+          </picture></div>
          
           <div class="ptl con">
             
                 <picture class="mg"   >
-  <source srcset="images/origin_of_love/groom_looking_bride.webp" type="image/webp" >
-            <img class="" src="images/origin_of_love/groom_looking_bride.jpg" alt="" ></picture></div>
+ <!--  <source srcset="images/origin_of_love/groom_looking_bride.webp" type="image/webp" >
+            <img class="" src="images/origin_of_love/groom_looking_bride.jpg" alt="" > -->
+            <a class="elem" href="images/origin_of_love/groom_looking_bride.jpg" title=" " data-lcl-txt="" data-lcl-author="" data-lcl-thumb="images/origin_of_love/groom_looking_bride.jpg">
+          <span style="background-image: url(images/origin_of_love/groom_looking_bride.jpg);"></span>
+        </a>
+          </picture></div>
          
          
           <div class="ptl con">
             
                 <picture class="mg"   >
-  <source srcset="images/origin_of_love/groom_looking_bride.webp" type="image/webp" >
-            <img class="" src="images/origin_of_love/groom_sending_off_bride.jpg" alt="" ></picture></div>
+  <!-- <source srcset="images/origin_of_love/groom_looking_bride.webp" type="image/webp" >
+            <img class="" src="images/origin_of_love/groom_sending_off_bride.jpg" alt="" > -->
+            <a class="elem" href="images/origin_of_love/groom_sending_off_bride.jpg" title="" data-lcl-txt="" data-lcl-author="" data-lcl-thumb="images/origin_of_love/groom_sending_off_bride.jpg">
+          <span style="background-image: url(images/origin_of_love/groom_sending_off_bride.jpg);"></span>
+        </a>
+          </picture></div>
          
           <div class="ptl con">
             
                 <picture class="mg"   >
-  <source srcset="images/origin_of_love/groom_looking_bride.webp" type="image/webp" >
-            <img class="" src="images/origin_of_love/indian_bride_and_groom.jpg" alt="" ></picture></div>
+  <!-- <source srcset="images/origin_of_love/groom_looking_bride.webp" type="image/webp" >
+            <img class="" src="images/origin_of_love/indian_bride_and_groom.jpg" alt="" > -->
+            <a class="elem" href="images/origin_of_love/indian_bride_and_groom.jpg" title="" data-lcl-txt="" data-lcl-author="" data-lcl-thumb="images/origin_of_love/indian_bride_and_groom.jpg">
+          <span style="background-image: url(images/origin_of_love/indian_bride_and_groom.jpg);"></span>
+        </a>
+          </picture></div>
                  
          
          
           <div class="ptl con">
             
                 <picture class="mg"   >
-  <source srcset="images/origin_of_love/lovely_couples.webp" type="image/webp" >
-            <img class="" src="images/origin_of_love/lovely_couples.jpg" alt="" ></picture></div>
+  <!-- <source srcset="images/origin_of_love/lovely_couples.webp" type="image/webp" >
+            <img class="" src="images/origin_of_love/lovely_couples.jpg" alt="" > -->
+            <a class="elem" href="images/origin_of_love/lovely_couples.jpg" title="" data-lcl-txt="" data-lcl-author="" data-lcl-thumb="images/origin_of_love/lovely_couples.jpg">
+          <span style="background-image: url(images/origin_of_love/lovely_couples.jpg);"></span>
+        </a>
+          </picture></div>
          
           <div class="ptl con">
             
                 <picture class="mg"   >
-  <source srcset="images/origin_of_love/men_kissing_women.webp" type="image/webp" >
-            <img class="" src="images/origin_of_love/men_kissing_women.jpg" alt="" ></picture></div>
+  <!-- <source srcset="images/origin_of_love/men_kissing_women.webp" type="image/webp" >
+            <img class="" src="images/origin_of_love/men_kissing_women.jpg" alt="" > -->
+            <a class="elem" href="images/origin_of_love/men_kissing_women.jpg" title="" data-lcl-txt="" data-lcl-author="" data-lcl-thumb="images/origin_of_love/men_kissing_women.jpg">
+          <span style="background-image: url(images/origin_of_love/men_kissing_women.jpg);"></span>
+        </a>
+          </picture></div>
          
          
         <div class="ptp con">
             
                 <picture class="mg"   >
-  <source srcset="images/origin_of_love/bride_and_groom_facing_eachother.webp" type="image/webp" >
-            <img class="" src="images/origin_of_love/bride_and_groom_facing_eachother.jpg" alt="" ></picture></div>
+  <!-- <source srcset="images/origin_of_love/bride_and_groom_facing_eachother.webp" type="image/webp" >
+            <img class="" src="images/origin_of_love/bride_and_groom_facing_eachother.jpg" alt="" > -->
+            <a class="elem" href="images/origin_of_love/bride_and_groom_facing_eachother.jpg" title="" data-lcl-txt="" data-lcl-author="" data-lcl-thumb="images/origin_of_love/bride_and_groom_facing_eachother.jpg">
+          <span style="background-image: url(images/origin_of_love/bride_and_groom_facing_eachother.jpg);"></span>
+        </a>
+          </picture></div>
          
                  
           <div class="ptp con">
             
                 <picture class="mg"   >
-  <source srcset="images/origin_of_love/couples_resting_on_wall.webp" type="image/webp" >
-            <img class="" src="images/origin_of_love/couples_resting_on_wall.jpg" alt="" ></picture></div>
+  <!-- <source srcset="images/origin_of_love/couples_resting_on_wall.webp" type="image/webp" >
+            <img class="" src="images/origin_of_love/couples_resting_on_wall.jpg" alt="" > -->
+            <a class="elem" href="images/origin_of_love/couples_resting_on_wall.jpg" title="" data-lcl-txt="" data-lcl-author="" data-lcl-thumb="images/origin_of_love/couples_resting_on_wall.jpg">
+          <span style="background-image: url(images/origin_of_love/couples_resting_on_wall.jpg);"></span>
+        </a>
+          </picture></div>
          
       
     </div>
@@ -259,15 +414,23 @@
                <div class="ptp con">
             
                 <picture class="mg"   >
-  <source srcset="images/origin_of_love/girl_violet_dress.webp" type="image/webp" >
-            <img class="" src="images/origin_of_love/girl_violet_dress.jpg" alt="" ></picture></div>
+  <!-- <source srcset="images/origin_of_love/girl_violet_dress.webp" type="image/webp" >
+            <img class="" src="images/origin_of_love/girl_violet_dress.jpg" alt="" > -->
+            <a class="elem" href="images/origin_of_love/girl_violet_dress.jpg" title="" data-lcl-txt="" data-lcl-author="" data-lcl-thumb="images/origin_of_love/girl_violet_dress.jpg">
+          <span style="background-image: url(images/origin_of_love/girl_violet_dress.jpg);"></span>
+        </a>
+          </picture></div>
          
                  
           <div class="ptp con">
             
                 <picture class="mg"   >
-  <source srcset="images/origin_of_love/groom_with_bride.webp" type="image/webp" >
-            <img class="" src="images/origin_of_love/groom_with_bride.jpg" alt="" ></picture></div> 
+  <!-- <source srcset="images/origin_of_love/groom_with_bride.webp" type="image/webp" >
+            <img class="" src="images/origin_of_love/groom_with_bride.jpg" alt="" > -->
+            <a class="elem" href="images/origin_of_love/groom_with_bride.jpg" title="" data-lcl-txt="" data-lcl-author="" data-lcl-thumb="images/origin_of_love/groom_with_bride.jpg">
+          <span style="background-image: url(images/origin_of_love/groom_with_bride.jpg);"></span>
+        </a>
+          </picture></div> 
              
     </div>
     
@@ -373,7 +536,23 @@
     
     
     <!--Footer end-->
+        <script type="text/javascript">
+$(document).ready(function(e) {
+   
+  // live handler
+  lc_lightbox('.elem', {
+    wrap_class: 'lcl_fade_oc',
+    gallery : true, 
+    thumb_attr: 'data-lcl-thumb', 
     
+    skin: 'minimal',
+    radius: 0,
+    padding : 0,
+    border_w: 0,
+  }); 
+
+});
+</script>
      <script src="portfolio/origin_of_love.js" ></script>
 	  <script src="common/common.js" ></script>
 

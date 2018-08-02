@@ -24,7 +24,20 @@
     
       <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
 <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>  
+<!-- external plugin -->
+<script src="plugin/lib/jquery.js" type="text/javascript"></script>
 
+<script src="plugin/js/lc_lightbox.lite.js" type="text/javascript"></script>
+<link rel="stylesheet" href="plugin/css/lc_lightbox.css" />
+
+
+<!-- SKINS -->
+<link rel="stylesheet" href="plugin/skins/minimal.css" />
+
+
+<!-- ASSETS -->
+<script src="plugin/lib/AlloyFinger/alloy_finger.min.js" type="text/javascript"></script>
+<!-- external plugin -->
     
     
 
@@ -100,7 +113,58 @@
     
     <!-- <div class="po_tab"><a href="portfolio.html"><h1 id="po_p1">Wedding</h1></a><a href="birthday.html"><h1 id="po_p2">Birthday</h1></a></div>
     -->
-    
+    <!-- externalfile -->
+ <style>
+ .elem, .elem * {
+  box-sizing: border-box;
+  margin: 0 !important; 
+}
+.elem {
+  display: inline-block;
+  font-size: 0;
+  /*width: 33%;*/
+  /*border: 20px solid transparent;*/
+  border-bottom: none;
+ /* background: #fff;*/
+  /*padding: 10px;*/
+  height: auto;
+  background-clip: padding-box;
+  width: 100%;
+    height: 100%;
+}
+.elem > span {
+  display: block;
+  cursor: pointer;
+  height: 0;
+  padding-bottom: 70%;
+  background-size: cover; 
+  background-position: center center;
+  height: 100%;
+}
+picture.mg {
+    width: 100%;
+    height: 100%;
+}
+</style>
+
+
+
+
+
+
+<!-- LIGHTBOX FADING SHOW/HIDE EFFECT (as explained in documentation) -->
+<style type="text/css">
+.lcl_fade_oc.lcl_pre_show #lcl_overlay,
+.lcl_fade_oc.lcl_pre_show #lcl_window,
+.lcl_fade_oc.lcl_is_closing #lcl_overlay,
+.lcl_fade_oc.lcl_is_closing #lcl_window {
+  opacity: 0 !important;
+}
+.lcl_fade_oc.lcl_is_closing #lcl_overlay {
+  -webkit-transition-delay: .15s !important; 
+  transition-delay: .15s !important;
+}
+</style>
     <!--- first-->
     <div class="container">
     
@@ -109,68 +173,116 @@
         <div class="ptl con">
             
                 <picture class="mg"   >
-  <source srcset="images/love_and_life/bride_and_groom.webp" type="image/webp" >
-            <img class="" src="images/love_and_life/bride_and_groom.jpg" alt="" ></picture></div>
+  <!-- <source srcset="images/love_and_life/bride_and_groom.webp" type="image/webp" >
+            <img class="" src="images/love_and_life/bride_and_groom.jpg" alt="" > -->
+            <a class="elem" href="images/love_and_life/bride_and_groom.jpg" title="" data-lcl-txt="" data-lcl-author="" data-lcl-thumb="images/love_and_life/bride_and_groom.jpg">
+          <span style="background-image: url(images/love_and_life/bride_and_groom.jpg);"></span>
+        </a>
+          </picture></div>
         
           <div class="ptl con">
             
                 <picture class="mg"   >
-  <source srcset="images/love_and_life/bride_and_groom_hug.webp" type="image/webp" >
-            <img class="" src="images/love_and_life/bride_and_groom_hug.jpg" alt="" ></picture></div>
+  <!-- <source srcset="images/love_and_life/bride_and_groom_hug.webp" type="image/webp" >
+            <img class="" src="images/love_and_life/bride_and_groom_hug.jpg" alt="" > -->
+            <a class="elem" href="images/love_and_life/bride_and_groom_hug.jpg" title="" data-lcl-txt="" data-lcl-author="" data-lcl-thumb="images/love_and_life/bride_and_groom_hug.jpg">
+          <span style="background-image: url(images/love_and_life/bride_and_groom_hug.jpg);"></span>
+        </a>
+          </picture></div>
         
           <div class="ptl con">
             
                 <picture class="mg"   >
-  <source srcset="images/love_and_life/Bride_and_groom_outdoor_photography.webp" type="image/webp" >
-            <img class="" src="images/love_and_life/Bride_and_groom_outdoor_photography.jpg" alt="" ></picture></div>
+  <!-- <source srcset="images/love_and_life/Bride_and_groom_outdoor_photography.webp" type="image/webp" >
+            <img class="" src="images/love_and_life/Bride_and_groom_outdoor_photography.jpg" alt="" > -->
+            <a class="elem" href="images/love_and_life/Bride_and_groom_outdoor_photography.jpg" title="" data-lcl-txt="" data-lcl-author="" data-lcl-thumb="images/love_and_life/Bride_and_groom_outdoor_photography.jpg">
+          <span style="background-image: url(images/love_and_life/Bride_and_groom_outdoor_photography.jpg);"></span>
+        </a>
+          </picture></div>
           <div class="ptl con">
             
                 <picture class="mg"   >
-  <source srcset="images/love_and_life/bride_looking_groom.webp" type="image/webp" >
-            <img class="" src="images/love_and_life/bride_looking_groom.jpg" alt="" ></picture></div>
+  <!-- <source srcset="images/love_and_life/bride_looking_groom.webp" type="image/webp" >
+            <img class="" src="images/love_and_life/bride_looking_groom.jpg" alt="" > -->
+            <a class="elem" href="images/love_and_life/bride_looking_groom.jpg" title="" data-lcl-txt="" data-lcl-author="" data-lcl-thumb="images/love_and_life/bride_looking_groom.jpg">
+          <span style="background-image: url(images/love_and_life/bride_looking_groom.jpg);"></span>
+        </a>
+          </picture></div>
         
 
  <div class="ptl con">
                 <picture class="mg"   >
-  <source srcset="images/love_and_life/bride_romance_wih_groom.webp" type="image/webp" >
-            <img class="" src="images/love_and_life/bride_romance_wih_groom.jpg" alt="" ></picture></div>
+  <!-- <source srcset="images/love_and_life/bride_romance_wih_groom.webp" type="image/webp" >
+            <img class="" src="images/love_and_life/bride_romance_wih_groom.jpg" alt="" > -->
+            <a class="elem" href="images/love_and_life/bride_romance_wih_groom.jpg" title="" data-lcl-txt="" data-lcl-author="" data-lcl-thumb="images/love_and_life/bride_romance_wih_groom.jpg">
+          <span style="background-image: url(images/love_and_life/bride_romance_wih_groom.jpg);"></span>
+        </a>
+          </picture></div>
          
          <div class="ptl con">
                 <picture class="mg"   >
-  <source srcset="images/love_and_life/candid_wedding_pics.webp" type="image/webp" >
-            <img class="" src="images/love_and_life/candid_wedding_pics.jpg" alt="" ></picture></div>  
+  <!-- <source srcset="images/love_and_life/candid_wedding_pics.webp" type="image/webp" >
+            <img class="" src="images/love_and_life/candid_wedding_pics.jpg" alt="" > -->
+            <a class="elem" href="images/love_and_life/candid_wedding_pics.jpg" title=" " data-lcl-txt="" data-lcl-author="" data-lcl-thumb="images/love_and_life/candid_wedding_pics.jpg">
+          <span style="background-image: url(images/love_and_life/candid_wedding_pics.jpg);"></span>
+        </a>
+          </picture></div>  
               
         
            <div class="ptl con">
                 <picture class="mg"   >
-  <source srcset="images/love_and_life/Candid_wedding_video.webp" type="image/webp" >
-            <img class="" src="images/love_and_life/Candid_wedding_video.jpg" alt="" ></picture></div>
+  <!-- <source srcset="images/love_and_life/Candid_wedding_video.webp" type="image/webp" >
+            <img class="" src="images/love_and_life/Candid_wedding_video.jpg" alt="" > -->
+            <a class="elem" href="images/love_and_life/Candid_wedding_video.jpg" title=" " data-lcl-txt="" data-lcl-author="" data-lcl-thumb="images/love_and_life/Candid_wedding_video.jpg">
+          <span style="background-image: url(images/love_and_life/Candid_wedding_video.jpg);"></span>
+        </a>
+          </picture></div>
          
          <div class="ptl con">
                 <picture class="mg"   >
-  <source srcset="images/love_and_life/christian_wedding_packages.webp" type="image/webp" >
-            <img class="" src="images/love_and_life/christian_wedding_packages.jpg" alt="" ></picture></div>
+  <!-- <source srcset="images/love_and_life/christian_wedding_packages.webp" type="image/webp" >
+            <img class="" src="images/love_and_life/christian_wedding_packages.jpg" alt="" > -->
+            <a class="elem" href="images/love_and_life/christian_wedding_packages.jpg" title="" data-lcl-txt="" data-lcl-author="" data-lcl-thumb="images/love_and_life/christian_wedding_packages.jpg">
+          <span style="background-image: url(images/love_and_life/christian_wedding_packages.jpg);"></span>
+        </a>
+          </picture></div>
   
         
          <div class="ptl con">
                 <picture class="mg"   >
-  <source srcset="images/love_and_life/Couple_post_wedding_photos.webp" type="image/webp" >
-            <img class="" src="images/love_and_life/Couple_post_wedding_photos.jpg" alt="" ></picture></div>
+  <!-- <source srcset="images/love_and_life/Couple_post_wedding_photos.webp" type="image/webp" >
+            <img class="" src="images/love_and_life/Couple_post_wedding_photos.jpg" alt="" > -->
+            <a class="elem" href="images/love_and_life/Couple_post_wedding_photos.jpg" title="" data-lcl-txt="l" data-lcl-author="" data-lcl-thumb="images/love_and_life/Couple_post_wedding_photos.jpg">
+          <span style="background-image: url(images/love_and_life/Couple_post_wedding_photos.jpg);"></span>
+        </a>
+          </picture></div>
          
          <div class="ptl con">
                 <picture class="mg"   >
-  <source srcset="images/love_and_life/couples_collage.webp" type="image/webp" >
-            <img class="" src="images/love_and_life/couples_collage.jpg" alt="" ></picture></div>
+  <!-- <source srcset="images/love_and_life/couples_collage.webp" type="image/webp" >
+            <img class="" src="images/love_and_life/couples_collage.jpg" alt="" > -->
+            <a class="elem" href="images/love_and_life/couples_collage.jpg" title="" data-lcl-txt="" data-lcl-author="" data-lcl-thumb="images/love_and_life/couples_collage.jpg">
+          <span style="background-image: url(images/love_and_life/couples_collage.jpg);"></span>
+        </a>
+          </picture></div>
          
          <div class="ptl con">
                 <picture class="mg"   >
-  <source srcset="images/love_and_life/girl_huging_bride.webp" type="image/webp" >
-            <img class="" src="images/love_and_life/girl_huging_bride.jpg" alt="" ></picture></div>
+  <!-- <source srcset="images/love_and_life/girl_huging_bride.webp" type="image/webp" >
+            <img class="" src="images/love_and_life/girl_huging_bride.jpg" alt="" > -->
+            <a class="elem" href="images/love_and_life/girl_huging_bride.jpg" title="" data-lcl-txt="" data-lcl-author="" data-lcl-thumb="images/love_and_life/girl_huging_bride.jpg">
+          <span style="background-image: url(images/love_and_life/girl_huging_bride.jpg);"></span>
+        </a>
+          </picture></div>
          
          <div class="ptl con">
                 <picture class="mg"   >
-  <source srcset="images/love_and_life/lovers_on_stairs.webp" type="image/webp" >
-            <img class="" src="images/love_and_life/lovers_on_stairs.jpg" alt="" ></picture></div>
+  <!-- <source srcset="images/love_and_life/lovers_on_stairs.webp" type="image/webp" >
+            <img class="" src="images/love_and_life/lovers_on_stairs.jpg" alt="" > -->
+            <a class="elem" href="images/love_and_life/lovers_on_stairs.jpg" title="" data-lcl-txt="" data-lcl-author="" data-lcl-thumb="images/love_and_life/lovers_on_stairs.jpg">
+          <span style="background-image: url(images/love_and_life/lovers_on_stairs.jpg);"></span>
+        </a>
+          </picture></div>
          
         
         
@@ -191,65 +303,105 @@
           <div class="ptl con">
             
                 <picture class="mg"   >
-  <source srcset="images/love_and_life/lovers_with_rose.webp" type="image/webp" >
-            <img class="" src="images/love_and_life/lovers_with_rose.jpg" alt="" ></picture></div>
+  <!-- <source srcset="images/love_and_life/lovers_with_rose.webp" type="image/webp" >
+            <img class="" src="images/love_and_life/lovers_with_rose.jpg" alt="" > -->
+            <a class="elem" href="images/love_and_life/lovers_with_rose.jpg" title="" data-lcl-txt="" data-lcl-author="" data-lcl-thumb="images/love_and_life/lovers_with_rose.jpg">
+          <span style="background-image: url(images/love_and_life/lovers_with_rose.jpg);"></span>
+        </a>
+          </picture></div>
           <div class="ptl con">
             
                 <picture class="mg"   >
 
-            <img class="" src="images/love_and_life/Pre_Wedding_Gallery.jpg" alt="" ></picture></div>
+            <!-- <img class="" src="images/love_and_life/Pre_Wedding_Gallery.jpg" alt="" > -->
+            <a class="elem" href="images/love_and_life/Pre_Wedding_Gallery.jpg" title="" data-lcl-txt="" data-lcl-author="" data-lcl-thumb="images/love_and_life/Pre_Wedding_Gallery.jpg">
+          <span style="background-image: url(images/love_and_life/Pre_Wedding_Gallery.jpg);"></span>
+        </a>
+          </picture></div>
          <div class="ptl con">
             
                 <picture class="mg"   >
-  <source srcset="images/love_and_life/post_marriage_images.webp" type="image/webp" >
-            <img class="" src="images/love_and_life/post_marriage_images.jpg" alt="" ></picture></div>
+  <!-- <source srcset="images/love_and_life/post_marriage_images.webp" type="image/webp" >
+            <img class="" src="images/love_and_life/post_marriage_images.jpg" alt="" > -->
+            <a class="elem" href="images/love_and_life/post_marriage_images.jpg" title="" data-lcl-txt="" data-lcl-author="" data-lcl-thumb="images/love_and_life/post_marriage_images.jpg">
+          <span style="background-image: url(images/love_and_life/post_marriage_images.jpg);"></span>
+        </a>
+          </picture></div>
          
           <div class="ptl con">
             
                 <picture class="mg"   >
-  <source srcset="images/love_and_life/post_wedding_images.webp" type="image/webp" >
-            <img class="" src="images/love_and_life/post_wedding_images.jpg" alt="" ></picture></div>
+  <!-- <source srcset="images/love_and_life/post_wedding_images.webp" type="image/webp" >
+            <img class="" src="images/love_and_life/post_wedding_images.jpg" alt="" > -->
+            <a class="elem" href="images/love_and_life/post_wedding_images.jpg" title="" data-lcl-txt="" data-lcl-author="" data-lcl-thumb="images/love_and_life/post_wedding_images.jpg">
+          <span style="background-image: url(images/love_and_life/post_wedding_images.jpg);"></span>
+        </a>
+          </picture></div>
          
          
           <div class="ptl con">
             
                 <picture class="mg"   >
-  <source srcset="images/love_and_life/Post_Wedding_Photoshoot.webp" type="image/webp" >
-            <img class="" src="images/love_and_life/Post_Wedding_Photoshoot.jpg" alt="" ></picture></div>
+  <!-- <source srcset="images/love_and_life/Post_Wedding_Photoshoot.webp" type="image/webp" >
+            <img class="" src="images/love_and_life/Post_Wedding_Photoshoot.jpg" alt="" > -->
+            <a class="elem" href="images/love_and_life/Post_Wedding_Photoshoot.jpg" title="" data-lcl-txt="" data-lcl-author="" data-lcl-thumb="images/love_and_life/Post_Wedding_Photoshoot.jpg">
+          <span style="background-image: url(images/love_and_life/Post_Wedding_Photoshoot.jpg);"></span>
+        </a>
+          </picture></div>
          
           <div class="ptl con">
             
                 <picture class="mg"   >
-  <source srcset="images/love_and_life/Pre_wedding_photography_poses.webp" type="image/webp" >
-            <img class="" src="images/love_and_life/Pre_wedding_photography_poses.jpg" alt="" ></picture></div>
+  <!-- <source srcset="images/love_and_life/Pre_wedding_photography_poses.webp" type="image/webp" >
+            <img class="" src="images/love_and_life/Pre_wedding_photography_poses.jpg" alt="" > -->
+            <a class="elem" href="images/love_and_life/Pre_wedding_photography_poses.jpg" title="" data-lcl-txt="" data-lcl-author="" data-lcl-thumb="images/love_and_life/Pre_wedding_photography_poses.jpg">
+          <span style="background-image: url(images/love_and_life/Pre_wedding_photography_poses.jpg);"></span>
+        </a>
+          </picture></div>
                  
          
          
           <div class="ptl con">
             
                 <picture class="mg"   >
-  <source srcset="images/love_and_life/pre_wedding_photoshoot_packages.webp" type="image/webp" >
-            <img class="" src="images/love_and_life/pre_wedding_photoshoot_packages.jpg" alt="" ></picture></div>
+  <!-- <source srcset="images/love_and_life/pre_wedding_photoshoot_packages.webp" type="image/webp" >
+            <img class="" src="images/love_and_life/pre_wedding_photoshoot_packages.jpg" alt="" > -->
+            <a class="elem" href="images/love_and_life/pre_wedding_photoshoot_packages.jpg" title="" data-lcl-txt="" data-lcl-author="" data-lcl-thumb="images/love_and_life/pre_wedding_photoshoot_packages.jpg">
+          <span style="background-image: url(images/love_and_life/pre_wedding_photoshoot_packages.jpg);"></span>
+        </a>
+          </picture></div>
          
           <div class="ptl con">
             
                 <picture class="mg"   >
-  <source srcset="images/love_and_life/pre_wedding_poses.webp" type="image/webp" >
-            <img class="" src="images/love_and_life/pre_wedding_poses.jpg" alt="" ></picture></div>
+  <!-- <source srcset="images/love_and_life/pre_wedding_poses.webp" type="image/webp" >
+            <img class="" src="images/love_and_life/pre_wedding_poses.jpg" alt="" > -->
+            <a class="elem" href="images/love_and_life/pre_wedding_poses.jpg" title="" data-lcl-txt="" data-lcl-author="" data-lcl-thumb="images/love_and_life/pre_wedding_poses.jpg">
+          <span style="background-image: url(images/love_and_life/pre_wedding_poses.jpg);"></span>
+        </a>
+          </picture></div>
          
          
         <div class="ptp con">
             
                 <picture class="mg"   >
-  <source srcset="images/love_and_life/Couple_post_wedding.webp" type="image/webp" >
-            <img class="" src="images/love_and_life/Couple_post_wedding.jpg" alt="" ></picture></div>
+ <!--  <source srcset="images/love_and_life/Couple_post_wedding.webp" type="image/webp" >
+            <img class="" src="images/love_and_life/Couple_post_wedding.jpg" alt="" > -->
+            <a class="elem" href="images/love_and_life/Couple_post_wedding.jpg" title=" " data-lcl-txt="" data-lcl-author="" data-lcl-thumb="images/love_and_life/Couple_post_wedding.jpg">
+          <span style="background-image: url(images/love_and_life/Couple_post_wedding.jpg);"></span>
+        </a>
+          </picture></div>
          
                  
           <div class="ptp con">
             
                 <picture class="mg"   >
-  <source srcset="images/love_and_life/Groom_holding_bride.webp" type="image/webp" >
-            <img class="" src="images/love_and_life/Groom_holding_bride.jpg" alt="" ></picture></div>
+  <!-- <source srcset="images/love_and_life/Groom_holding_bride.webp" type="image/webp" >
+            <img class="" src="images/love_and_life/Groom_holding_bride.jpg" alt="" > -->
+            <a class="elem" href="images/love_and_life/Groom_holding_bride.jpg" title="" data-lcl-txt="" data-lcl-author="" data-lcl-thumb="images/love_and_life/Groom_holding_bride.jpg">
+          <span style="background-image: url(images/love_and_life/Groom_holding_bride.jpg);"></span>
+        </a>
+          </picture></div>
          
       
     </div>
@@ -260,21 +412,33 @@
                <div class="ptl con">
             
                 <picture class="mg"   >
-  <source srcset="images/love_and_life/walk_of_bride_and_groom.webp" type="image/webp" >
-            <img class="" src="images/love_and_life/walk_of_bride_and_groom.jpg" alt="" ></picture></div>
+  <!-- <source srcset="images/love_and_life/walk_of_bride_and_groom.webp" type="image/webp" >
+            <img class="" src="images/love_and_life/walk_of_bride_and_groom.jpg" alt="" > -->
+            <a class="elem" href="images/love_and_life/walk_of_bride_and_groom.jpg" title="" data-lcl-txt="" data-lcl-author="" data-lcl-thumb="images/love_and_life/walk_of_bride_and_groom.jpg">
+          <span style="background-image: url(images/love_and_life/walk_of_bride_and_groom.jpg);"></span>
+        </a>
+          </picture></div>
          
                  
           <div class="ptl con">
             
                 <picture class="mg"   >
-  <source srcset="images/love_and_life/wedding_Photoshoot.webp" type="image/webp" >
-            <img class="" src="images/love_and_life/wedding_Photoshoot.jpg" alt="" ></picture></div> 
+  <!-- <source srcset="images/love_and_life/wedding_Photoshoot.webp" type="image/webp" >
+            <img class="" src="images/love_and_life/wedding_Photoshoot.jpg" alt="" > -->
+            <a class="elem" href="images/love_and_life/wedding_Photoshoot.jpg" title="" data-lcl-txt="" data-lcl-author="" data-lcl-thumb="images/love_and_life/wedding_Photoshoot.jpg">
+          <span style="background-image: url(images/love_and_life/wedding_Photoshoot.jpg);"></span>
+        </a>
+          </picture></div> 
              
                <div class="ptl con">
             
                 <picture class="mg"   >
   
-            <img class="" src="images/love_and_life/Outdoor_couple_photoshoot.jpg" alt="" ></picture></div> 
+          <!--   <img class="" src="images/love_and_life/Outdoor_couple_photoshoot.jpg" alt="" > -->
+          <a class="elem" href="images/love_and_life/Outdoor_couple_photoshoot.jpg" title="" data-lcl-txt="" data-lcl-author="" data-lcl-thumb="images/love_and_life/Outdoor_couple_photoshoot.jpg">
+          <span style="background-image: url(images/love_and_life/Outdoor_couple_photoshoot.jpg);"></span>
+        </a>
+          </picture></div> 
              
                        
              
@@ -307,22 +471,34 @@
           <div class="ptp con">
             
                 <picture class="mg"   >
-  
-            <img class="" src="images/love_and_life/Pre_wedding_photography_cost_in_chennai.jpg" alt="" ></picture></div>
+    
+            <!-- <img class="" src="images/love_and_life/Pre_wedding_photography_cost_in_chennai.jpg" alt="" > -->
+            <a class="elem" href="images/love_and_life/Pre_wedding_photography_cost_in_chennai.jpg" title="" data-lcl-txt="" data-lcl-author="" data-lcl-thumb="images/love_and_life/Pre_wedding_photography_cost_in_chennai.jpg">
+          <span style="background-image: url(images/love_and_life/Pre_wedding_photography_cost_in_chennai.jpg);"></span>
+        </a>
+          </picture></div>
 
          
         <div class="ptp con">
             
                 <picture class="mg"   >
 
-            <img class="" src="images/love_and_life/Post_Wedding_Photography.jpg" alt="" ></picture></div>
+           <!--  <img class="" src="images/love_and_life/Post_Wedding_Photography.jpg" alt="" > -->
+           <a class="elem" href="images/love_and_life/Post_Wedding_Photography.jpg" title="" data-lcl-txt="" data-lcl-author="" data-lcl-thumb="images/love_and_life/Post_Wedding_Photography.jpg">
+          <span style="background-image: url(images/love_and_life/Post_Wedding_Photography.jpg);"></span>
+        </a>
+          </picture></div>
          
                  
           <div class="ptp con">
             
                 <picture class="mg"   >
 
-            <img class="" src="images/love_and_life/Outdoor_Photography.jpg" alt="" ></picture></div>
+           <!--  <img class="" src="images/love_and_life/Outdoor_Photography.jpg" alt="" > -->
+           <a class="elem" href="images/love_and_life/Outdoor_Photography.jpg" title="" data-lcl-txt="" data-lcl-author="" data-lcl-thumb="images/love_and_life/Outdoor_Photography.jpg">
+          <span style="background-image: url(images/love_and_life/Outdoor_Photography.jpg);"></span>
+        </a> 
+          </picture></div>
          
       
     </div>
@@ -440,7 +616,23 @@
     
     
     <!--Footer end-->
+    <script type="text/javascript">
+$(document).ready(function(e) {
+   
+  // live handler
+  lc_lightbox('.elem', {
+    wrap_class: 'lcl_fade_oc',
+    gallery : true, 
+    thumb_attr: 'data-lcl-thumb', 
     
+    skin: 'minimal',
+    radius: 0,
+    padding : 0,
+    border_w: 0,
+  }); 
+
+});
+</script>
      <script src="portfolio/love_and_life.js" ></script>
 	  <script src="common/common.js" ></script>
 
