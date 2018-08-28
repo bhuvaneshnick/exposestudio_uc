@@ -41,7 +41,7 @@ for(i=0; i<slide.length;i++)
 */
 /* END: hl1 slide*/
 /* START: hl4 slide*/
-/*var hs4index=1;
+var hs4index=1;
 selectl4(hs4index);
 var l4right=document.getElementById('hl4next');
 var l4left=document.getElementById('hl4prev');
@@ -69,7 +69,7 @@ for(s=0; s<slidel4.length;s++)
     l4incri(-4);}
     if(hs4index<1){
     l4incri(4);}
-}*/
+}
 
 /* END: hl4 slide*/
 
