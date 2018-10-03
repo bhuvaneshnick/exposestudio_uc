@@ -1,0 +1,155 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-109996107-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-109996107-1');
+</script>
+    
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:700|Roboto:300" rel="stylesheet">
+    
+
+    
+    <title>Budget Marriage Photography Package - Expose Studio, Chennai</title>
+    <meta name="description" content="Experience a flexible Budget in Wedding and Birthday Photography, Candid clicks, Pre and Post Marriage, Engagement. Everything is on your Budget, Get a Quote.">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+      <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link href="pricing/price.css" type="text/css" rel="stylesheet">   
+	   <!-- <link href="common/common.css" type="text/css" rel="stylesheet">  -->
+    
+          
+<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>  
+
+
+</head >
+<body class="pricing">
+    
+<!--secnew-->
+    <div class="secnew">
+        <div class="innersec">
+            <div class="secbox bxclr">
+                <h1>Book us</h1>
+                <p>Fill the below from to book us</p>
+                <div class="secindi">
+                    <a class="bor bor1 active" id="tbione"><span>1</span></a>
+                    <a class="bor bor1" id="tbitwo"><span>2</span></a>
+                    <a class="bor bor1 ead" id="tbithree"><span>3</span></a>
+                </div>
+               <!-- <div class="dethd">
+                    <h2>Contact Details</h2>
+                </div>-->
+                <form action="">
+                    <div class="hide active1" id="tbione-con">
+                        <div class="dethd">
+                    <h2>Contact Details</h2>
+                </div>
+                    <div class="set">
+                        <i class="fa fa-user"></i><input type="text" name="name" placeholder="Name">
+                    </div>
+                    <div class="set">
+                        <i class="fa fa-envelope-o"></i><input type="email" name="email" placeholder="E-mail">
+                    </div>
+                    <div class="set">
+                        <i class="fa fa-phone"></i><input type="tel" name="mobile" placeholder="Mobile Number">
+                    </div>
+                        <div class="bnt br1 " id="tbitwo"><i class="fa fa-angle-right"></i></div>
+                    </div>
+                    
+                    
+                     <div class="hide" id="tbitwo-con">
+                        <div class="dethd">
+                    <h2>Event details</h2>
+                </div>
+                    <div class="set">
+                        <i class="fa fa-user"></i><input type="text" name="name" placeholder="Name">
+                    </div>
+                    <div class="set">
+                        <i class="fa fa-envelope-o"></i><input type="email" name="email" placeholder="E-mail">
+                    </div>
+                    <div class="set">
+                        <i class="fa fa-phone"></i><input type="tel" name="mobile" placeholder="Mobile Number">
+                    </div>
+                        <div class="bnt br1 srcd" id="tbithree"><i class="fa fa-angle-right"></i></div>
+                    </div>
+                    
+                    
+                     <div class="hide" id="tbithree-con">
+                        <div class="dethd">
+                    <h2>Budget</h2>
+                </div>
+                    <div class="set">
+                        <i class="fa fa-user"></i><input type="text" name="name" placeholder="Name">
+                    </div>
+                    <div class="set">
+                       <textarea type="text" name="" placeholder="Message"></textarea>
+                    </div>
+                   
+                         <a href="" class="ang"><button class="bt">submit</button></a>
+                    </div>
+                   
+                </form>
+            </div>
+            <div class="secbox">
+                
+            </div>
+            </div>
+        </div>
+<!--secnew-->
+    <div class="pmnt">
+        <div class="sndlebck">
+            <div class="paytxt txtcom">
+                <h1><i class="fa fa-tag"></i> &nbsp;Payments</h1>
+                <p><i class="fa fa-credit-card-alt"></i> &nbsp;&nbsp;&nbsp;Negotiation</p>
+                <p><i class="fa fa-shield"></i> &nbsp;&nbsp;&nbsp;Usage</p>
+            </div>
+            <span class="line"></span>
+            <div class="txtcom ovrc">
+                <p>TO confirm the order 30% from the final payment
+                should be paid in advance.This advance amount is non-refundable because we ignore
+                    other order once we commit with yoour event.
+                </p>
+                <button class="querbt">Query</button>
+            </div>
+        </div>
+    </div>
+    
+    
+    <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  ></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $(".bor1").on("click",function(){
+                var tbii = $(this).attr("id");
+                console.log(tbii);
+                $(this).addClass("active").siblings().removeClass("active");
+                $("#" + tbii + "-con").addClass("active1").siblings().removeClass("active1");
+            })
+             $(".br1").on("click",function(){
+                var tbii1 = $(this).attr("id");
+                 $(".secindi").children(".bor1").next().prev().addClass("active");
+               
+                $("#" + tbii1 + "-con").addClass("active1").siblings().removeClass("active1");
+                
+                 if( $(this).attr("id") == $("#tbithree-con").attr("id")){
+                   var ee = $("#tbithree").addClass("active");
+                  console.log(ee);
+                    
+                 }
+            })
+           $(".srcd").on("click",function(){
+                $(".ead").addClass("active");
+            })
+        });
+    </script>
+    </body>
