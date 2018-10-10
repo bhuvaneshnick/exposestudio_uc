@@ -1,4 +1,5 @@
 /* start: pre loading screen */
+
 .no-js #loader { display: none;  }
 .js #loader { display: block; position: absolute; left: 100px; top: 0; }
 .se-pre-con {
@@ -10,6 +11,9 @@
 	z-index: 9999;
 	background: url(images/preload.gif) center no-repeat #f9f9f9;background-size: 70px;background-color: white;
     
+}
+.h-color{
+     color: #EF3F23;
 }
 body p{font-family: 'Roboto', sans-serif;}
 body h1,body h2,body h3{font-family: 'Open Sans', sans-serif;}
@@ -413,9 +417,7 @@ z-index: 1;
 }
 
 
-.h-color{
-     color: #EF3F23;
-}
+
 
 /*secion-2*/
 .ex-wed {
