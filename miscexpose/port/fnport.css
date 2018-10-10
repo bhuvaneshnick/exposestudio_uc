@@ -1,0 +1,15 @@
+body{
+    margin: 0;
+   font-family: 'Open Sans', sans-serif; 
+    
+}
+.hdimg{
+    padding: 0 100px;
+    margin-bottom: 20px;
+}
+.hdimg img{
+    width: 100%;
+}
+.prtxt h1{
+    text-align: center;
+}
