@@ -290,6 +290,130 @@
         </div>
     </div>
     <!--section 2-->
+
+
+    <!--section 4-->
+    <div class="porter">
+        <div class="xs-emrge">
+            <h1 class="h-color"> Highlights</h1>
+        </div>
+        <div class="xspar" style="display:none;">
+        <p>Expose studio,We provide you the best service in the weddind &
+                birthday photography.</p>
+            <p>Expose studio,We provide you the best service in the weddind &
+                birthday photography.</p>
+        </div>
+        <div class="galer-xs">
+            <div class="ga-img">
+               
+                <a class="elem" href="images/ga1.jpg" title="" data-lcl-txt="" data-lcl-author="" data-lcl-thumb="images/ga1.jpg">
+          <span style="background-image: url(images/ga1.jpg);"></span>
+                     <span class="cirk"></span>
+        </a>
+                <!--<img src="images/ga1.jpg">
+                <div class="ablts" data-text="Vijay & Rekha">
+                    
+                </div>-->
+            </div>
+            <div class="ga-img">
+               <a class="elem" href="images/ga2.jpg" title="" data-lcl-txt="" data-lcl-author="" data-lcl-thumb="images/ga2.jpg">
+          <span style="background-image: url(images/ga2.jpg);"></span>
+                   
+                      <span class="cirk"></span>
+        </a>
+                <!--<div class="ablts" data-text="Vijay1 & Rekha">
+                    
+                </div>-->
+            </div>
+            <div class="ga-img">
+               <a class="elem" href="images/ga3.jpg" title="" data-lcl-txt="" data-lcl-author="" data-lcl-thumb="images/ga3.jpg">
+          <span style="background-image: url(images/ga3.jpg);"></span>
+                      <span class="cirk"></span>
+        </a>
+                <!--<div class="ablts"  data-text="Vijay2 & Rekha">
+                    
+                </div>-->
+            </div>
+            <div class="ga-img">
+             <a class="elem" href="images/ga4.jpg" title="" data-lcl-txt="" data-lcl-author="" data-lcl-thumb="images/ga4.jpg">
+          <span style="background-image: url(images/ga4.jpg);"></span>
+                    <span class="cirk"></span>
+        </a>
+               <!-- <div class="ablts" data-text="Vijay3 & Rekha">
+                    
+                </div>-->
+            </div>
+            <div class="ga-img">
+                <a class="elem" href="images/ga5.jpg" title="" data-lcl-txt="" data-lcl-author="" data-lcl-thumb="images/ga5.jpg">
+          <span style="background-image: url(images/ga5.jpg);"></span>
+                       <span class="cirk"></span>
+        </a>
+                <!--<div class="ablts" data-text="Vijay & Rekha">
+                    
+                </div>-->
+            </div>
+            <div class="ga-img">
+               <a class="elem" href="images/ga6.jpg" title="" data-lcl-txt="" data-lcl-author="" data-lcl-thumb="images/ga6.jpg">
+          <span style="background-image: url(images/ga6.jpg);"></span>
+                      <span class="cirk"></span>
+        </a>
+               <!-- <div class="ablts" data-text="Vijay & Rekha">
+                    
+                </div>-->
+            </div>
+            <div class="ga-img">
+               <a class="elem" href="images/ga7.jpg" title="" data-lcl-txt="" data-lcl-author="" data-lcl-thumb="images/ga7.jpg">
+          <span style="background-image: url(images/ga7.jpg);"></span>
+                      <span class="cirk"></span>
+        </a>
+                <!--<div class="ablts" data-text="Vijay & Rekha">
+                    
+                </div>-->
+            </div>
+            <div class="ga-img">
+              <a class="elem" href="images/ga8.jpg" title="" data-lcl-txt="" data-lcl-author="" data-lcl-thumb="images/ga8.jpg">
+          <span style="background-image: url(images/ga8.jpg);"></span>
+                     <span class="cirk"></span>
+        </a>
+                <!--<div class="ablts" data-text="Vijay & Rekha">
+                    
+                </div>-->
+            </div>
+        </div>
+    </div>
+     <script type="text/javascript">
+$(document).ready(function(e) {
+   
+  // live handler
+  lc_lightbox('.elem', {
+    wrap_class: 'lcl_fade_oc',
+    gallery : true, 
+    thumb_attr: 'data-lcl-thumb', 
+    
+    skin: 'minimal',
+    radius: 0,
+    padding : 0,
+    border_w: 0,
+  }); 
+
+});
+</script>
+    <script>
+    $(document).ready(function(){
+        $(".ga-img img").on("click",function(){
+            $(".galer-xs").addClass("bckr");
+            $(this).parent().addClass("actve");
+            var src = $(this).attr("src");
+          $(".actve .ablts").html('<div class="br1"><div class="br2"><img src='+ src +'></div><i class="fa fa-times clse"></i></div>');
+        });
+        $("body").on("click",".clse",function(){
+           
+             $(".galer-xs.bckr").removeClass("bckr");
+             $(".actve").removeClass("actve");
+        });
+    })
+    </script>
+    <!--section 4-->
        <!--section 3-->
     <div class="ex-ser">
         <div class="x-service ser-xsd">
